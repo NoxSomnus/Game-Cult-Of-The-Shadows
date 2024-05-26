@@ -1,0 +1,539 @@
+fileFormatVersion: 2
+guid: 37356bf2558c3af45b9893cf934781b5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: purpleMageAtk_14
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 940
+        width: 36
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd95a347855077845aca30c7036205b1
+      internalID: -139820136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 940
+        width: 46
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e07957a9c679942a89b658fbf8b313
+      internalID: 1656597604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 839
+        width: 49
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.68}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eacafca4c90c854b8e6468e5ad85c0e
+      internalID: -1721906937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 839
+        width: 35
+        height: 65
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9908756e30fcd4ba334ebf82b8e2d4
+      internalID: -807252307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 738
+        width: 58
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad3625a070796c46b9cdd96d9e446cd
+      internalID: 84531697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 738
+        width: 35
+        height: 63
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78343d165c3c51641b1cf5e45b432754
+      internalID: -825313154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 637
+        width: 63
+        height: 39
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf64f28bb5ba494ca56edb08a23c411
+      internalID: -615316796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_17
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 637
+        width: 34
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed14098e108a4544e85d3b56dd6e7623
+      internalID: 1052518348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 536
+        width: 61
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e162aa37651574bb3c29f4a222fd19
+      internalID: 1982323343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_18
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 536
+        width: 30
+        height: 57
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4e9e5f6c058d24794a6d543c35e782
+      internalID: 104027863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 435
+        width: 64
+        height: 58
+      alignment: 9
+      pivot: {x: 0.5, y: 0.45}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3393b865b834bf440a7f430d5dd6a698
+      internalID: -1215370999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 334
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a364090a3ddcc4998c9bcab136448f
+      internalID: 87506534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 334
+        width: 69
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e03e4d7378d4d4597cd2ebfb12bbf7
+      internalID: -731642947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 233
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be9032386d81a24884dc92d39cb0384
+      internalID: 2027385433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 233
+        width: 67
+        height: 67
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb34dad692bc64b47b142192dab2f21b
+      internalID: -1602124301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 132
+        width: 67
+        height: 66
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f047fb448f7089d4da19102956ac436c
+      internalID: 59244879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 132
+        width: 26
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697a74f18936d5c40a5025c26ebbdc3c
+      internalID: 360724208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_3
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 31
+        width: 44
+        height: 45
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2149c3ba3d1864f8f23eb1554ba2e4
+      internalID: 1570446302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purpleMageAtk_13
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 31
+        width: 35
+        height: 70
+      alignment: 9
+      pivot: {x: 0.5, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 812773e544ff19043acea5860a1f9b64
+      internalID: 609701635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      purpleMageAtk_0: 87506534
+      purpleMageAtk_1: 2027385433
+      purpleMageAtk_10: -731642947
+      purpleMageAtk_11: -1602124301
+      purpleMageAtk_12: 59244879
+      purpleMageAtk_13: 609701635
+      purpleMageAtk_14: -139820136
+      purpleMageAtk_15: -807252307
+      purpleMageAtk_16: -825313154
+      purpleMageAtk_17: 1052518348
+      purpleMageAtk_18: 104027863
+      purpleMageAtk_19: -701593440
+      purpleMageAtk_2: 360724208
+      purpleMageAtk_20: 1409891718
+      purpleMageAtk_23: 1461876073
+      purpleMageAtk_24: -1798119789
+      purpleMageAtk_25: 1709573409
+      purpleMageAtk_29: -704479030
+      purpleMageAtk_3: 1570446302
+      purpleMageAtk_32: 1172060247
+      purpleMageAtk_4: 1656597604
+      purpleMageAtk_5: -1721906937
+      purpleMageAtk_6: 84531697
+      purpleMageAtk_7: -615316796
+      purpleMageAtk_8: 1982323343
+      purpleMageAtk_9: -1215370999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

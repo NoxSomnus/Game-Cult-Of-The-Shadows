@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: a919c2a6ab7f51744bbee6b79b76ab88
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b96858bb014f07458d633dfa2533030
+      internalID: -1806611808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf58c2e9b2735548b5960b72d97513a
+      internalID: -969136591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a90e6c8e21423d4e9dc94bd6c5ad067
+      internalID: 658834367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac1991120a99ef499cd386a9a37a4c9
+      internalID: -847724851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_4
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9035cc066caee6141988e2da075850d1
+      internalID: 943463870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_5
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb101497cb0e8a4c93d14b025a0c996
+      internalID: -1910657754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_6
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfcd66e4d170f54fa5de704e3e573c7
+      internalID: 114654827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_7
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc4069506cb1c8468bff2ced0c9bf23
+      internalID: -258405144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_8
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015b4944eb29fe04f9fe1dffc3c7cf93
+      internalID: -1466464311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_9
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae87d63f173e6e4eb5dd996e440e5a8
+      internalID: -1489271999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_10
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3cf0e4dd9fd0d408230c495d3fd381
+      internalID: 570555923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_11
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf2920fb2f7c1c4e8f7f280813e853b
+      internalID: 224310311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_12
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cad79a59bb37a47abd6c23e0b449af
+      internalID: -22345405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_13
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a6d5175e43d924aae16403a8de8e30
+      internalID: 1408482618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_14
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410501cbd44dd084ba400660ddddac91
+      internalID: -1167538981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_15
+      rect:
+        serializedVersion: 2
+        x: 2328
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900fca0609c55984387b9b158c7fbf83
+      internalID: -712495758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_16
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a668c084e490aa34bac66373ce568cc4
+      internalID: 488925383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_17
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8be38394dca2f41900d3eb77962b15
+      internalID: -89091189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_18
+      rect:
+        serializedVersion: 2
+        x: 2766
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c6c6fbd9380f541bdd44bf7920c888
+      internalID: -418135185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_19
+      rect:
+        serializedVersion: 2
+        x: 2912
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d6fe5c601650740b309eb843d78c95
+      internalID: 1166136277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_20
+      rect:
+        serializedVersion: 2
+        x: 3058
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37b6e4584350405438731da2b18c835d
+      internalID: -952774609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_21
+      rect:
+        serializedVersion: 2
+        x: 3204
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e087aeb60939b247bd7a38e839caf34
+      internalID: -1840780690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espadita_Sin_Fondo_22
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 0
+        width: 146.34782
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469f836c8bc232b4c8576990034bb127
+      internalID: -11070144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Espadita_Sin_Fondo_0: -1806611808
+      Espadita_Sin_Fondo_1: -969136591
+      Espadita_Sin_Fondo_10: 570555923
+      Espadita_Sin_Fondo_11: 224310311
+      Espadita_Sin_Fondo_12: -22345405
+      Espadita_Sin_Fondo_13: 1408482618
+      Espadita_Sin_Fondo_14: -1167538981
+      Espadita_Sin_Fondo_15: -712495758
+      Espadita_Sin_Fondo_16: 488925383
+      Espadita_Sin_Fondo_17: -89091189
+      Espadita_Sin_Fondo_18: -418135185
+      Espadita_Sin_Fondo_19: 1166136277
+      Espadita_Sin_Fondo_2: 658834367
+      Espadita_Sin_Fondo_20: -952774609
+      Espadita_Sin_Fondo_21: -1840780690
+      Espadita_Sin_Fondo_22: -11070144
+      Espadita_Sin_Fondo_3: -847724851
+      Espadita_Sin_Fondo_4: 943463870
+      Espadita_Sin_Fondo_5: -1910657754
+      Espadita_Sin_Fondo_6: 114654827
+      Espadita_Sin_Fondo_7: -258405144
+      Espadita_Sin_Fondo_8: -1466464311
+      Espadita_Sin_Fondo_9: -1489271999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

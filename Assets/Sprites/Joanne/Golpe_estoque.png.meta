@@ -1,0 +1,490 @@
+fileFormatVersion: 2
+guid: e6e3a92272f105747993c06ff2f20653
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 72
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Golpe_estoque_1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 240
+        width: 170
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed796fee85f4faf4082def05c7e6234f
+      internalID: -895553742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_2
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 240
+        width: 180
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79e7d1f300c3624488ab2ea0b14d06d
+      internalID: 634197976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 240
+        width: 294
+        height: 170
+      alignment: 9
+      pivot: {x: 0.4, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881f86c846d008b4b839060e315eb875
+      internalID: 170372920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_4
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 240
+        width: 306
+        height: 163
+      alignment: 9
+      pivot: {x: 0.2, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e0247f20b430a4d9ad35ab65886b11
+      internalID: -726939566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_5
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 240
+        width: 310
+        height: 154
+      alignment: 9
+      pivot: {x: 0.3, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a4d47c1dec4da46aa9d80a2db6a0c9
+      internalID: -1854659733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_6
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 240
+        width: 425
+        height: 170
+      alignment: 9
+      pivot: {x: 0.2, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bc4b7ceee23dc4fadbd0abe6e4ad91
+      internalID: 1244659672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_7
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 240
+        width: 378
+        height: 185
+      alignment: 9
+      pivot: {x: 0.2, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c163fe39a9969984384e35df2aac6607
+      internalID: -2090104837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_8
+      rect:
+        serializedVersion: 2
+        x: 2867
+        y: 240
+        width: 392
+        height: 185
+      alignment: 9
+      pivot: {x: 0.25, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864ca0621e1ffb54a9f7654803bcf27d
+      internalID: -658786829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_9
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 240
+        width: 350
+        height: 185
+      alignment: 9
+      pivot: {x: 0.25, y: 0.55}
+      border: {x: 1, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec46f71f68e54bf459e2571233e9714a
+      internalID: 1528039634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_10
+      rect:
+        serializedVersion: 2
+        x: 3658
+        y: 240
+        width: 287
+        height: 185
+      alignment: 9
+      pivot: {x: 0.25, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294a09fa2bd2b9e44900c05e56e71a0f
+      internalID: 351014425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_11
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 240
+        width: 255
+        height: 185
+      alignment: 9
+      pivot: {x: 0.3, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4588fea1996dc4441bf9f2e2e6ea0c1b
+      internalID: 1457933062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_12
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 240
+        width: 180
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b3b8320f7f2fcc428891139e5a86ae5
+      internalID: -386367686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_13
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 240
+        width: 160
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8867dba9af3575648bf9ecb9c9d0a50e
+      internalID: -851102282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_14
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 240
+        width: 155
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2e3fc1e4722344fb6454cb21c1f5d5
+      internalID: -535035803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_15
+      rect:
+        serializedVersion: 2
+        x: 4887
+        y: 240
+        width: 150
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7acb56cb43d40419665c72ceec20e9
+      internalID: -754546643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_16
+      rect:
+        serializedVersion: 2
+        x: 5087
+        y: 240
+        width: 155
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6446c372f2a5b14499b41d41717d5d71
+      internalID: 1573668787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Golpe_estoque_17
+      rect:
+        serializedVersion: 2
+        x: 5347
+        y: 240
+        width: 142
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a447305b7369a47a25ba94147317d3
+      internalID: -1695273031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Golpe_estoque_0: -809020994
+      Golpe_estoque_1: -895553742
+      Golpe_estoque_10: 351014425
+      Golpe_estoque_11: 1457933062
+      Golpe_estoque_12: -386367686
+      Golpe_estoque_13: -851102282
+      Golpe_estoque_14: -535035803
+      Golpe_estoque_15: -754546643
+      Golpe_estoque_16: 1573668787
+      Golpe_estoque_17: -1695273031
+      Golpe_estoque_18: 1413405684
+      Golpe_estoque_2: 634197976
+      Golpe_estoque_3: 170372920
+      Golpe_estoque_4: -726939566
+      Golpe_estoque_5: -1854659733
+      Golpe_estoque_6: 1244659672
+      Golpe_estoque_7: -2090104837
+      Golpe_estoque_8: -658786829
+      Golpe_estoque_9: 1528039634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
