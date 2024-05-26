@@ -52,7 +52,6 @@ public class Movement : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
         // Detectar el doble toque en las teclas A o D
 
-
         if (horizontalMove != 0)         
             animator.SetBool("Running", true);
         else
@@ -61,13 +60,12 @@ public class Movement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            animator.SetBool("TouchGround", false);
-            animator.SetTrigger("Jumping");
+            StartCoroutine(JumpLoop());
         }
 
         if (Input.GetKeyDown(KeyCode.S)) 
         {
-            rb2d.gravityScale = 5f;
+            rb2d.gravityScale = 10f;
         }
 
         if (animator.GetCurrentAnimatorStateInfo(0).IsName("Atk" + combo))
@@ -77,7 +75,7 @@ public class Movement : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(Dash());
-            //animator.SetBool("Dash", true);
+            animator.SetTrigger("Dash");
         }
 
     }
@@ -123,14 +121,25 @@ public class Movement : MonoBehaviour
         gameObject.layer = 7;
     }
 
-    
+    private IEnumerator JumpLoop()
+    {
+        animator.SetBool("Jumping", true);
+        animator.SetBool("TouchGround", false);
+        yield return new WaitForSeconds(0.5f);
+        animator.SetBool("Jumping", false);
+        animator.SetBool("Falling",true);
+        
+    }
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.tag == "Ground") 
         {
-            rb2d.gravityScale = 1f;
+            rb2d.gravityScale = 5f;
             animator.SetBool("TouchGround", true);
+            animator.SetBool("Falling", false);
         }
     }
 }

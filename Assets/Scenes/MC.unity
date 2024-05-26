@@ -279,8 +279,8 @@ MonoBehaviour:
   m_ScreenX: 0.5
   m_ScreenY: 0.65
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.15
-  m_DeadZoneHeight: 0.15
+  m_DeadZoneWidth: 0
+  m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
   m_SoftZoneWidth: 2
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Follow: {fileID: 500919624}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 8.32
+    OrthographicSize: 14.27
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -619,7 +619,7 @@ Transform:
   m_GameObject: {fileID: 1531699647}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.66, y: -0.013999939, z: -10}
+  m_LocalPosition: {x: -39.66, y: 1.7709997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1308,7 +1308,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.32
+  orthographic size: 14.27
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1333,7 +1333,7 @@ Transform:
   m_GameObject: {fileID: 2041561157}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -39.66, y: -0.013999939, z: -10}
+  m_LocalPosition: {x: -39.66, y: 1.7709997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1421,9 +1421,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2408381362581600393, guid: c2b4cd292a62a6940951da13fc1850d7, type: 3}
+      propertyPath: m_JumpForce
+      value: 1200
+      objectReference: {fileID: 0}
     - target: {fileID: 2600469687545935403, guid: c2b4cd292a62a6940951da13fc1850d7, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517085307826655947, guid: c2b4cd292a62a6940951da13fc1850d7, type: 3}
+      propertyPath: m_GravityScale
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966483348653051398, guid: c2b4cd292a62a6940951da13fc1850d7, type: 3}
+      propertyPath: dashTime
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5966483348653051398, guid: c2b4cd292a62a6940951da13fc1850d7, type: 3}
+      propertyPath: dashSpeed
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
