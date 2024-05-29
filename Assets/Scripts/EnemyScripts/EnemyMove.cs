@@ -116,7 +116,7 @@ public class EnemyMove : MonoBehaviour
 
 
 
-        if (Mathf.Abs(range) < 3f)
+        if (Mathf.Abs(range) < 20f)
         {
             follow = true;
         }
