@@ -18,7 +18,7 @@ public class SorcererBehaviour : MonoBehaviour
     private Rigidbody2D rgb;
     private bool moveToWaypoint = false;
     public GameObject waypoint;
-    private Vector3 waypointDistance;
+    public Vector3 waypointDistance;
     private CapsuleCollider2D capsuleCollider;
     private float waypointCronometer = 0;
     // Start is called before the first frame update
@@ -35,7 +35,7 @@ public class SorcererBehaviour : MonoBehaviour
     void Update()
     {
         waypointDistance = waypoint.transform.position - transform.position;
-        waypointDistance = new Vector3(waypointDistance.x, transform.position.y, waypointDistance.z);
+        waypointDistance = new Vector3(waypointDistance.x, transform.position.y, transform.position.z);
         direction = target.transform.position - transform.position;
         range = Vector3.Distance(target.transform.position, transform.position);
         //mirarfeo();

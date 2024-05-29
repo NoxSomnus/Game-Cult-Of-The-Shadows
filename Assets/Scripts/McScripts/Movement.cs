@@ -141,5 +141,23 @@ public class Movement : MonoBehaviour
             animator.SetBool("TouchGround", true);
             animator.SetBool("Falling", false);
         }
+
+        if (collision.collider.CompareTag("Enemy") ) 
+        {
+            if(collision.transform.position.x < transform.position.x)
+                rb2d.AddForce(new Vector2(knockbackForceX, knockbackForceY), ForceMode2D.Force); 
+            else
+                rb2d.AddForce(new Vector2(-knockbackForceX, knockbackForceY), ForceMode2D.Force);
+        }
+
+        if (collision.collider.CompareTag("WindDoor")) 
+        {
+            if (collision.transform.position.x < transform.position.x)
+                rb2d.AddForce(new Vector2(knockbackForceX, 0), ForceMode2D.Force);
+            else
+                rb2d.AddForce(new Vector2(-knockbackForceX, 0), ForceMode2D.Force);
+        }
+
+
     }
 }

@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - ChangeMusic
   - Wall
+  - WindDoor
   layers:
   - Default
   - TransparentFX
