@@ -173,4 +173,31 @@ public class Movement : MonoBehaviour
         animator.SetBool("TouchGround", false);
         yield return new WaitForSeconds(0.1f);        
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Ground"))
+        {
+            rb2d.gravityScale = 5f;
+            animator.SetBool("Jumping", false);
+            animator.SetBool("HeavyAirAtk", false);
+            animator.SetBool("TouchGround", true);
+        }
+
+        if (collision.collider.CompareTag("Enemy"))
+        {
+            if (collision.transform.position.x < transform.position.x)
+                rb2d.AddForce(new Vector2(knockbackForceX, knockbackForceY), ForceMode2D.Force);
+            else
+                rb2d.AddForce(new Vector2(-knockbackForceX, knockbackForceY), ForceMode2D.Force);
+        }
+
+        if (collision.collider.CompareTag("WindDoor"))
+        {
+            if (collision.transform.position.x < transform.position.x)
+                rb2d.AddForce(new Vector2(knockbackForceX, 0), ForceMode2D.Force);
+            else
+                rb2d.AddForce(new Vector2(-knockbackForceX, 0), ForceMode2D.Force);
+        }
+    }
 }
