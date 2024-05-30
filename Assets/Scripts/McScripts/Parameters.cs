@@ -17,7 +17,7 @@ public class Parameters : MonoBehaviour
 
     private void Start()
     {
-        furyBar.SetMaxFury(100f);
+        furyBar.SetMaxFury(fury);
         healthBar.SetMaxHealth(health);
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();

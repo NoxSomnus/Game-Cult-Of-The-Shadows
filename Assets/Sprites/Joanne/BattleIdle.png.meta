@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 046db289725a28a4b9e1a8b98e6ba468
+guid: b89b13f7f5b74cc468bc7fc4ef575eb8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -97,169 +97,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mc_Run_0
+      name: BattleIdle_0
       rect:
         serializedVersion: 2
-        x: 465
-        y: 270
-        width: 430
-        height: 379
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        x: 0
+        y: 5
+        width: 229
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2084b5a7f0593a4448d734fce34f6fa7
-      internalID: 474704815
+      spriteID: c7e60ba634064844688926025589c4aa
+      internalID: -1881144620
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_1
+      name: BattleIdle_1
       rect:
         serializedVersion: 2
-        x: 1775
-        y: 250
-        width: 400
-        height: 389
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        x: 256
+        y: 5
+        width: 229
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 863847411b0b89d49af38f99d88acf3a
-      internalID: 1931088529
+      spriteID: 334a8bd446c4f864e9f7802a42f69c47
+      internalID: -189057391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_2
+      name: BattleIdle_2
       rect:
         serializedVersion: 2
-        x: 3065
-        y: 250
-        width: 380
-        height: 379
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        x: 516
+        y: 5
+        width: 220
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c9b1d67d78c16439ce5a1bba0b84c4
-      internalID: 1180840964
+      spriteID: 33495afad57cbcf4abd7089bf499e964
+      internalID: -844672937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_3
+      name: BattleIdle_3
       rect:
         serializedVersion: 2
-        x: 4355
-        y: 250
-        width: 360
-        height: 379
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        x: 777
+        y: 5
+        width: 215
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adb3e2560e82f694ead308353e265576
-      internalID: -439194505
+      spriteID: 34facfc36c1070e4789dd6ab3a32a0f4
+      internalID: -1898150655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_4
+      name: BattleIdle_4
       rect:
         serializedVersion: 2
-        x: 5605
-        y: 270
-        width: 400
-        height: 379
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        x: 1033
+        y: 5
+        width: 215
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f339a9efb69965b4ebabdea9ae8ce3db
-      internalID: -1818341020
+      spriteID: 57ee33a127267c547b43fbf2030678d2
+      internalID: -1266384416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_5
+      name: BattleIdle_5
       rect:
         serializedVersion: 2
-        x: 6885
-        y: 250
-        width: 390
-        height: 399
-      alignment: 9
-      pivot: {x: 0.5, y: 0.55}
+        x: 1289
+        y: 5
+        width: 220
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e1d0a4bf7b0b54788272970fe28557
-      internalID: 275533747
+      spriteID: 13e3bdce86f54694da9faa833898d387
+      internalID: 459775503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_6
+      name: BattleIdle_6
       rect:
         serializedVersion: 2
-        x: 8145
-        y: 250
-        width: 420
-        height: 389
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+        x: 1536
+        y: 5
+        width: 229
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3cb1ffaa2ba1541b047239923fdc43
-      internalID: -1783129036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Run_7
-      rect:
-        serializedVersion: 2
-        x: 9425
-        y: 250
-        width: 420
-        height: 389
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0518184c843eb494fba700c7dc908b18
-      internalID: 1530563926
+      spriteID: 0fee1e0a4c57613409457f1cea6b5c4a
+      internalID: 840690122
       vertices: []
       indices: 
       edges: []
@@ -275,14 +254,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mc_Run_0: 474704815
-      Mc_Run_1: 1931088529
-      Mc_Run_2: 1180840964
-      Mc_Run_3: -439194505
-      Mc_Run_4: -1818341020
-      Mc_Run_5: 275533747
-      Mc_Run_6: -1783129036
-      Mc_Run_7: 1530563926
+      BattleIdle_0: -1881144620
+      BattleIdle_1: -189057391
+      BattleIdle_2: -844672937
+      BattleIdle_3: -1898150655
+      BattleIdle_4: -1266384416
+      BattleIdle_5: 459775503
+      BattleIdle_6: 840690122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

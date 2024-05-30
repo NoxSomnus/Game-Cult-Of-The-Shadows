@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 046db289725a28a4b9e1a8b98e6ba468
+guid: bb3fecea914b0dc40bfcb80f6ee09c71
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 150
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -97,169 +97,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mc_Run_0
+      name: sprinting_0
       rect:
         serializedVersion: 2
-        x: 465
-        y: 270
-        width: 430
-        height: 379
+        x: 32
+        y: 5
+        width: 350
+        height: 180
       alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+      pivot: {x: 0.8, y: 0.62}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2084b5a7f0593a4448d734fce34f6fa7
-      internalID: 474704815
+      spriteID: eaef864a49fac0040b1c588a179362c1
+      internalID: -1082222445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_1
+      name: sprinting_2
       rect:
         serializedVersion: 2
-        x: 1775
-        y: 250
-        width: 400
-        height: 389
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 863847411b0b89d49af38f99d88acf3a
-      internalID: 1931088529
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Run_2
-      rect:
-        serializedVersion: 2
-        x: 3065
-        y: 250
-        width: 380
-        height: 379
-      alignment: 9
-      pivot: {x: 0.5, y: 0.56}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4c9b1d67d78c16439ce5a1bba0b84c4
-      internalID: 1180840964
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mc_Run_3
-      rect:
-        serializedVersion: 2
-        x: 4355
-        y: 250
+        x: 429
+        y: 5
         width: 360
-        height: 379
+        height: 175
       alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+      pivot: {x: 0.8, y: 0.63}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adb3e2560e82f694ead308353e265576
-      internalID: -439194505
+      spriteID: 57c9f546e0151214391e5354ab22a237
+      internalID: 974128986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_4
+      name: sprinting_4
       rect:
         serializedVersion: 2
-        x: 5605
-        y: 270
-        width: 400
-        height: 379
+        x: 856
+        y: 5
+        width: 340
+        height: 175
       alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+      pivot: {x: 0.8, y: 0.64}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f339a9efb69965b4ebabdea9ae8ce3db
-      internalID: -1818341020
+      spriteID: a74bd8f5aacab6d4a8480b5e2bd1127d
+      internalID: 1120714808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_5
+      name: sprinting_5
       rect:
         serializedVersion: 2
-        x: 6885
-        y: 250
-        width: 390
-        height: 399
+        x: 1268
+        y: 5
+        width: 340
+        height: 170
       alignment: 9
-      pivot: {x: 0.5, y: 0.55}
+      pivot: {x: 0.8, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e1d0a4bf7b0b54788272970fe28557
-      internalID: 275533747
+      spriteID: ba0c303409543f141b7b8c0525fe95a1
+      internalID: -58961976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_6
+      name: sprinting_6
       rect:
         serializedVersion: 2
-        x: 8145
-        y: 250
-        width: 420
-        height: 389
+        x: 1700
+        y: 5
+        width: 350
+        height: 175
       alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+      pivot: {x: 0.8, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3cb1ffaa2ba1541b047239923fdc43
-      internalID: -1783129036
+      spriteID: 944ea284927fc554aa96bc8276e234ba
+      internalID: -154947223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mc_Run_7
+      name: sprinting_8
       rect:
         serializedVersion: 2
-        x: 9425
-        y: 250
-        width: 420
-        height: 389
+        x: 2097
+        y: 5
+        width: 360
+        height: 175
       alignment: 9
-      pivot: {x: 0.5, y: 0.56}
+      pivot: {x: 0.8, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0518184c843eb494fba700c7dc908b18
-      internalID: 1530563926
+      spriteID: a334acbaa3c133a4cbacdac591e9c914
+      internalID: -1149275235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinting_10
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 5
+        width: 335
+        height: 170
+      alignment: 9
+      pivot: {x: 0.8, y: 0.65}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd63ac2671c128d4bb717ae74bb1e96a
+      internalID: 974546691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprinting_11
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 5
+        width: 335
+        height: 165
+      alignment: 9
+      pivot: {x: 0.8, y: 0.67}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d81699247ee718540add9d6d4d6a5d24
+      internalID: -109239414
       vertices: []
       indices: 
       edges: []
@@ -275,14 +275,37 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mc_Run_0: 474704815
-      Mc_Run_1: 1931088529
-      Mc_Run_2: 1180840964
-      Mc_Run_3: -439194505
-      Mc_Run_4: -1818341020
-      Mc_Run_5: 275533747
-      Mc_Run_6: -1783129036
-      Mc_Run_7: 1530563926
+      sprinting_0: -1082222445
+      sprinting_1: 1653903723
+      sprinting_10: 974546691
+      sprinting_11: -109239414
+      sprinting_12: -408036101
+      sprinting_13: -460950760
+      sprinting_14: -298908871
+      sprinting_15: -1772522406
+      sprinting_16: -404865868
+      sprinting_17: 40276499
+      sprinting_18: -66565887
+      sprinting_19: -1382028790
+      sprinting_2: 974128986
+      sprinting_20: -1483479915
+      sprinting_21: -1246364460
+      sprinting_22: -1487349504
+      sprinting_23: 733454711
+      sprinting_24: 1218195275
+      sprinting_25: 941869373
+      sprinting_26: -2139672456
+      sprinting_27: -340654082
+      sprinting_28: 925752393
+      sprinting_29: -1119244614
+      sprinting_3: 1451524621
+      sprinting_30: 1639832638
+      sprinting_4: 1120714808
+      sprinting_5: -58961976
+      sprinting_6: -154947223
+      sprinting_7: -1069263591
+      sprinting_8: -1149275235
+      sprinting_9: -1253931176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

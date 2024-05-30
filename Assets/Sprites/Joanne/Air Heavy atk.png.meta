@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: c8f48891fecd72642b9db0b40c3418c2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Air Heavy atk_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 70
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b46a3fe74935b4fbc6e109cbe01149
+      internalID: -1371098761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_1
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 75
+        width: 141
+        height: 210
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e73ea8c7456d64580641bfc2ef9fd3
+      internalID: -1986794407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_2
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 75
+        width: 170
+        height: 195
+      alignment: 9
+      pivot: {x: 0.5, y: 0.58}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77eb8f918b0e2434a9d25969f4b44fb9
+      internalID: 63281638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_3
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 105
+        width: 180
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052f9e081e85e6f418015e46c8e845e7
+      internalID: 1369686656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_5
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 115
+        width: 140
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35760e07cb7d9743837dcb5b248de1c
+      internalID: 1870797456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_6
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 115
+        width: 135
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0a2153c46bb3a448b6a50da96106e0
+      internalID: -2126245103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_7
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 120
+        width: 145
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdc8ca51884b2649ac384c94aba764a
+      internalID: 1296931873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_8
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 120
+        width: 145
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d7aa0a9c0aa5d442b7e4ace57bd4303
+      internalID: 182301095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_9
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 120
+        width: 125
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ade6fc867fa0a54b97ad49af2e27a40
+      internalID: -1171185853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_10
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 95
+        width: 235
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66143cc8af947454dacd1dcd5d01b1dc
+      internalID: -481822720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_11
+      rect:
+        serializedVersion: 2
+        x: 4049
+        y: 60
+        width: 290
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3509b088652c684d8e329ada436322a
+      internalID: -2122020704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_12
+      rect:
+        serializedVersion: 2
+        x: 4398
+        y: 55
+        width: 310
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118100e73d4707b41ac15f24759e7a4f
+      internalID: 852894076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_13
+      rect:
+        serializedVersion: 2
+        x: 4757
+        y: 55
+        width: 290
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84563278eaf418c4cbf61c1b136b21e6
+      internalID: -648857477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_14
+      rect:
+        serializedVersion: 2
+        x: 5126
+        y: 55
+        width: 252
+        height: 185
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e502356649218bf4ead972a638936f58
+      internalID: -16264649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_15
+      rect:
+        serializedVersion: 2
+        x: 5490
+        y: 60
+        width: 210
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5, y: 0.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063d67cc57c8c344e92f8770173bcab2
+      internalID: 1549647538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_16
+      rect:
+        serializedVersion: 2
+        x: 5859
+        y: 55
+        width: 205
+        height: 175
+      alignment: 9
+      pivot: {x: 0.5, y: 0.68}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947c0f3d719baab47bd8b13de744621f
+      internalID: 663165015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_17
+      rect:
+        serializedVersion: 2
+        x: 6233
+        y: 60
+        width: 140
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b85bebc48d8edb4ba04b7b34ea7d019
+      internalID: -1402158913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_18
+      rect:
+        serializedVersion: 2
+        x: 6582
+        y: 60
+        width: 140
+        height: 180
+      alignment: 9
+      pivot: {x: 0.5, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dcf8a1bd9c5534593d4a70a0a8883c
+      internalID: -1038948808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_19
+      rect:
+        serializedVersion: 2
+        x: 6946
+        y: 60
+        width: 145
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2f7912438a084b94fe7fce5717f82
+      internalID: -964532478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Air Heavy atk_20
+      rect:
+        serializedVersion: 2
+        x: 3680
+        y: 45
+        width: 270
+        height: 125
+      alignment: 9
+      pivot: {x: 0.5, y: 0.9}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4d1fc3df2eb9f4eb84658f97361deb
+      internalID: -70877201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Air Heavy atk_0: -1371098761
+      Air Heavy atk_1: -1986794407
+      Air Heavy atk_10: -481822720
+      Air Heavy atk_11: -2122020704
+      Air Heavy atk_12: 852894076
+      Air Heavy atk_13: -648857477
+      Air Heavy atk_14: -16264649
+      Air Heavy atk_15: 1549647538
+      Air Heavy atk_16: 663165015
+      Air Heavy atk_17: -1402158913
+      Air Heavy atk_18: -1038948808
+      Air Heavy atk_19: -964532478
+      Air Heavy atk_2: 63281638
+      Air Heavy atk_20: -70877201
+      Air Heavy atk_21: 972675861
+      Air Heavy atk_22: -2052138467
+      Air Heavy atk_23: 74098959
+      Air Heavy atk_24: 944895114
+      Air Heavy atk_25: -335931131
+      Air Heavy atk_26: 291879104
+      Air Heavy atk_27: -1520010225
+      Air Heavy atk_28: -1433694214
+      Air Heavy atk_29: 2088455557
+      Air Heavy atk_3: 1369686656
+      Air Heavy atk_4: 1293526190
+      Air Heavy atk_5: 1870797456
+      Air Heavy atk_6: -2126245103
+      Air Heavy atk_7: 1296931873
+      Air Heavy atk_8: 182301095
+      Air Heavy atk_9: -1171185853
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
