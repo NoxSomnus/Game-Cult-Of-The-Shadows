@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 6ee8546906b45264aa798514bed4af00
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 75
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: special_attak1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 8815
+        y: 50
+        width: 590
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bea6650671c97448712731a12d77d2
+      internalID: 2015364262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 9535
+        y: 50
+        width: 675
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26c5803c346cd242b8289acbbee9fd0
+      internalID: 352752476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 50
+        width: 170
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1cecfcab5891b438cacb43d5c7f9c8
+      internalID: 1066325875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 10315
+        y: 50
+        width: 410
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c2cdf47cf83f469ad9ef211e9b3dc
+      internalID: 1446723158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 10958
+        y: 50
+        width: 400
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb8edc7efd81be408a17ac32c874c22
+      internalID: -772673650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 34
+        width: 220
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c1c0975db8cad0469d466beb1fc7e03
+      internalID: -1583419473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 34
+        width: 220
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9cb89f64e00c348bfb081d7df8013b
+      internalID: 751314298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 34
+        width: 225
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed92d3f6d229c1d4e883c66fdddb1870
+      internalID: 1570442160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 34
+        width: 225
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985026226a28e6a4eb208a717e497828
+      internalID: -1218801518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 33
+        width: 231
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd99684cca7b6d049a6b26eb94ab4f7d
+      internalID: 247960795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 35
+        width: 190
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d262c722706bf4d89c66aa416d0f6c
+      internalID: -178366227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 50
+        width: 155
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0472059dc55c404f90155d3bd6c41c0
+      internalID: -225770057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 50
+        width: 215
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a9eb87820ac714f9f76aa36e9ece7e
+      internalID: -1030653225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 32
+        width: 205
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1668c5ecf1b0ef47a926c66394d8264
+      internalID: -2002335570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 14339
+        y: 45
+        width: 140
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86f2ce8642ba264584ae127528a4a69
+      internalID: 1364206289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 55
+        width: 155
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fd0e203862256489790a8b64783bd3
+      internalID: -1684558246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 11748
+        y: 50
+        width: 410
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4985c1eefdf25a643a8aa66fbd86d680
+      internalID: -1076429225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 50
+        width: 205
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11a4bb6b97168744b6298afd4834e22
+      internalID: -161267315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 35
+        width: 240
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7b7045ed67e2446adaea786f10dea0
+      internalID: 1096096366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 13876
+        y: 50
+        width: 280
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359d6a11452054f45b3a2ad49b57efc9
+      internalID: 782678451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 8026
+        y: 50
+        width: 615
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd39210100146354297a9c9be5d54aa5
+      internalID: 1893661631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 50
+        width: 220
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61c987a451f9114399a61c3c7f4a0df
+      internalID: 6477124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 50
+        width: 215
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c80316594dceb43bc06c2fac01dae2
+      internalID: -534483867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 50
+        width: 385
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7166b9a14b4e96041829a0eb5c572ca2
+      internalID: -1517073233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 50
+        width: 395
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d08cf3069de0244b275cead7ab567a
+      internalID: 1568992587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 7105
+        y: 50
+        width: 410
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce10bebb8263feb4e8596f9d9bf4d560
+      internalID: -1650450309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 12577
+        y: 50
+        width: 381
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7edc1ec35cd984489aa1f1f81fbb0d
+      internalID: -2105752095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 13180
+        y: 50
+        width: 371
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99816b36598eec14ea30d0fa8c072579
+      internalID: -1637345042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 5719
+        y: 60
+        width: 15
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e705cb24e02eee44b8cb89e64c9a9c9
+      internalID: -1222736968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: special_attak1-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 50
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5e7b3f004be114281971598b6cade4
+      internalID: 855558353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      special_attak1-Sheet_0: -732033430
+      special_attak1-Sheet_1: 2015364262
+      special_attak1-Sheet_10: -1094064938
+      special_attak1-Sheet_100: -608774050
+      special_attak1-Sheet_101: -1849174260
+      special_attak1-Sheet_102: 1154587797
+      special_attak1-Sheet_103: -1791682852
+      special_attak1-Sheet_104: 1974347677
+      special_attak1-Sheet_105: 559534990
+      special_attak1-Sheet_106: 2036771749
+      special_attak1-Sheet_107: 882773376
+      special_attak1-Sheet_108: -1222736968
+      special_attak1-Sheet_109: 1784268292
+      special_attak1-Sheet_11: -1549827977
+      special_attak1-Sheet_110: 855558353
+      special_attak1-Sheet_111: 241330120
+      special_attak1-Sheet_112: 316956110
+      special_attak1-Sheet_113: 345843458
+      special_attak1-Sheet_114: 1722560865
+      special_attak1-Sheet_115: 1999533025
+      special_attak1-Sheet_116: -1987998966
+      special_attak1-Sheet_117: -1808655764
+      special_attak1-Sheet_118: 237502215
+      special_attak1-Sheet_119: -473075404
+      special_attak1-Sheet_12: 1052351942
+      special_attak1-Sheet_13: 1666104715
+      special_attak1-Sheet_14: -1052113969
+      special_attak1-Sheet_15: -1822329182
+      special_attak1-Sheet_16: 872332720
+      special_attak1-Sheet_17: 1712947285
+      special_attak1-Sheet_18: 1920888063
+      special_attak1-Sheet_19: 1066325875
+      special_attak1-Sheet_2: 352752476
+      special_attak1-Sheet_20: 1728057049
+      special_attak1-Sheet_21: 1446723158
+      special_attak1-Sheet_22: -772673650
+      special_attak1-Sheet_23: 138087559
+      special_attak1-Sheet_24: -1583419473
+      special_attak1-Sheet_25: 751314298
+      special_attak1-Sheet_26: 506438104
+      special_attak1-Sheet_27: 1570442160
+      special_attak1-Sheet_28: -1218801518
+      special_attak1-Sheet_29: 247960795
+      special_attak1-Sheet_3: -173413715
+      special_attak1-Sheet_30: 1879254489
+      special_attak1-Sheet_31: 645345160
+      special_attak1-Sheet_32: 901653625
+      special_attak1-Sheet_33: 1875001492
+      special_attak1-Sheet_34: -178366227
+      special_attak1-Sheet_35: -1814861724
+      special_attak1-Sheet_36: -504179257
+      special_attak1-Sheet_37: 1603389572
+      special_attak1-Sheet_38: 1134587107
+      special_attak1-Sheet_39: 1809864223
+      special_attak1-Sheet_4: 1551757017
+      special_attak1-Sheet_40: 6003576
+      special_attak1-Sheet_41: -587817935
+      special_attak1-Sheet_42: 2071335284
+      special_attak1-Sheet_43: -1209293871
+      special_attak1-Sheet_44: -897056595
+      special_attak1-Sheet_45: -402523048
+      special_attak1-Sheet_46: -225770057
+      special_attak1-Sheet_47: -1030653225
+      special_attak1-Sheet_48: -2002335570
+      special_attak1-Sheet_49: 1988142325
+      special_attak1-Sheet_5: -1452217209
+      special_attak1-Sheet_50: -1225519682
+      special_attak1-Sheet_51: -1099721911
+      special_attak1-Sheet_52: -1292959254
+      special_attak1-Sheet_53: 1364206289
+      special_attak1-Sheet_54: 1954347195
+      special_attak1-Sheet_55: -1838954262
+      special_attak1-Sheet_56: -1684558246
+      special_attak1-Sheet_57: 1926981070
+      special_attak1-Sheet_58: -566034109
+      special_attak1-Sheet_59: -1076429225
+      special_attak1-Sheet_6: -1926031962
+      special_attak1-Sheet_60: -1593531077
+      special_attak1-Sheet_61: -1685822188
+      special_attak1-Sheet_62: 689832624
+      special_attak1-Sheet_63: -161267315
+      special_attak1-Sheet_64: 1096096366
+      special_attak1-Sheet_65: 857658194
+      special_attak1-Sheet_66: 1994669262
+      special_attak1-Sheet_67: -1156958775
+      special_attak1-Sheet_68: 782678451
+      special_attak1-Sheet_69: -1310132463
+      special_attak1-Sheet_7: -785674332
+      special_attak1-Sheet_70: 1893661631
+      special_attak1-Sheet_71: -376709035
+      special_attak1-Sheet_72: 6477124
+      special_attak1-Sheet_73: -534483867
+      special_attak1-Sheet_74: -724223000
+      special_attak1-Sheet_75: -1517073233
+      special_attak1-Sheet_76: 1568992587
+      special_attak1-Sheet_77: -1650450309
+      special_attak1-Sheet_78: -1927663713
+      special_attak1-Sheet_79: -2105752095
+      special_attak1-Sheet_8: 465485522
+      special_attak1-Sheet_80: -1637345042
+      special_attak1-Sheet_81: -950319055
+      special_attak1-Sheet_82: -2025847023
+      special_attak1-Sheet_83: -839620507
+      special_attak1-Sheet_84: -974838407
+      special_attak1-Sheet_85: -946784446
+      special_attak1-Sheet_86: -282303525
+      special_attak1-Sheet_87: -1812667907
+      special_attak1-Sheet_88: 961608867
+      special_attak1-Sheet_89: 453508380
+      special_attak1-Sheet_9: 528999447
+      special_attak1-Sheet_90: 1565457489
+      special_attak1-Sheet_91: 1013763759
+      special_attak1-Sheet_92: -1715940284
+      special_attak1-Sheet_93: -1297812710
+      special_attak1-Sheet_94: -924285370
+      special_attak1-Sheet_95: -1918147796
+      special_attak1-Sheet_96: -528553620
+      special_attak1-Sheet_97: 946105927
+      special_attak1-Sheet_98: -1730514220
+      special_attak1-Sheet_99: 1495682095
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
