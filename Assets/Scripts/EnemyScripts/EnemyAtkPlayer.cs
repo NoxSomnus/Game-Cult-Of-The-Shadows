@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyAtkPlayer : MonoBehaviour
 {
-    public int mondongo=0;
     public int dmg;
     private void OnTriggerEnter2D(Collider2D collision)
     {

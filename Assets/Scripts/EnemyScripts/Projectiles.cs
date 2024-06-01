@@ -7,7 +7,6 @@ public class Projectiles : MonoBehaviour
     public float Speed;
     private Vector2 Direction;
     private Rigidbody2D Rigidbody2D;
-    public int dmg = 5;
     public void SetDirection(Vector2 direction)
     {
         Direction = direction;
@@ -38,7 +37,6 @@ public class Projectiles : MonoBehaviour
         PlayerMovement player = collision.GetComponent<PlayerMovement>();
         if (collision.tag == "Player")
         {
-            if (player != null) player.Hit(dmg);
             Destroy(gameObject);
         }
 

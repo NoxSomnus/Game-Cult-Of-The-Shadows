@@ -150,7 +150,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 8
-  dmg: 5
 --- !u!70 &4738336574529723048
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -200,4 +199,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mondongo: 0
   dmg: 5
-  HP: {fileID: 0}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 64a1e1a97748edd4ea8d61ad94187343
+guid: 8e98ff2474e1f08458b6b5ad7c66cc9a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -97,34 +97,139 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shield_0
+      name: air_attack_2
       rect:
         serializedVersion: 2
-        x: 104
-        y: 5
-        width: 155
+        x: 960
+        y: 219
+        width: 135
         height: 210
-      alignment: 9
-      pivot: {x: 0.5, y: 0.55}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca33bedf34b918642b19cb36b6ed873a
-      internalID: 1470069030
+      spriteID: 4f20442fac3e517429d665dc9341d533
+      internalID: -1805824435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_1
+      name: air_attack_3
       rect:
         serializedVersion: 2
-        x: 432
-        y: 5
-        width: 150
+        x: 1390
+        y: 209
+        width: 256
+        height: 200
+      alignment: 9
+      pivot: {x: 0.2, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece0c1938e9d3de4c97d107e41e45e92
+      internalID: 478794438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 149
+        width: 140
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774fc6a7f63dabf499ba4065c3c26de9
+      internalID: 2104638229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 209
+        width: 195
+        height: 185
+      alignment: 9
+      pivot: {x: 0.7, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc353f595482de4d9945486fbe22153
+      internalID: -1112906219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_5
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 204
+        width: 270
+        height: 185
+      alignment: 9
+      pivot: {x: 0.2, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c0a3c2f0a5a84f81a799e66db9a47
+      internalID: -740386483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_6
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 194
+        width: 270
         height: 195
+      alignment: 9
+      pivot: {x: 0.2, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb7f1f7f1c6df94c9df2455866989a8
+      internalID: -771514254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_7
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 204
+        width: 200
+        height: 175
       alignment: 9
       pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,419 +237,230 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6adb12a7c1672ef43a491af03e63bb34
-      internalID: -1955935178
+      spriteID: 0d4ef68de882ef1409001ad712b78caf
+      internalID: 103767359
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_2
+      name: air_attack_9
       rect:
         serializedVersion: 2
-        x: 700
-        y: 5
-        width: 200
-        height: 170
-      alignment: 9
-      pivot: {x: 0.5, y: 0.68}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 65ed7c4914ec3854ebc3d16af45681b7
-      internalID: -1594322938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_3
-      rect:
-        serializedVersion: 2
-        x: 1038
-        y: 5
-        width: 190
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 779e1155dbe7dbc4995bda358d9ac437
-      internalID: -735451485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_4
-      rect:
-        serializedVersion: 2
-        x: 1366
-        y: 5
-        width: 190
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.68}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ebc9cef1344021248bc3b3e03eaa9283
-      internalID: 1684581542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_5
-      rect:
-        serializedVersion: 2
-        x: 1694
-        y: 5
-        width: 190
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca0fc9d4be097db428d85133764239fa
-      internalID: -584800334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_6
-      rect:
-        serializedVersion: 2
-        x: 2022
-        y: 5
-        width: 190
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8d3d3014c3dff84d96747f8870b3e9f
-      internalID: -1328079150
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_7
-      rect:
-        serializedVersion: 2
-        x: 2350
-        y: 5
-        width: 190
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 392d73159e77f884bae48729db30a5a2
-      internalID: -485418892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_8
-      rect:
-        serializedVersion: 2
-        x: 2688
-        y: 5
-        width: 180
-        height: 170
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: deb5292c5b2794c4c834e47e5ab7e9e7
-      internalID: 1157190437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_9
-      rect:
-        serializedVersion: 2
-        x: 3006
-        y: 5
-        width: 215
-        height: 170
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92f92c85fb71373488347627169a36ac
-      internalID: -1237336637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_10
-      rect:
-        serializedVersion: 2
-        x: 3329
-        y: 5
-        width: 250
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.68}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: daeb4e8bca0d802408608bd054815e9d
-      internalID: 1133707496
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_12
-      rect:
-        serializedVersion: 2
-        x: 3662
-        y: 5
-        width: 250
-        height: 175
-      alignment: 9
-      pivot: {x: 0.5, y: 0.68}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c0f01343805a722469a4ebd26bcb35df
-      internalID: 609145436
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_14
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 5
-        width: 180
-        height: 170
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64e43e535abc83d46bf60ff2203e8fbd
-      internalID: 1960058311
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_15
-      rect:
-        serializedVersion: 2
-        x: 4264
-        y: 0
-        width: 269
-        height: 170
-      alignment: 9
-      pivot: {x: 0.5, y: 0.7}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b852874f021ffd43b9435b53e9b8fb8
-      internalID: 1600442750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_16
-      rect:
-        serializedVersion: 2
-        x: 4592
-        y: 0
-        width: 299
-        height: 190
-      alignment: 9
-      pivot: {x: 0.5, y: 0.63}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9431a1af17ece314d886458be2bb3e8f
-      internalID: 362581515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_18
-      rect:
-        serializedVersion: 2
-        x: 4929
-        y: 0
-        width: 295
-        height: 180
-      alignment: 9
-      pivot: {x: 0.5, y: 0.65}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3861e13981edc8347bac4d0cac441503
-      internalID: -962170626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_20
-      rect:
-        serializedVersion: 2
-        x: 5252
-        y: 0
-        width: 240
-        height: 165
-      alignment: 9
-      pivot: {x: 0.5, y: 0.72}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d89253a20e00c6f4db25134162f84926
-      internalID: 1545826254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_21
-      rect:
-        serializedVersion: 2
-        x: 5576
-        y: 0
-        width: 244
-        height: 170
-      alignment: 9
-      pivot: {x: 0.5, y: 0.68}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8274fc911d9b7be44897af44dde28d35
-      internalID: -882927536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_22
-      rect:
-        serializedVersion: 2
-        x: 5923
-        y: 5
+        x: 2980
+        y: 204
         width: 225
         height: 175
       alignment: 9
-      pivot: {x: 0.5, y: 0.66}
+      pivot: {x: 0.6, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 423f434cca8e2e3409dacda0be9b6ed1
-      internalID: 1065413123
+      spriteID: 263cb46d83f97534a8483addb2a54679
+      internalID: 320548667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_23
+      name: air_attack_10
       rect:
         serializedVersion: 2
-        x: 6321
+        x: 3470
+        y: 189
+        width: 150
+        height: 165
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5da6f35a10209a4a8ff1602d33a9000
+      internalID: 402517959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_11
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 169
+        width: 350
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0bba5f2a3ed4e4d8781569200a294b
+      internalID: 498889159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_12
+      rect:
+        serializedVersion: 2
+        x: 4225
+        y: 164
+        width: 340
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804b8ba8c50b96c4894351cb7d5ae48b
+      internalID: 1285575899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_13
+      rect:
+        serializedVersion: 2
+        x: 4650
+        y: 159
+        width: 225
+        height: 215
+      alignment: 9
+      pivot: {x: 0.6, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21d953a242516a40a107876f1885dd4
+      internalID: -337289476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_14
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 134
+        width: 180
+        height: 200
+      alignment: 9
+      pivot: {x: 0.65, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b3e9355b850b641a84481b750c3d25
+      internalID: 873637887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_15
+      rect:
+        serializedVersion: 2
+        x: 5510
+        y: 69
+        width: 180
+        height: 175
+      alignment: 9
+      pivot: {x: 0.7, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4262e3ad156a07843bce8f131f52a4b6
+      internalID: 636623291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_16
+      rect:
+        serializedVersion: 2
+        x: 5880
+        y: 0
+        width: 255
+        height: 219
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9421f272d0a97a146bd28514797bf4d3
+      internalID: -1118546175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_17
+      rect:
+        serializedVersion: 2
+        x: 6390
+        y: 0
+        width: 175
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173b906fd106d404c992be41413b402e
+      internalID: -536172520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_18
+      rect:
+        serializedVersion: 2
+        x: 6795
+        y: 0
+        width: 185
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28990c3527a4dd643bf4989279feccf9
+      internalID: -1153258200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_19
+      rect:
+        serializedVersion: 2
+        x: 7245
         y: 0
         width: 155
-        height: 195
-      alignment: 9
-      pivot: {x: 0.5, y: 0.61}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3285d28528c931943b500b29b9d96b34
-      internalID: 1860726289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_24
-      rect:
-        serializedVersion: 2
-        x: 6684
-        y: 0
-        width: 135
-        height: 205
-      alignment: 9
-      pivot: {x: 0.5, y: 0.6}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2a33460186c837948a9ca1a5e50af93b
-      internalID: 1735853508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_32
-      rect:
-        serializedVersion: 2
-        x: 5199
-        y: 100
-        width: 10
-        height: 5
+        height: 209
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,20 +468,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75bac7102e4ebb44e96b57341bf37a18
-      internalID: -713216418
+      spriteID: ded7377b99d25924291193bc6a30c2de
+      internalID: 555675132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_34
+      name: air_attack_20
       rect:
         serializedVersion: 2
-        x: 5214
-        y: 95
-        width: 10
-        height: 5
+        x: 7664
+        y: 4
+        width: 141
+        height: 215
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,8 +489,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41913c4881e2f6f46b5ecc7ac4de8391
-      internalID: 301979486
+      spriteID: 03a474d9a208e2742bff2d264e58b55f
+      internalID: -2140394428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: air_attack_21
+      rect:
+        serializedVersion: 2
+        x: 8075
+        y: 4
+        width: 150
+        height: 215
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ef2251c89ee3a468c59c621118ffe6
+      internalID: -934690360
       vertices: []
       indices: 
       edges: []
@@ -590,47 +527,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shield_0: 1470069030
-      Shield_1: -1955935178
-      Shield_10: 1133707496
-      Shield_11: 1933299186
-      Shield_12: 609145436
-      Shield_13: -1905323628
-      Shield_14: 1960058311
-      Shield_15: 1600442750
-      Shield_16: 362581515
-      Shield_17: 285535450
-      Shield_18: -962170626
-      Shield_19: 979409935
-      Shield_2: -1594322938
-      Shield_20: 1545826254
-      Shield_21: -882927536
-      Shield_22: 1065413123
-      Shield_23: 1860726289
-      Shield_24: 1735853508
-      Shield_25: 1649829622
-      Shield_26: 79407757
-      Shield_27: 1873980173
-      Shield_28: -59933736
-      Shield_29: -489391152
-      Shield_3: -735451485
-      Shield_30: -290892414
-      Shield_31: 1139562957
-      Shield_32: -713216418
-      Shield_33: 1728171389
-      Shield_34: 301979486
-      Shield_35: -1391408541
-      Shield_36: -6739457
-      Shield_37: -1981344614
-      Shield_38: -470083155
-      Shield_39: -2085815763
-      Shield_4: 1684581542
-      Shield_40: -2026405010
-      Shield_5: -584800334
-      Shield_6: -1328079150
-      Shield_7: -485418892
-      Shield_8: 1157190437
-      Shield_9: -1237336637
+      air_attack_0: 2104638229
+      air_attack_1: -1112906219
+      air_attack_10: 402517959
+      air_attack_11: 498889159
+      air_attack_12: 1285575899
+      air_attack_13: -337289476
+      air_attack_14: 873637887
+      air_attack_15: 636623291
+      air_attack_16: -1118546175
+      air_attack_17: -536172520
+      air_attack_18: -1153258200
+      air_attack_19: 555675132
+      air_attack_2: -1805824435
+      air_attack_20: -2140394428
+      air_attack_21: -934690360
+      air_attack_22: -674705433
+      air_attack_23: -88632210
+      air_attack_24: -346028129
+      air_attack_3: 478794438
+      air_attack_5: -740386483
+      air_attack_6: -771514254
+      air_attack_7: 103767359
+      air_attack_8: 302302614
+      air_attack_9: 320548667
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

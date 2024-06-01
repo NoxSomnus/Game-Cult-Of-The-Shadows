@@ -166,8 +166,8 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
-  - time: 0.41666666
-    functionName: Finish_AtK_Event
+  - time: 0
+    functionName: Finish_Air_Atk
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

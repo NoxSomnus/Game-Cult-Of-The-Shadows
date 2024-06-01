@@ -19,10 +19,11 @@ public class Movement : MonoBehaviour
 
 
     //Combat
-    bool attacking;
-    int combo;
-    bool onAir;
+    public bool attacking;
+    public int combo;
+    public bool onAir;
     bool shieldUp;
+    public bool canShield;
 
     //Dash
     bool canDash;
@@ -31,7 +32,8 @@ public class Movement : MonoBehaviour
     public float dashTime;
         
 
-    Animator animator;
+    public Animator animator;
+
     Rigidbody2D rb2d;
     // Start is called before the first frame update
     void Start()
@@ -39,6 +41,7 @@ public class Movement : MonoBehaviour
         animator = GetComponent<Animator>();
         attacking = false;
         combo = 0;
+        canShield = true;
         originalRunSpeed = runSpeed;
         canDash = true;
         canMove = true;
@@ -47,9 +50,11 @@ public class Movement : MonoBehaviour
     private void FixedUpdate()
     {
         if (canMove) 
+        {
             controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        
-        jump = false;
+            jump = false;
+        }
+
     }
     // Update is called once per frame
     void Update()
@@ -63,7 +68,7 @@ public class Movement : MonoBehaviour
         else
             animator.SetBool("Running", false);
 
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && !shieldUp && !attacking)
         {
             onAir = true;
             jump = true;
@@ -81,8 +86,10 @@ public class Movement : MonoBehaviour
             isSprinting = true;
         }
 
-        if (attacking)
+        if (attacking) 
+        {
             runSpeed = 0f;
+        }
         else 
         {
             if (isSprinting) 
@@ -101,10 +108,11 @@ public class Movement : MonoBehaviour
             animator.SetBool("Sprint", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && !attacking && !shieldUp)
         {
             StartCoroutine(Dash());
             animator.SetTrigger("Dash");
+
         }
 
     }
@@ -125,28 +133,42 @@ public class Movement : MonoBehaviour
         combo = 0;
     }
 
+    private void Finish_Air_Atk() 
+    {
+        attacking = false;
+    }
+
     private void Combos() 
     {
         if (Input.GetKeyDown(KeyCode.O) && !attacking)
         {
-            attacking = true;
-            animator.SetTrigger("Atk" + combo);
+            if (!onAir)
+            {
+                attacking = true;
+                animator.SetTrigger("Atk" + combo);
+
+            }
+            else 
+            {
+                StartCoroutine(AirAtk());
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && onAir && !attacking) 
+        if (Input.GetKeyDown(KeyCode.P) && onAir && !attacking && canDash) 
         {
-            attacking = true;
-            animator.SetBool("HeavyAirAtk", true);
+            StartCoroutine(HeavyAirAtk());
+            rb2d.gravityScale = 10f;
         }
 
-        if (InputManager.Instance.GetAttack())
+        if (InputManager.Instance.GetAttack() && canShield)
         {
             runSpeed = 0f;
+            shieldUp = true;
             animator.SetBool("Shield", true);
         }
         else
         {
-
+            shieldUp = false;
             animator.SetBool("Shield",false);
         }
 
@@ -155,8 +177,8 @@ public class Movement : MonoBehaviour
     {
         canDash = false;
         canMove = false;
-
-        rb2d.velocity = new Vector2(dashSpeed * transform.localScale.x, 0);
+        combo = 0;
+        rb2d.velocity = new Vector3(dashSpeed * transform.localScale.x, 0,0);
         gameObject.tag = "Enemy";
         gameObject.layer = 6;
         yield return new WaitForSeconds(dashTime);
@@ -165,6 +187,22 @@ public class Movement : MonoBehaviour
         canDash = true;
         gameObject.tag = "Player";
         gameObject.layer = 7;
+    }
+
+    private IEnumerator HeavyAirAtk()
+    {
+        attacking = true;
+        animator.SetBool("HeavyAirAtk", true);
+        yield return new WaitForSeconds(0.5f);
+        attacking = false;
+        animator.SetBool("HeavyAirAtk", false);
+    }
+
+    private IEnumerator AirAtk()
+    {
+        animator.SetBool("AirAtk", true);
+        yield return new WaitForSeconds(0.5f);
+        animator.SetBool("AirAtk", false);
     }
 
     private IEnumerator JumpLoop()
@@ -182,6 +220,7 @@ public class Movement : MonoBehaviour
             animator.SetBool("Jumping", false);
             animator.SetBool("HeavyAirAtk", false);
             animator.SetBool("TouchGround", true);
+            onAir = false;
         }
 
         if (collision.collider.CompareTag("Enemy"))
