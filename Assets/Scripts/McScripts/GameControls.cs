@@ -35,6 +35,15 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""HolySlash"",
+                    ""type"": ""Button"",
+                    ""id"": ""0f499ea3-374a-4e4b-b1d0-1f6786b7e209"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -46,6 +55,17 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""Shield"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9ddd7771-c834-4be4-8ea2-3ec885463009"",
+                    ""path"": ""<Keyboard>/p"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""HolySlash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -634,6 +654,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Shield = m_Player.FindAction("Shield", throwIfNotFound: true);
+        m_Player_HolySlash = m_Player.FindAction("HolySlash", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -708,11 +729,13 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Shield;
+    private readonly InputAction m_Player_HolySlash;
     public struct PlayerActions
     {
         private @GameControls m_Wrapper;
         public PlayerActions(@GameControls wrapper) { m_Wrapper = wrapper; }
         public InputAction @Shield => m_Wrapper.m_Player_Shield;
+        public InputAction @HolySlash => m_Wrapper.m_Player_HolySlash;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -725,6 +748,9 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
             @Shield.started += instance.OnShield;
             @Shield.performed += instance.OnShield;
             @Shield.canceled += instance.OnShield;
+            @HolySlash.started += instance.OnHolySlash;
+            @HolySlash.performed += instance.OnHolySlash;
+            @HolySlash.canceled += instance.OnHolySlash;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -732,6 +758,9 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
             @Shield.started -= instance.OnShield;
             @Shield.performed -= instance.OnShield;
             @Shield.canceled -= instance.OnShield;
+            @HolySlash.started -= instance.OnHolySlash;
+            @HolySlash.performed -= instance.OnHolySlash;
+            @HolySlash.canceled -= instance.OnHolySlash;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -915,6 +944,7 @@ public partial class @GameControls: IInputActionCollection2, IDisposable
     public interface IPlayerActions
     {
         void OnShield(InputAction.CallbackContext context);
+        void OnHolySlash(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

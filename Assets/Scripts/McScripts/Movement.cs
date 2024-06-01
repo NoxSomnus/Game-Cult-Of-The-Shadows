@@ -24,6 +24,7 @@ public class Movement : MonoBehaviour
     public bool onAir;
     bool shieldUp;
     public bool canShield;
+    public float lightCutDash;
 
     //Dash
     bool canDash;
@@ -146,7 +147,6 @@ public class Movement : MonoBehaviour
             {
                 attacking = true;
                 animator.SetTrigger("Atk" + combo);
-
             }
             else 
             {
@@ -154,13 +154,21 @@ public class Movement : MonoBehaviour
             }
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && onAir && !attacking && canDash) 
+        if (Input.GetKeyDown(KeyCode.P) && !attacking && canDash) 
         {
-            StartCoroutine(HeavyAirAtk());
+            if (onAir)
+                StartCoroutine(HeavyAirAtk());
+            else
+                StartCoroutine(HolySlash());
             rb2d.gravityScale = 10f;
         }
 
-        if (InputManager.Instance.GetAttack() && canShield)
+        if (Input.GetKeyDown(KeyCode.F) && !attacking && canDash)
+        {
+            StartCoroutine(LightCut());
+        }
+
+        if (InputManager.Instance.Shield() && canShield)
         {
             runSpeed = 0f;
             shieldUp = true;
@@ -171,7 +179,6 @@ public class Movement : MonoBehaviour
             shieldUp = false;
             animator.SetBool("Shield",false);
         }
-
     }
     private IEnumerator Dash()
     {
@@ -196,6 +203,29 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(0.5f);
         attacking = false;
         animator.SetBool("HeavyAirAtk", false);
+    }
+
+    private IEnumerator HolySlash()
+    {
+        attacking = true;
+        animator.SetBool("HolySlash", true);
+        yield return new WaitForSeconds(2f);
+        attacking = false;
+        animator.SetBool("HolySlash", false);
+    }
+
+    private IEnumerator LightCut()
+    {
+        attacking = true;
+        animator.SetBool("LightCut", true);
+        yield return new WaitForSeconds(2f);
+        animator.SetBool("LightCut", false);
+    }
+
+    public void LightCutMove() 
+    {
+        attacking = false;
+        rb2d.velocity = new Vector3(lightCutDash * transform.localScale.x, 0, 0);
     }
 
     private IEnumerator AirAtk()

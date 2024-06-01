@@ -14,6 +14,7 @@ public class InputManager : MonoBehaviour
 
     GameControls controls;
     bool attacking;
+    bool shield;
 
     private void Awake()
     {
@@ -27,23 +28,40 @@ public class InputManager : MonoBehaviour
         }
 
         controls = new GameControls();
-        controls.Player.Shield.performed += AttackPerformed;
-        controls.Player.Shield.canceled += AttackCanceled;
+        controls.Player.Shield.performed += ShieldPerformed;
+        controls.Player.Shield.canceled += ShieldCanceled;
+        controls.Player.HolySlash.performed += HolySlashPerfomed;
+        controls.Player.HolySlash.canceled += HolySlashCanceled;
     }
 
-    public bool GetAttack() 
+    public bool Shield() 
+    {
+        return shield;
+    }
+
+    public bool HolySlash() 
     {
         return attacking;
     }
 
-    private void AttackCanceled(InputAction.CallbackContext context)
+    private void ShieldCanceled(InputAction.CallbackContext context)
     {
-        attacking = false;
+        shield = false;
     }
 
-    private void AttackPerformed(InputAction.CallbackContext context)
+    private void ShieldPerformed(InputAction.CallbackContext context)
+    {
+        shield = true;
+    }
+
+    private void HolySlashPerfomed(InputAction.CallbackContext context)
     {
         attacking = true;
+    }
+
+    private void HolySlashCanceled(InputAction.CallbackContext context)
+    {
+        attacking = false;
     }
 
     private void OnEnable()
