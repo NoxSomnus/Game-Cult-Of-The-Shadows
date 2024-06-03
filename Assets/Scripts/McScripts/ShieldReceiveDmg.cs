@@ -15,12 +15,5 @@ public class ShieldReceiveDmg : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.tag == "Enemy")
-        {
-            EnemyAtkPlayer enemyDmg = collision.collider.GetComponent<EnemyAtkPlayer>();
-            playerStats.ShieldHit(enemyDmg.dmg);
-        }
-    }
+   
 }

@@ -14,7 +14,11 @@ public class PlayerAtkEnemy : MonoBehaviour
         {
             Player.RestoreFuryEvent(furyObtained);
             Enemy enemy = collision.GetComponent<Enemy>();
-            if (enemy != null) enemy.Hit(dmg);
+
+            if (enemy != null)
+            {
+                enemy.Hit(dmg);
+            }
         }
     }
 
