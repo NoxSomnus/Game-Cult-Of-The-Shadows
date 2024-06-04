@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecd56913632d4743ab445fb96d1a535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 648441617251795657}
+  Player: {fileID: 0}
   dmg: 3
   furyObtained: 0
 --- !u!1 &3651654656983761719
@@ -147,7 +147,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -308,7 +308,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -785,6 +785,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecd56913632d4743ab445fb96d1a535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 648441617251795657}
+  Player: {fileID: 0}
   dmg: 1
   furyObtained: 5

@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
     private bool canMove = true;
     public SoundEffectsManager soundEffectsManager;
     //NUEVO
-    public FuryBar furyBar;
+    public SoulBar furyBar;
     public HealthBar healthBar;
 
     void Start()

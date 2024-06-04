@@ -66,7 +66,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,9 +111,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthBar: {fileID: 0}
-  furyBar: {fileID: 0}
+  soulBar: {fileID: 0}
   health: 100
-  fury: 0
+  soul: 0
   Stamina: 100
 --- !u!114 &9000670604075576674
 MonoBehaviour:
@@ -131,8 +131,14 @@ MonoBehaviour:
   runSpeed: 60
   knockbackForceX: 2000
   knockbackForceY: 500
+  attacking: 0
+  combo: 0
+  onAir: 0
+  canShield: 0
+  lightCutDash: 0
   dashSpeed: 25
   dashTime: 0.8
+  animator: {fileID: 0}
 --- !u!114 &3465664079329805644
 MonoBehaviour:
   m_ObjectHideFlags: 0

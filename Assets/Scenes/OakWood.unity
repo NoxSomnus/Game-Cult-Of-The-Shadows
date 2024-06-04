@@ -1506,7 +1506,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2111,9 +2111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71a12b50edbd84468ffea9c88807473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mondongo: 0
   dmg: 10
-  HP: {fileID: 969557264}
 --- !u!68 &1174938246
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -2799,7 +2797,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37716,6 +37714,14 @@ PrefabInstance:
     - target: {fileID: 3368555914175626201, guid: 998e03600c720064b9fa6aac1710c37e, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623864064110795703, guid: 998e03600c720064b9fa6aac1710c37e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3623864064110795703, guid: 998e03600c720064b9fa6aac1710c37e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6548607979827301184, guid: 998e03600c720064b9fa6aac1710c37e, type: 3}
       propertyPath: m_SizeDelta.x

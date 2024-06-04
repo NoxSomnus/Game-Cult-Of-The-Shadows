@@ -206,7 +206,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -397,7 +397,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -481,7 +481,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -603,8 +603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cecd56913632d4743ab445fb96d1a535, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1486075194}
+  Player: {fileID: 0}
   dmg: 0
+  furyObtained: 0
 --- !u!1 &964241773
 GameObject:
   m_ObjectHideFlags: 0
@@ -719,7 +720,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -832,7 +833,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491fd1f5c6542344cb18a163673940b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  despawnTimer: 0
   Health: 5
+  bossHealthBar: {fileID: 0}
 --- !u!61 &1386332866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -925,7 +928,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1078,7 +1081,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1211,11 +1214,16 @@ MonoBehaviour:
   activedfury: 0
   controller: {fileID: 1486075195}
   BlackShockwavePrefab: {fileID: 8989647612219754342, guid: 62bf36a548567934a88ce99c973dcc96, type: 3}
+  BlackSwordPrefab: {fileID: 0}
+  Aura: {fileID: 0}
   runSpeed: 10
   BlueArmor: {fileID: 9100000, guid: c2ac2618efec1e14085e0348724bb156, type: 2}
   RedArmor: {fileID: 9100000, guid: 0af501d559a8d6a4a8cde486e38f88df, type: 2}
   dashSpeed: 3.5
+  receiveHitSpeed: 20
+  receiveHitTime: 0
   dashTime: 0.5
+  soundEffectsManager: {fileID: 0}
   furyBar: {fileID: 0}
   healthBar: {fileID: 0}
 --- !u!114 &1486075195
@@ -1307,7 +1315,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1391,7 +1399,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1606,7 +1614,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1670,7 +1678,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491fd1f5c6542344cb18a163673940b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  despawnTimer: 0
   Health: 5
+  bossHealthBar: {fileID: 0}
 --- !u!61 &1929277873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1763,7 +1773,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

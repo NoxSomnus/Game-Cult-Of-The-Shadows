@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FuryBar : MonoBehaviour
+public class SoulBar : MonoBehaviour
 {
     public Slider slider;
 
     public void SetMaxFury(float fury)
     {
-        slider.maxValue = fury;
+        slider.maxValue = 100;
         slider.value = fury;
     }
 

@@ -11,9 +11,9 @@ using Unity.VisualScripting;
 public class Parameters : MonoBehaviour
 {
     public HealthBar healthBar;
-    public FuryBar furyBar;
+    public SoulBar soulBar;
     public int health = 100;
-    public float fury = 0;
+    public float soul = 0;
     public float Stamina = 30;
     Movement playerMovement;
     SpriteRenderer sprite;
@@ -21,7 +21,7 @@ public class Parameters : MonoBehaviour
 
     private void Start()
     {
-        furyBar.SetMaxFury(fury);
+        soulBar.SetMaxFury(soul);
         healthBar.SetMaxHealth(health);
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
@@ -31,9 +31,9 @@ public class Parameters : MonoBehaviour
     // Start is called before the first frame update
     public void RestoreFuryEvent(float furyObtained)
     {
-        fury += furyObtained;
+        soul += furyObtained;
         //NUEVO
-        furyBar.SetFury(fury);
+        soulBar.SetFury(soul);
     }
     public void Hit(int dmg)
     {

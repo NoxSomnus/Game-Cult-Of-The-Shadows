@@ -31,7 +31,9 @@ public class Movement : MonoBehaviour
     bool canMove;
     public float dashSpeed;
     public float dashTime;
-        
+
+    //Parameters
+    
 
     public Animator animator;
 
