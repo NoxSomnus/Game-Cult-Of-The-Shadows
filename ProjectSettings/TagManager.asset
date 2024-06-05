@@ -47,6 +47,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: back
+    uniqueID: 3071887305
+    locked: 0
+  - name: particulas 2
+    uniqueID: 3440762529
+    locked: 0
+  - name: back1
+    uniqueID: 3888547163
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Particulas1
+    uniqueID: 3642419069
     locked: 0
