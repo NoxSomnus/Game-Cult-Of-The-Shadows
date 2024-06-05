@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 432d9cc5dea56bd4c83cb19aee6d2e99
+guid: d15ad232b46babb47add09b356fe22e8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: ForestBossIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6332e06cbdb262e4e9ba0b4af47d6999
-      internalID: 111394044
+      spriteID: a6392b1bcd84ef544abcbafc5673a6c5
+      internalID: 789943935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
+      name: ForestBossIdle_1
       rect:
         serializedVersion: 2
-        x: 418
+        x: 96
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e8243b1ec425b4691db2d51ec9d049
-      internalID: 1232875732
+      spriteID: f87eea2be821e8448ab3593b1da16357
+      internalID: -596435044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
+      name: ForestBossIdle_2
       rect:
         serializedVersion: 2
-        x: 836
+        x: 192
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab78b463c1774e24f8a868d793ab90ad
-      internalID: 1311717628
+      spriteID: 4db4619cf6d50f54ba986c38b792a35a
+      internalID: -1036873777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: ForestBossIdle_3
       rect:
         serializedVersion: 2
-        x: 1254
+        x: 288
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66190e976540d6c42a12312ed38cde02
-      internalID: -668339121
+      spriteID: a99afcc3da2a21243893cca93e6e2eae
+      internalID: -390810797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: ForestBossIdle_4
       rect:
         serializedVersion: 2
-        x: 1672
+        x: 384
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588cdcefca289fb498b0e80499a8c54d
-      internalID: -1152519527
+      spriteID: 9d6361d65f9a2694788d536c325eca11
+      internalID: -1428955032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
+      name: ForestBossIdle_5
       rect:
         serializedVersion: 2
-        x: 2090
+        x: 480
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44b931b79e0d7f04cb1a4231140215e4
-      internalID: -2125458496
+      spriteID: 9bcc4bbbfaf2c6741a269f0f36e0a8f4
+      internalID: 167626980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
+      name: ForestBossIdle_6
       rect:
         serializedVersion: 2
-        x: 2508
+        x: 576
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bfc3339d67bbdc4e9fb1491038d1a47
-      internalID: 1939267921
+      spriteID: f1552be1315384b40b45dab1a12ce5e3
+      internalID: -149781782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
+      name: ForestBossIdle_7
       rect:
         serializedVersion: 2
-        x: 2926
+        x: 672
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ae5c8457248bd4d8c2ad54614d6552
-      internalID: -869751989
+      spriteID: 6a0cadc2e5aa7c946a5eb0d5e7e32a39
+      internalID: 2077116832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: ForestBossIdle_8
       rect:
         serializedVersion: 2
-        x: 3344
+        x: 768
         y: 0
-        width: 418
-        height: 270
+        width: 96
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,29 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f37dfd14dfd287b4e83bf702fc0cbe21
-      internalID: 1778735319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 3762
-        y: 0
-        width: 418
-        height: 270
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 29ab0e1d79c62934399e3211a666a8aa
-      internalID: 1583073320
+      spriteID: d79eca946d836124bba1db4df2038e1e
+      internalID: -1865139273
       vertices: []
       indices: 
       edges: []
@@ -317,16 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 111394044
-      Sprite-0002-Sheet_1: 1232875732
-      Sprite-0002-Sheet_2: 1311717628
-      Sprite-0002-Sheet_3: -668339121
-      Sprite-0002-Sheet_4: -1152519527
-      Sprite-0002-Sheet_5: -2125458496
-      Sprite-0002-Sheet_6: 1939267921
-      Sprite-0002-Sheet_7: -869751989
-      Sprite-0002-Sheet_8: 1778735319
-      Sprite-0002-Sheet_9: 1583073320
+      ForestBossIdle_0: 789943935
+      ForestBossIdle_1: -596435044
+      ForestBossIdle_2: -1036873777
+      ForestBossIdle_3: -390810797
+      ForestBossIdle_4: -1428955032
+      ForestBossIdle_5: 167626980
+      ForestBossIdle_6: -149781782
+      ForestBossIdle_7: 2077116832
+      ForestBossIdle_8: -1865139273
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

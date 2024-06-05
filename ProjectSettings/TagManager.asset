@@ -12,6 +12,7 @@ TagManager:
   - WindDoor
   - Battle
   - Body
+  - EnemyAtk
   layers:
   - Default
   - TransparentFX

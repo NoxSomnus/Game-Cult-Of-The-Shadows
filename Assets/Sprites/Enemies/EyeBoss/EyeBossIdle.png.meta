@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 432d9cc5dea56bd4c83cb19aee6d2e99
+guid: 75b1a65f8382f0440a64d8057affeae2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: EyeBossIdle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6332e06cbdb262e4e9ba0b4af47d6999
-      internalID: 111394044
+      spriteID: b8b62c923d3e2ae41980c9af6eb5621e
+      internalID: -1364213121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
+      name: EyeBossIdle_1
       rect:
         serializedVersion: 2
-        x: 418
+        x: 184
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e8243b1ec425b4691db2d51ec9d049
-      internalID: 1232875732
+      spriteID: 7d21a63af6397374b82dea053149d5d3
+      internalID: -463371232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
+      name: EyeBossIdle_2
       rect:
         serializedVersion: 2
-        x: 836
+        x: 368
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab78b463c1774e24f8a868d793ab90ad
-      internalID: 1311717628
+      spriteID: e604a6bd4446fb743be6289e41800f91
+      internalID: -1606828079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: EyeBossIdle_3
       rect:
         serializedVersion: 2
-        x: 1254
+        x: 552
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66190e976540d6c42a12312ed38cde02
-      internalID: -668339121
+      spriteID: ace69ec9e8b826e49bb85bfec605bb2e
+      internalID: 365081165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: EyeBossIdle_4
       rect:
         serializedVersion: 2
-        x: 1672
+        x: 736
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588cdcefca289fb498b0e80499a8c54d
-      internalID: -1152519527
+      spriteID: ee9110b15dcbfaf498670aefe3025bc4
+      internalID: -765993176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
+      name: EyeBossIdle_5
       rect:
         serializedVersion: 2
-        x: 2090
+        x: 920
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44b931b79e0d7f04cb1a4231140215e4
-      internalID: -2125458496
+      spriteID: 1180aeda70f140445976b3c4a0dae6ab
+      internalID: -666092335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
+      name: EyeBossIdle_6
       rect:
         serializedVersion: 2
-        x: 2508
+        x: 1104
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bfc3339d67bbdc4e9fb1491038d1a47
-      internalID: 1939267921
+      spriteID: f3b7e089a1eec08478f348a5bbb72184
+      internalID: 1858581201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
+      name: EyeBossIdle_7
       rect:
         serializedVersion: 2
-        x: 2926
+        x: 1288
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ae5c8457248bd4d8c2ad54614d6552
-      internalID: -869751989
+      spriteID: 43ff2451663a6784eb4721049a68e7f0
+      internalID: 1949513149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: EyeBossIdle_8
       rect:
         serializedVersion: 2
-        x: 3344
+        x: 1472
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f37dfd14dfd287b4e83bf702fc0cbe21
-      internalID: 1778735319
+      spriteID: 3d84bad2f31a21245b7a7a6550ea65cb
+      internalID: 336894396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
+      name: EyeBossIdle_9
       rect:
         serializedVersion: 2
-        x: 3762
+        x: 1656
         y: 0
-        width: 418
-        height: 270
+        width: 184
+        height: 276
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +300,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29ab0e1d79c62934399e3211a666a8aa
-      internalID: 1583073320
+      spriteID: 668d498ec0f6c7c4d8cd05332a6d3318
+      internalID: 2135703785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossIdle_10
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 0
+        width: 184
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3114534f2370a44a2c1fc075d488e1
+      internalID: 926693047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossIdle_11
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 0
+        width: 184
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb27f726fb4d56747b348f50660fd074
+      internalID: -2006555220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossIdle_12
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 184
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c6ce8f35f3cda49aee3f20f71afc41
+      internalID: -43565332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossIdle_13
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 0
+        width: 184
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c01f5e8188d3324bbeb0bd921a06556
+      internalID: 1489846599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossIdle_14
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 0
+        width: 184
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1817497a21f4a45972f52706ca00cd
+      internalID: -1263485302
       vertices: []
       indices: 
       edges: []
@@ -317,16 +422,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 111394044
-      Sprite-0002-Sheet_1: 1232875732
-      Sprite-0002-Sheet_2: 1311717628
-      Sprite-0002-Sheet_3: -668339121
-      Sprite-0002-Sheet_4: -1152519527
-      Sprite-0002-Sheet_5: -2125458496
-      Sprite-0002-Sheet_6: 1939267921
-      Sprite-0002-Sheet_7: -869751989
-      Sprite-0002-Sheet_8: 1778735319
-      Sprite-0002-Sheet_9: 1583073320
+      EyeBossIdle_0: -1364213121
+      EyeBossIdle_1: -463371232
+      EyeBossIdle_10: 926693047
+      EyeBossIdle_11: -2006555220
+      EyeBossIdle_12: -43565332
+      EyeBossIdle_13: 1489846599
+      EyeBossIdle_14: -1263485302
+      EyeBossIdle_2: -1606828079
+      EyeBossIdle_3: 365081165
+      EyeBossIdle_4: -765993176
+      EyeBossIdle_5: -666092335
+      EyeBossIdle_6: 1858581201
+      EyeBossIdle_7: 1949513149
+      EyeBossIdle_8: 336894396
+      EyeBossIdle_9: 2135703785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

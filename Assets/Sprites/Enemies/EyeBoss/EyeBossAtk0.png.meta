@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 432d9cc5dea56bd4c83cb19aee6d2e99
+guid: 68bde9884fc85d54387db3b051ff9efd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: EyeBossAtk0_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6332e06cbdb262e4e9ba0b4af47d6999
-      internalID: 111394044
+      spriteID: 75b4bfec7a7bcae4b815ce72975acc5c
+      internalID: -1179186798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
+      name: EyeBossAtk0_1
       rect:
         serializedVersion: 2
-        x: 418
+        x: 352
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e8243b1ec425b4691db2d51ec9d049
-      internalID: 1232875732
+      spriteID: aa0bcaf50b75258448372e6fa62fc7bc
+      internalID: 1631166716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
+      name: EyeBossAtk0_2
       rect:
         serializedVersion: 2
-        x: 836
+        x: 704
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab78b463c1774e24f8a868d793ab90ad
-      internalID: 1311717628
+      spriteID: a3650c4cfa02c0f42819553169b79ccd
+      internalID: 63780969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: EyeBossAtk0_3
       rect:
         serializedVersion: 2
-        x: 1254
+        x: 1056
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66190e976540d6c42a12312ed38cde02
-      internalID: -668339121
+      spriteID: edfab76161a74a749a3fd10732236b5d
+      internalID: -713022778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: EyeBossAtk0_4
       rect:
         serializedVersion: 2
-        x: 1672
+        x: 1408
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588cdcefca289fb498b0e80499a8c54d
-      internalID: -1152519527
+      spriteID: 8e7764cc14133db4280a438a58bf123a
+      internalID: 2037196174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
+      name: EyeBossAtk0_5
       rect:
         serializedVersion: 2
-        x: 2090
+        x: 1760
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44b931b79e0d7f04cb1a4231140215e4
-      internalID: -2125458496
+      spriteID: ef584c3541736ac4891957a82e7a68fd
+      internalID: 1900000584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
+      name: EyeBossAtk0_6
       rect:
         serializedVersion: 2
-        x: 2508
+        x: 2112
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bfc3339d67bbdc4e9fb1491038d1a47
-      internalID: 1939267921
+      spriteID: a48cfa79a65e4864e9c860543c963492
+      internalID: 743803101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
+      name: EyeBossAtk0_7
       rect:
         serializedVersion: 2
-        x: 2926
+        x: 2464
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ae5c8457248bd4d8c2ad54614d6552
-      internalID: -869751989
+      spriteID: 0c4988bdc734eef46a399a16809ad2c8
+      internalID: -534033878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: EyeBossAtk0_8
       rect:
         serializedVersion: 2
-        x: 3344
+        x: 2816
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f37dfd14dfd287b4e83bf702fc0cbe21
-      internalID: 1778735319
+      spriteID: 4007def447ee322458cd760ab94a24dd
+      internalID: 875603994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
+      name: EyeBossAtk0_9
       rect:
         serializedVersion: 2
-        x: 3762
+        x: 3168
         y: 0
-        width: 418
-        height: 270
+        width: 352
+        height: 352
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +300,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29ab0e1d79c62934399e3211a666a8aa
-      internalID: 1583073320
+      spriteID: 044ffbf5dd1bd2e44a02a2a503e87ba2
+      internalID: 394919305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossAtk0_10
+      rect:
+        serializedVersion: 2
+        x: 3520
+        y: 0
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96dbe023032b2c6478e8bebff8bd213f
+      internalID: -1225980703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossAtk0_11
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 0
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c84f7f548ebfaa47a809bb14ae7ae51
+      internalID: 1609358715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossAtk0_12
+      rect:
+        serializedVersion: 2
+        x: 4224
+        y: 0
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab38369fd649c3347b9c53a52f7a193a
+      internalID: 2029024166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossAtk0_13
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 0
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c90710fd937784887c5152bc4e2ea0
+      internalID: -921611102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossAtk0_14
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 0
+        width: 352
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbb96d27e68ad1489102748df6a16c1
+      internalID: 302238611
       vertices: []
       indices: 
       edges: []
@@ -317,16 +422,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 111394044
-      Sprite-0002-Sheet_1: 1232875732
-      Sprite-0002-Sheet_2: 1311717628
-      Sprite-0002-Sheet_3: -668339121
-      Sprite-0002-Sheet_4: -1152519527
-      Sprite-0002-Sheet_5: -2125458496
-      Sprite-0002-Sheet_6: 1939267921
-      Sprite-0002-Sheet_7: -869751989
-      Sprite-0002-Sheet_8: 1778735319
-      Sprite-0002-Sheet_9: 1583073320
+      EyeBossAtk0_0: -1179186798
+      EyeBossAtk0_1: 1631166716
+      EyeBossAtk0_10: -1225980703
+      EyeBossAtk0_11: 1609358715
+      EyeBossAtk0_12: 2029024166
+      EyeBossAtk0_13: -921611102
+      EyeBossAtk0_14: 302238611
+      EyeBossAtk0_2: 63780969
+      EyeBossAtk0_3: -713022778
+      EyeBossAtk0_4: 2037196174
+      EyeBossAtk0_5: 1900000584
+      EyeBossAtk0_6: 743803101
+      EyeBossAtk0_7: -534033878
+      EyeBossAtk0_8: 875603994
+      EyeBossAtk0_9: 394919305
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

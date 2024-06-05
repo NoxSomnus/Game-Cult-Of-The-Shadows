@@ -48,16 +48,16 @@ public class Parameters : MonoBehaviour
         }
     }
 
-    public void ShieldHit(int dmg) 
+    public void ShieldHit(int dmg)
     {
         Stamina -= dmg;
         if (Stamina <= 0)
         {
             Stamina = 0;
-            playerMovement.animator.SetBool("ShieldBroken",true);
+            playerMovement.animator.SetBool("ShieldBroken", true);
             StartCoroutine(RestoreShield());
         }
-        else 
+        else
         {
             playerMovement.animator.SetTrigger("ShieldHit");
         }
@@ -79,13 +79,27 @@ public class Parameters : MonoBehaviour
         if (Stamina > 30f) Stamina = 30;
     }
 
+    private void SetLimitsInVariables()
+    {
+        if (soul < 0)
+        {
+            soul = 0;
+        }
+
+        if (soul >= 100)
+            soul = 100;
+
+        if (health > 100)
+            health = 100;
+    }
+
     private void FixedUpdate()
     {
-        if(!playerMovement.canShield) 
+        if (!playerMovement.canShield)
         {
             Stamina += 3f * Time.fixedDeltaTime;
             playerMovement.animator.SetBool("ShieldBroken", false);
         }
-
+        SetLimitsInVariables();
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 432d9cc5dea56bd4c83cb19aee6d2e99
+guid: 5e43c9b04e2c19f4ca4f8076d41819be
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 25
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_0
+      name: EyeBossCastAtk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6332e06cbdb262e4e9ba0b4af47d6999
-      internalID: 111394044
+      spriteID: d8e1af0f92b9ed245874645c77bca8dd
+      internalID: 1003727542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_1
+      name: EyeBossCastAtk_1
       rect:
         serializedVersion: 2
-        x: 418
+        x: 216
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e8243b1ec425b4691db2d51ec9d049
-      internalID: 1232875732
+      spriteID: d90cd0bf9884e804f856c6b9fd7daf91
+      internalID: 83808748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_2
+      name: EyeBossCastAtk_2
       rect:
         serializedVersion: 2
-        x: 836
+        x: 432
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab78b463c1774e24f8a868d793ab90ad
-      internalID: 1311717628
+      spriteID: bea2868520d9bfb4b9a872970b4ce757
+      internalID: -1809170214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_3
+      name: EyeBossCastAtk_3
       rect:
         serializedVersion: 2
-        x: 1254
+        x: 648
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66190e976540d6c42a12312ed38cde02
-      internalID: -668339121
+      spriteID: 7b5e1c4dee86fb44e8b5e49af3a9b905
+      internalID: -22938980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_4
+      name: EyeBossCastAtk_4
       rect:
         serializedVersion: 2
-        x: 1672
+        x: 864
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588cdcefca289fb498b0e80499a8c54d
-      internalID: -1152519527
+      spriteID: ee9e965a7fd8bcf44bf12d7cd8ede55e
+      internalID: 880308360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_5
+      name: EyeBossCastAtk_5
       rect:
         serializedVersion: 2
-        x: 2090
+        x: 1080
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44b931b79e0d7f04cb1a4231140215e4
-      internalID: -2125458496
+      spriteID: 5bc2525988c0e274b96b19b9ffef832a
+      internalID: -1162589927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_6
+      name: EyeBossCastAtk_6
       rect:
         serializedVersion: 2
-        x: 2508
+        x: 1296
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bfc3339d67bbdc4e9fb1491038d1a47
-      internalID: 1939267921
+      spriteID: 9b7f6f05dd73df74a8ac4884ff2bc3f1
+      internalID: 629354453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_7
+      name: EyeBossCastAtk_7
       rect:
         serializedVersion: 2
-        x: 2926
+        x: 1512
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ae5c8457248bd4d8c2ad54614d6552
-      internalID: -869751989
+      spriteID: 2fb2f3c50e4621d41a17f84c687a3bbb
+      internalID: 2118152993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_8
+      name: EyeBossCastAtk_8
       rect:
         serializedVersion: 2
-        x: 3344
+        x: 1728
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f37dfd14dfd287b4e83bf702fc0cbe21
-      internalID: 1778735319
+      spriteID: bb994acff413c04408c65c458bbac77c
+      internalID: -1589742840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sprite-0002-Sheet_9
+      name: EyeBossCastAtk_9
       rect:
         serializedVersion: 2
-        x: 3762
+        x: 1944
         y: 0
-        width: 418
-        height: 270
+        width: 216
+        height: 268
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,8 +300,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29ab0e1d79c62934399e3211a666a8aa
-      internalID: 1583073320
+      spriteID: 8f04bb5fef4411c4a8a19a8a04674a8f
+      internalID: -466431980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossCastAtk_10
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 216
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcb354abec4391488a5dca9ab3fb307
+      internalID: -837968655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossCastAtk_11
+      rect:
+        serializedVersion: 2
+        x: 2376
+        y: 0
+        width: 216
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea526adf9e46f44cb4b842b01fbf191
+      internalID: -812307857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossCastAtk_12
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 0
+        width: 216
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125a100349d8ca047a833fddd01a7ac3
+      internalID: -739105705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossCastAtk_13
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 0
+        width: 216
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e0060f42c1b5942b6a22a50f3ca1c0
+      internalID: -2002682360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeBossCastAtk_14
+      rect:
+        serializedVersion: 2
+        x: 3024
+        y: 0
+        width: 216
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfd04a0a3ebe604b8bc9ed6b6e7fd9c
+      internalID: -1538039074
       vertices: []
       indices: 
       edges: []
@@ -317,16 +422,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite-0002-Sheet_0: 111394044
-      Sprite-0002-Sheet_1: 1232875732
-      Sprite-0002-Sheet_2: 1311717628
-      Sprite-0002-Sheet_3: -668339121
-      Sprite-0002-Sheet_4: -1152519527
-      Sprite-0002-Sheet_5: -2125458496
-      Sprite-0002-Sheet_6: 1939267921
-      Sprite-0002-Sheet_7: -869751989
-      Sprite-0002-Sheet_8: 1778735319
-      Sprite-0002-Sheet_9: 1583073320
+      EyeBossCastAtk_0: 1003727542
+      EyeBossCastAtk_1: 83808748
+      EyeBossCastAtk_10: -837968655
+      EyeBossCastAtk_11: -812307857
+      EyeBossCastAtk_12: -739105705
+      EyeBossCastAtk_13: -2002682360
+      EyeBossCastAtk_14: -1538039074
+      EyeBossCastAtk_2: -1809170214
+      EyeBossCastAtk_3: -22938980
+      EyeBossCastAtk_4: 880308360
+      EyeBossCastAtk_5: -1162589927
+      EyeBossCastAtk_6: 629354453
+      EyeBossCastAtk_7: 2118152993
+      EyeBossCastAtk_8: -1589742840
+      EyeBossCastAtk_9: -466431980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
