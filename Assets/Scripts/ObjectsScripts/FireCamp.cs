@@ -11,6 +11,8 @@ public class FireCamp : MonoBehaviour
     [SerializeField] private GameObject playerMovement;
     [SerializeField] private GameObject pressE;
 
+    
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -19,6 +21,8 @@ public class FireCamp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
+
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !isResting)
         {
             RestAndSave();
@@ -28,6 +32,9 @@ public class FireCamp : MonoBehaviour
             StartCoroutine(Wait());
 
         }
+
+        
+
     }
     private void RestAndSave()
     {
@@ -44,6 +51,8 @@ public class FireCamp : MonoBehaviour
         yield return new WaitForSeconds(1f); // Espera a que termine la animación de ataque
         playerMovement.GetComponent<Movement>().enabled = true;
         isResting = false;
+        pressE.SetActive(false);
+        isPlayerInRange = false;
 
     }
 
