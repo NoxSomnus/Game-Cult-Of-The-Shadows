@@ -8,7 +8,7 @@ public class ShieldReceiveDmg : MonoBehaviour
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Enemy")
+        if (collision.tag == "EnemyAtk")
         {
             EnemyAtkPlayer enemyDmg = collision.GetComponent<EnemyAtkPlayer>();
                 playerStats.ShieldHit(enemyDmg.dmg);

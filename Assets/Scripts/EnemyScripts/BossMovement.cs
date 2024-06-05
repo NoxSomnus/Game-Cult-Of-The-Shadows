@@ -38,13 +38,13 @@ public class BossMovement : MonoBehaviour
     public void Search()
     {
 
-        ani.SetBool("Slash", false);
+        ani.SetTrigger("Slash");
         
             // range = Vector3.Distance(target.transform.position, transform.position);
             range = target.transform.position.x - transform.position.x;
             if (follow && HP.Health > 0)
             {
-                HP.bossHealthBar.gameObject.SetActive(true);       
+                //HP.bossHealthBar.gameObject.SetActive(true);       
 
             // Mover solo en el eje X
             Vector3 targetPosition = new Vector3(target.transform.position.x, transform.position.y, transform.position.z);
@@ -63,28 +63,28 @@ public class BossMovement : MonoBehaviour
             }
             else
             {
-            HP.bossHealthBar.gameObject.SetActive(false);
+            //HP.bossHealthBar.gameObject.SetActive(false);
             }
         if (Mathf.Abs(range) <= 1f && Time.time > espera + 4f)
         {
             espera = Time.time;
-            ani.SetBool("Slash", true);
+            ani.SetTrigger("Slash");
             //StartCoroutine(wait());
 
         }
         else
         {
-            ani.SetBool("Slash", false);
+            ani.SetTrigger("Slash");
         }
 
-            if (Mathf.Abs(range) < 7f)
+            if (Mathf.Abs(range) < 20f)
             {
                 follow = true;
             }
             else
             {
                 follow = false;
-                ani.SetBool("Slash", false);
+                ani.SetTrigger("Slash");
             }
 
     }
