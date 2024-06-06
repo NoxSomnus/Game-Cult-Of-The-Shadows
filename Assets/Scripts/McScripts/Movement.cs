@@ -39,6 +39,10 @@ public class Movement : MonoBehaviour
 
     Rigidbody2D rb2d;
     // Start is called before the first frame update
+
+    //cosas de la camar
+    public float _fallSpeedYDampingChangeThreshold;
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -50,6 +54,10 @@ public class Movement : MonoBehaviour
         canMove = true;
         playerStats = GetComponent<Parameters>();
         rb2d = GetComponent<Rigidbody2D>();
+
+        //camara
+        _fallSpeedYDampingChangeThreshold = CameraManager.instance._fallSpeedYDampingChangeThreshold;
+
     }
     private void FixedUpdate()
     {
@@ -116,6 +124,22 @@ public class Movement : MonoBehaviour
         {
             StartCoroutine(Dash());
             animator.SetTrigger("Dash");
+
+        }
+
+        // camara
+        //if we are falling past a certain speed threshold
+        if (rb2d.velocity.y < _fallSpeedYDampingChangeThreshold && !CameraManager.instance.IsLerpingYDamping && !CameraManager.instance.LerpedFromPlayerfalling)
+        {
+            CameraManager.instance.LerpYDamping(true);
+        }
+        //if we are standing still or moving up
+        if (rb2d.velocity.y >= 0f && !CameraManager.instance.IsLerpingYDamping && CameraManager.instance.LerpedFromPlayerfalling)
+        {
+            //reset so it can be called again
+            CameraManager.instance.LerpedFromPlayerfalling = false;
+
+            CameraManager.instance.LerpYDamping(false);
 
         }
 

@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
     public SoulBar furyBar;
     public HealthBar healthBar;
 
+
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -46,6 +47,8 @@ public class PlayerMovement : MonoBehaviour
         //NUEVO, ESTE PARAMETRO ES EL MAX DEL SLIDER DE LA FURIA
         furyBar.SetMaxFury(100f);
         healthBar.SetMaxHealth(health);
+
+        
     }
 
 
@@ -122,6 +125,7 @@ public class PlayerMovement : MonoBehaviour
 			crouch = false;
 		}*/
 
+       
 
     }
 
