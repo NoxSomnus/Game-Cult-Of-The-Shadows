@@ -47,18 +47,36 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: WhiteBG
+    uniqueID: 1936436983
+    locked: 0
+  - name: BG3
+    uniqueID: 4176532315
+    locked: 0
+  - name: BG2
+    uniqueID: 3571507587
+    locked: 0
   - name: back
     uniqueID: 3071887305
+    locked: 0
+  - name: BG1
+    uniqueID: 2736195523
     locked: 0
   - name: particulas 2
     uniqueID: 3440762529
     locked: 0
-  - name: back1
-    uniqueID: 3888547163
+  - name: PlayerB
+    uniqueID: 3104641185
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: PlayerF
+    uniqueID: 3252394403
+    locked: 0
   - name: Particulas1
     uniqueID: 3642419069
+    locked: 0
+  - name: back1
+    uniqueID: 3888547163
     locked: 0
