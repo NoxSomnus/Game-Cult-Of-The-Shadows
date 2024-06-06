@@ -32,7 +32,6 @@ public class FireCamp : MonoBehaviour
             StartCoroutine(Wait());
 
         }
-
         
 
     }
@@ -64,5 +63,16 @@ public class FireCamp : MonoBehaviour
             isPlayerInRange = true;
 
         }
+        
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            pressE.SetActive(false);
+            isPlayerInRange=false;
+        }
+            
     }
 }
