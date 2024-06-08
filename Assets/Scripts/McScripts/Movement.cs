@@ -222,8 +222,7 @@ public class Movement : MonoBehaviour
         canMove = false;
         combo = 0;
         rb2d.velocity = new Vector3(dashSpeed * transform.localScale.x, 0, 0);
-        gameObject.tag = "Enemy";
-        gameObject.layer = 6;
+        gameObject.layer = 6; //Enemy
         yield return new WaitForSeconds(dashTime);
 
         canMove = true;
