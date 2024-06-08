@@ -1868,7 +1868,7 @@ PrefabInstance:
       objectReference: {fileID: 153752338}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
       propertyPath: dialogueLines.Array.size
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
       propertyPath: dialogueLines.Array.data[0]
@@ -1880,39 +1880,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
       propertyPath: dialogueLines.Array.data[2]
-      value: "Luis Miguel: \xA1Menos mal que las he encontrado! \xA1Hay monstruo
+      value: "Luis Miguel: \xA1Menos mal que las he encontrado! \xA1Hay un monstruo
         gigante por el bosque!"
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
       propertyPath: dialogueLines.Array.data[3]
+      value: 'Luis Miguel: Debo admitir que me puedo defender de las criaturas hostiles
+        de por aqui...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
+      propertyPath: dialogueLines.Array.data[4]
+      value: 'Luis Miguel: Pero esa cosa me agarro desprevenido.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
+      propertyPath: dialogueLines.Array.data[5]
       value: 'Luis Miguel: Tuve mucha suerte de escapar de el. Se veia muy erratico
         y para nada pasivo.'
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
-      propertyPath: dialogueLines.Array.data[4]
+      propertyPath: dialogueLines.Array.data[6]
       value: "Aurora: \xBFFue acaso un oso? Tuvo suerte de escapar de el."
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
-      propertyPath: dialogueLines.Array.data[5]
+      propertyPath: dialogueLines.Array.data[7]
       value: "Luis Miguel: \xA1No! Para nada, era como una roca gigante cubierta
         de hierba con un cetro y ojos rojos."
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
-      propertyPath: dialogueLines.Array.data[6]
+      propertyPath: dialogueLines.Array.data[8]
       value: "Aurora: \xBFUn cetro y ojos rojos? Eso parece bastante raro."
       objectReference: {fileID: 0}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
-      propertyPath: dialogueLines.Array.data[7]
-      value: 'Joanne: No hay luz del dia y ahora una cosa que no es un oso.. Debemos
-        acabar con eso antes que lastime a alguien en la oscuridad.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
-      propertyPath: dialogueLines.Array.data[8]
-      value: 'Aurora: Escoltare al mercader a la ciudad. En cuanto pueda usare mi
-        magia para encontrarte.'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
       propertyPath: dialogueLines.Array.data[9]
+      value: 'Joanne: No hay luz del dia y ahora hay una cosa peligrosa por ahi...
+        Debemos acabar con eso antes que lastime a alguien en la oscuridad.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
+      propertyPath: dialogueLines.Array.data[10]
+      value: 'Aurora: Escoltare al mercader a la ciudad. En cuanto pueda usare mi
+        magia para encontrarte o pedirte ayuda.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
+      propertyPath: dialogueLines.Array.data[11]
       value: 'Aurora: Ten cuidado.'
       objectReference: {fileID: 0}
     - target: {fileID: 6645398214634447498, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
