@@ -5,16 +5,17 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditor.Tilemaps;
 using UnityEngine.Rendering.Universal;
+using TMPro;
 
 public class CameraControlTRIGGER : MonoBehaviour
 {
     public CustomInspectorObjects customInspectorObjects;
 
-    public Collider2D collider;
+    public Collider2D _coll;
 
     private void Start()
     {
-        collider= GetComponent<Collider2D>();
+        _coll= GetComponent<Collider2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -25,7 +26,6 @@ public class CameraControlTRIGGER : MonoBehaviour
             {
                 //pan the camera
                 CameraManager.instance.PanCameraOnContact(customInspectorObjects.panDistance, customInspectorObjects.panTime, customInspectorObjects.panDirection, false);
-                Debug.Log("entrenen lazona");
             }
         }
     }
@@ -33,11 +33,18 @@ public class CameraControlTRIGGER : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+
+            Vector2 exitDirection = (collision.transform.position - _coll.bounds.center).normalized;
+
+            if (customInspectorObjects.swapCameras && customInspectorObjects.CameraOnleft != null && customInspectorObjects.cameraOnRight != null)
+            {
+                //swap cameras
+                CameraManager.instance.SwapCamera(customInspectorObjects.CameraOnleft, customInspectorObjects.cameraOnRight, exitDirection);
+            }
             if (customInspectorObjects.panCameraOnContact)
             {
-                //pan the camera
+                //pan the camera back to the starting position
                 CameraManager.instance.PanCameraOnContact(customInspectorObjects.panDistance, customInspectorObjects.panTime, customInspectorObjects.panDirection, true);
-                Debug.Log("sali de la zona");
             }
         }
     }

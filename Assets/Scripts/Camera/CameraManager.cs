@@ -177,6 +177,26 @@ public class CameraManager : MonoBehaviour
 
             //desactivate the old camera 
             cameraFromLeft.enabled = false;
+
+            //set the new camera as the current camera
+            _currentCamera = cameraFromRight;
+
+            //update our camera as the current camera
+            _framingTransposer = _currentCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
+        }
+        else if(_currentCamera == cameraFromRight && triggerExitDirection.x < 0f)
+        {
+            //activate the new camera
+            cameraFromLeft.enabled = true;
+
+            //desactivate the old camera 
+            cameraFromRight.enabled = false;
+
+            //set the new camera as the current camera
+            _currentCamera = cameraFromLeft;
+
+            //update our camera as the current camera
+            _framingTransposer = _currentCamera.GetCinemachineComponent<CinemachineFramingTransposer>();
         }
     }
     #endregion
