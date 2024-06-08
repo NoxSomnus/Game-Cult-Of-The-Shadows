@@ -141,7 +141,7 @@ public class CameraManager : MonoBehaviour
 
             startingPos = _startingTrackedObjectOffset;
 
-            endPos = startingPos;
+            endPos += startingPos;
         }
 
         //handle the direction settings whe moving back to the starting position
@@ -161,6 +161,22 @@ public class CameraManager : MonoBehaviour
             _framingTransposer.m_TrackedObjectOffset = panLerp;
 
             yield return null;
+        }
+    }
+    #endregion
+
+    #region Swap Cameras
+
+    public void SwapCamera(CinemachineVirtualCamera cameraFromLeft, CinemachineVirtualCamera cameraFromRight, Vector2 triggerExitDirection)
+    {
+        // if the current camrea is the camera on the left and our trigger exit direction was on the right
+        if (_currentCamera == cameraFromLeft && triggerExitDirection.x > 0f)
+        {
+            //activate the new camera
+            cameraFromRight.enabled = true;
+
+            //desactivate the old camera 
+            cameraFromLeft.enabled = false;
         }
     }
     #endregion

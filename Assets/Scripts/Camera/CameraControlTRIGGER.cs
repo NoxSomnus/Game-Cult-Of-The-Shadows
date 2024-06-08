@@ -10,7 +10,7 @@ public class CameraControlTRIGGER : MonoBehaviour
 {
     public CustomInspectorObjects customInspectorObjects;
 
-    private Collider2D collider;
+    public Collider2D collider;
 
     private void Start()
     {
@@ -25,6 +25,7 @@ public class CameraControlTRIGGER : MonoBehaviour
             {
                 //pan the camera
                 CameraManager.instance.PanCameraOnContact(customInspectorObjects.panDistance, customInspectorObjects.panTime, customInspectorObjects.panDirection, false);
+                Debug.Log("entrenen lazona");
             }
         }
     }
@@ -35,8 +36,8 @@ public class CameraControlTRIGGER : MonoBehaviour
             if (customInspectorObjects.panCameraOnContact)
             {
                 //pan the camera
-                CameraManager.instance.PanCameraOnContact(customInspectorObjects.panDistance, customInspectorObjects.panTime, customInspectorObjects.panDirection, false);
-
+                CameraManager.instance.PanCameraOnContact(customInspectorObjects.panDistance, customInspectorObjects.panTime, customInspectorObjects.panDirection, true);
+                Debug.Log("sali de la zona");
             }
         }
     }

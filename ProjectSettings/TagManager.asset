@@ -13,6 +13,7 @@ TagManager:
   - Battle
   - Body
   - EnemyAtk
+  - CameraTrigger
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Weapon
   - Wall
   - Body
-  - 
+  - camera
   - 
   - 
   - 
@@ -70,6 +71,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: player particles
+    uniqueID: 1141527989
     locked: 0
   - name: PlayerF
     uniqueID: 3252394403

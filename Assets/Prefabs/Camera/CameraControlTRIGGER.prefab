@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 8524970440362261794}
   - component: {fileID: 1138436648964332016}
   - component: {fileID: 4376140170082435220}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: CameraControlTRIGGER
-  m_TagString: Untagged
+  m_TagString: CameraTrigger
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92,9 +92,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   customInspectorObjects:
     swapCameras: 0
-    panCameraOnContact: 0
+    panCameraOnContact: 1
     CameraOnleft: {fileID: 0}
     cameraOnRight: {fileID: 0}
-    panDirection: 0
+    panDirection: 1
     panDistance: 3
     panTime: 0.35
