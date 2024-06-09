@@ -30,7 +30,7 @@ public class TransitionManager : MonoBehaviour
 
     [SerializeField] public float time;
     public const string SCENE_NAME_MAIN_MENU = "MainMenu 1";
-    public const string SCENE_NAME_GAME = "cocinando";
+    public const string SCENE_NAME_GAME = "GameTest";
     public Slider progressSlider;
     public TextMeshProUGUI progresslabel;
     public TextMeshProUGUI transitionInformationLabel;

@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Over.unity
     guid: da7a1f6f12ffcf747bb40206bd702075
   - enabled: 1
-    path: Assets/Scenes/MainMenu 1.unity
+    path: Assets/Scenes/Testing/MainMenu 1.unity
     guid: cf6d252641ed5454bb3ac0ea4475daea
   - enabled: 1
     path: Assets/Scenes/cocinando.unity
@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TransitionManager.unity
     guid: 68c41d4573bac3248ac3ba2c611d76d5
   - enabled: 1
-    path: Assets/Scenes/LoadTest.unity
+    path: Assets/Scenes/Testing/LoadTest.unity
     guid: 82412123125b6e847a9605b3dadb7829
+  - enabled: 1
+    path: Assets/Scenes/Testing/GameTest.unity
+    guid: 2833e91127167a7488b976e50d5837ce
   m_configObjects: {}
