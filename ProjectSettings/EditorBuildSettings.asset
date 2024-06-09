@@ -5,13 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 1d9f4fa55419d3d43b8924035188addc
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/OakWood.unity
     guid: 775ef3d6d5d91904e906a2dd1d947c6a
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: da7a1f6f12ffcf747bb40206bd702075
+  - enabled: 1
+    path: Assets/Scenes/MainMenu 1.unity
+    guid: cf6d252641ed5454bb3ac0ea4475daea
+  - enabled: 1
+    path: Assets/Scenes/cocinando.unity
+    guid: f795a9faa04caba4e8666de5392ad11a
+  - enabled: 1
+    path: Assets/Scenes/Demo.unity
+    guid: 1860b8ec09491fe488ecff8a76b0d0d2
+  - enabled: 1
+    path: Assets/Scenes/TransitionManager.unity
+    guid: 68c41d4573bac3248ac3ba2c611d76d5
+  - enabled: 1
+    path: Assets/Scenes/LoadTest.unity
+    guid: 82412123125b6e847a9605b3dadb7829
   m_configObjects: {}
