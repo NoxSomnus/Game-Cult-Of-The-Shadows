@@ -29,7 +29,7 @@ public class TransitionManager : MonoBehaviour
     }
 
     [SerializeField] public float time;
-    public const string SCENE_NAME_MAIN_MENU = "MainMenu 1";
+    public const string SCENE_NAME_MAIN_MENU = "LoadTest";
     public const string SCENE_NAME_GAME = "GameTest";
     public Slider progressSlider;
     public TextMeshProUGUI progresslabel;
@@ -41,7 +41,7 @@ public class TransitionManager : MonoBehaviour
     private int HashShowAnim = Animator.StringToHash("Show");
 
 
-    private void Awake()
+    public void Update()
     {
         if (instance == null)
         {
@@ -65,11 +65,13 @@ public class TransitionManager : MonoBehaviour
 
     public void LoadScene(string sceneName)
     {
+        Debug.Log("Entre");
         StartCoroutine(LoadCoroutine(sceneName));
     }
 
     IEnumerator LoadCoroutine(string sceneName)
     {
+        Debug.Log("Fifita");
         m_Anim.Play("Show");
 
         if (transitionInformationLabel != null)

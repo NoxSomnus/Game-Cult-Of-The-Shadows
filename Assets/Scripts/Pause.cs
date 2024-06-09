@@ -22,7 +22,8 @@ public class Pause : MonoBehaviour
 
     public void mainmenu()
     {
-        SceneManager.LoadScene("LoadTest");
+        TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
+        Time.timeScale = 1;
     }
   
     private void Update ()
