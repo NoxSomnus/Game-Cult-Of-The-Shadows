@@ -13,7 +13,7 @@ public class SpawnAtks : MonoBehaviour
     private Enemy enemyStats;
     private int atk;
     private bool isWaiting;
-    [SerializeField] private Animator animator;
+    [SerializeField] public Animator animator;
     private PatrolAi patrolAi;
     // Start is called before the first frame update
     void Start()

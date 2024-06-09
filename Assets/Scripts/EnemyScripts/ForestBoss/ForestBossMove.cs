@@ -10,7 +10,7 @@ public class ForestBossMove : MonoBehaviour
     [SerializeField] private bool canMove;
     [SerializeField] private float lookAt;
     [SerializeField] private float distance;
-    private Animator animator;
+    public Animator animator;
     private bool canAttack;
     public Enemy enemyStats;
     [SerializeField] private bool changeLook;
@@ -24,6 +24,11 @@ public class ForestBossMove : MonoBehaviour
         canMove = true;
         changeLook = true;
         canAttack = true;
+    }
+
+    public void SetAnimator() 
+    {
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
