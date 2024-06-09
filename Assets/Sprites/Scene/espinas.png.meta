@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 426abf363eb5ba648b907eb025860c55
+guid: 2ef4c47d7b60bdf459832a0aefe85443
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 77, z: 26, w: 39}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -69,12 +69,12 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 1
+    crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -97,43 +97,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: undefined - Imgur_0
+      name: espinas_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 254
-        height: 256
+        x: 39
+        y: 86
+        width: 1015
+        height: 247
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca31ea2cb29abc04ea8fdb420ff862b3
-      internalID: -1228218447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: undefined - Imgur_1
-      rect:
-        serializedVersion: 2
-        x: 254
-        y: 0
-        width: 258
-        height: 256
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e69f251c2ad12a4c8bbe3523f37ce86
-      internalID: -524146707
+      spriteID: e9513af9f57ec814197575d0f7e51f40
+      internalID: -240952325
       vertices: []
       indices: 
       edges: []
@@ -142,15 +121,17 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      undefined - Imgur_0: -1228218447
-      undefined - Imgur_1: -524146707
+      espinas_0: -1461181515
+      espinas_1: -240952325
+      espinas_2: 927456350
+      espinas_3: 44688019
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

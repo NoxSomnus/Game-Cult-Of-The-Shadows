@@ -47,7 +47,7 @@ public class FireCamp : MonoBehaviour
     private IEnumerator Wait()
     {
         playerMovement.GetComponent<Animator>().SetBool("Rest", false);
-        yield return new WaitForSeconds(1f); // Espera a que termine la animación de ataque
+        yield return new WaitForSeconds(1.7f); // Espera a que termine la animación de ataque
         playerMovement.GetComponent<Movement>().enabled = true;
         isResting = false;
         pressE.SetActive(false);

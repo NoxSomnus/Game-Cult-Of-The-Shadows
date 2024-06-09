@@ -1,0 +1,2910 @@
+fileFormatVersion: 2
+guid: 1202892eac36bdd419fd3ce27ecccab8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: f6_icehornet_0
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 950
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e7d0465cbc1bb4e89fc353c6b6b295
+      internalID: 728519551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_1
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 945
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e11c3057db4844ab89eae906eef6fe
+      internalID: 221363008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 950
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c82bbc0d5bd3349af084ad89fa49fc
+      internalID: -118559053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 942
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca78007aba5ce141a037810cfa02152
+      internalID: 2023041815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_6
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 974
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bfcf302b2ab99747849b05bbb391fe6
+      internalID: 1691313158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_7
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 951
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da26f9ab0cce3d14681e53a579972807
+      internalID: -1837819328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_8
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 945
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320b4bb10c5bc604a8087891f6621758
+      internalID: 41405042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_9
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 969
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505f29f45c6a7d0489278dd966d34e94
+      internalID: -1788178982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_10
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 941
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70038555a2b241149a9e4dd73c81bd15
+      internalID: -1423882553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 887
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd77a81a0b5c98543916f3e5531fb41b
+      internalID: -138073402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_12
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 868
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ec7be10e6d15e42980dfba538b6506
+      internalID: 237431400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_13
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 873
+        width: 46
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb46ccf32e9afd498287bb586790740
+      internalID: 1809109551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 848
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f16fcffa477ae4aafb885393aa54b7
+      internalID: -1081516613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_15
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 846
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44aabe269e349c54cbbc7277c74e37c2
+      internalID: -972446211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_16
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 842
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94243869c99f4474a81dcaaf7e3def01
+      internalID: -482996108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_17
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 856
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9733c44468690e4680350d35d846ec9
+      internalID: 1781361561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_18
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 851
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb651279a04900c48b056c0c4041e07c
+      internalID: -1378214864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_19
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 862
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c4f156cc56a8e4c9b4463cddd12bf9
+      internalID: 1647432101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_20
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 845
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c11b155d46f32146a91a3ebdc4d90a8
+      internalID: -1362044274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 840
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aca1789c545c0f43922cbe3973c4910
+      internalID: 1192538282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 747
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53d845f2bcaf3f4d96b927ba616a622
+      internalID: -1532319104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_23
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 748
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a372e9b1b29b7b046bca775b9838f620
+      internalID: 571982750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_24
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 766
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9aaf9075d18174686235d3f3ea3ca4
+      internalID: -1657106684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_25
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 772
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ce953b2a42a704986a714c4238da82
+      internalID: -1833616603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_26
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 780
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf94a93bf85bda45a207e81011cda1f
+      internalID: -291960676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 767
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6d5b8004da56f4f84b6847a829b3e8
+      internalID: 7903422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_28
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 742
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3c0b62e31b6914cb456caf48694c00
+      internalID: 891917249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_29
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 758
+        width: 50
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd62dd53abf70774b8504f999b62057e
+      internalID: -1215825112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_30
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 752
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c507e353ddd497e4ea3ef51a8c48c15f
+      internalID: -1858633665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_31
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 765
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba9fa4d635edd94e9ff111e53e7b818
+      internalID: 2012088750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_32
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 746
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0721e2c996ea08047850ed3b3d3dc843
+      internalID: -1352326967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_33
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 743
+        width: 33
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c234a11eef3335c43af2947b7abf04dd
+      internalID: 264237314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_34
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 648
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb59d9861bd79084aaaac04bbb98b295
+      internalID: 1709154839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_35
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 643
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3104719461a124488abea5209371e0
+      internalID: -887962367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_36
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 644
+        width: 58
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac4c13af367e614dafff305c4c29dfc
+      internalID: -1808851383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_37
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 663
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510b44449d922f8488bbcb9a8706bbca
+      internalID: -1438370600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_38
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 658
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63024d8803a7d34ea6345ad30ac5e6f
+      internalID: -1641741217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_39
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 654
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c49e177e7785714bb28661c403cbdca
+      internalID: -670584362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_40
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 666
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247246f7b88b8674ea53edd9d0feacdb
+      internalID: -1089433958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_41
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 644
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52626179c8550a34a831a94961146e40
+      internalID: 927754161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_42
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 638
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec3483b89e106640b874b049518e0a0
+      internalID: 140671764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_43
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 543
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239aa7d26ccd29b4588d8e32d6e1a5bd
+      internalID: -1811812504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_44
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 571
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6573c4baa43aaf548bb2c9c6c9fffaa5
+      internalID: 1646633744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_45
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 554
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22df553d448eb524d85a864dfdbcb4a8
+      internalID: 1445307184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_46
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 576
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13aa266fe91d26c43b3e283c6158aae8
+      internalID: -751805518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_47
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 557
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d49fa2fd19eba498ded013ed674be4
+      internalID: 807232125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_48
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 564
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7ff0b00e513084dac892f622c9d780
+      internalID: -1499128051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_49
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 546
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74efab2f974f4314f876650a68f37bf9
+      internalID: 1123449591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 562
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7fd5442c02a734ea2275104226a2af
+      internalID: -2088559707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 545
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa981d43a1360d4194ad289c2e2672f
+      internalID: 836504238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_52
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 540
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd392c6f2f4884ba0cc72e37b7b0df
+      internalID: 404824712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_53
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 549
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e0a18f40c316149880a01e49707ee0
+      internalID: 1225495780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_54
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 566
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430844195c2634f47b880a808a5f3817
+      internalID: 310882234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_55
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 544
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffecc1e463cbfca49840105b36adfb45
+      internalID: 670206091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 559
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bab7522112feee44abee3a3cab20fbc
+      internalID: -1396357357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_57
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 537
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5181a883ba1d87c48a414065afdae8a9
+      internalID: 890712168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_58
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 448
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b07f73d50978d44ea05d19c41f69ddb
+      internalID: -1160240995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_59
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 443
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbf75791f038e47940880bd6361b7e
+      internalID: -1822617444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_60
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 452
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdce2553eb808b419457881461a6549
+      internalID: 1745994773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_61
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 474
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9156de447cd65e54e9a8c03d2488c8e8
+      internalID: -510384138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_62
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 455
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5cb2c175785894c976057f39217af8
+      internalID: 1682814446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_63
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 439
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8739beaceaac74abffd0a63f6cb48a
+      internalID: 32631269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_64
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 445
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780e77e08563a71498f5a66531caeb25
+      internalID: 799370053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_65
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 464
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c2429eb438fa241b29418602b1907c
+      internalID: -834203250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_66
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 461
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62660ef78d99ee246b76df4b515f5404
+      internalID: 2096259709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_67
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 446
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da68cfb9e118344e85f79b5e159864c
+      internalID: 333014042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_68
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 443
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437b758e03208fd45806d60488bf87ca
+      internalID: -667109371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_69
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 440
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a3f68f6433c7e4dafdf7d0ab7443f9
+      internalID: -648548168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_70
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 349
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1c48ac0eac84748bd9477cbf350da2
+      internalID: 2073045150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_71
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 319
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0568db067f7493e46a03dc25abfcaf6d
+      internalID: -544478781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_72
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 374
+        width: 47
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60eb29756eea4f46bf239bd46ed411a
+      internalID: -1065036356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_73
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 352
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fc8aa7b73062c4ebf9f47b2e3ce8d7
+      internalID: -269388706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_74
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 364
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e179e3f081c6445986ae79540badd0
+      internalID: 1008638002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_75
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 347
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4567b51498ee71f4f90b146413a85b7b
+      internalID: 1724561359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_76
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 359
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eae9252ec7a27a4da43c8f38205f8ed
+      internalID: 419119259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 344
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 949488bf68467984cadaef9669f55697
+      internalID: -151328023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_78
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 360
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8468d038bba472b46a1e06f4590590a9
+      internalID: -1972295288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_79
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 342
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5687cd09b03c33542b4d857beb7a9363
+      internalID: -575733394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_80
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 350
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23652b35ca0c1cb408103a533d12b352
+      internalID: -1731554491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_81
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 354
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57900b79c1fa3a448b1341f0d61b582a
+      internalID: 47874064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_82
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 355
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d172f0438f2414cbacc2041c2462f9
+      internalID: 868818191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_83
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 360
+        width: 50
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1290b04418ce39a47a80282b3a37deda
+      internalID: 553440380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_84
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 341
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb4f8ee29fe1434a8f49ed495985d3e
+      internalID: 706814639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_85
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 346
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c517f21359c9440b20c7aae90c9585
+      internalID: 2102333351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_86
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 340
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315d75ecbccdf404cb0f455850b0c0ac
+      internalID: -1044248459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_87
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 348
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26f238b1d407e84596aaecca3fbc2a9
+      internalID: 1315007213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_88
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 246
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14965de8291a69044b7afb5aacf78fa7
+      internalID: -1634984463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_89
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 251
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1901a5e783f3152489c676b9692d471f
+      internalID: 210055795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_90
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 260
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f5aefde4ceffa4393b55b3e59d910c
+      internalID: -1275073831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_91
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 242
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2943911ce0b19846aac0678c9ba2266
+      internalID: -1210759390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_92
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 252
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8ca7c9a43e09174e857fed751d02ef9
+      internalID: -1087989029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 247
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da99bbd2e508b1146a5e616fce9d0c67
+      internalID: 1359162565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_94
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 264
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7567c1b1bcf490c46b7ceaad7d8ee109
+      internalID: 1159026121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_95
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 263
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212ed61c522a5e045a19f4cea0a0d6ec
+      internalID: -1911689116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_96
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 254
+        width: 61
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a9c25dff1dd5248a4506c0a9a742af
+      internalID: 649878662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_97
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 259
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bab50546489b447be4541cf60357b6
+      internalID: 1237251694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_98
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 248
+        width: 57
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c31e401b46d4854f89e6386321c7190
+      internalID: 1780386806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_99
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 243
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8db072badd68214e9fa1ab34b5583c8
+      internalID: 1462824090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_100
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 264
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fff236d8c033348afec146158401e9
+      internalID: 1999157201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_101
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 234
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95ccb4c251e7f74b918b619ef680b64
+      internalID: -1097264339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_102
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 239
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6680a984fdadf1441918959cccf5e768
+      internalID: 1623899120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_103
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 219
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de8adba6622ae443ba2286f97105e03
+      internalID: 2074107051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_104
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 259
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaff9d0261770842a806c91a084c27e
+      internalID: 1997438425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_105
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 247
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4553f5556bc204b9e45ab1fba6e6d4
+      internalID: 1653502229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_106
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 237
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d721b4cbd75a24ca042daa78a8ea18
+      internalID: -415844898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_107
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 144
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18b36a6e3a57464e8714e72225d871c
+      internalID: 1289306277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_108
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 136
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a0b869450614f42bddaec359f0a5b1
+      internalID: 29949238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_109
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 144
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3e410a9efeaec4c9dbf6b95a4cca95
+      internalID: 1514499423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_110
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 121
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c284c080aa8ec414ab45546ed8645c9d
+      internalID: -1209034407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_111
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 165
+        width: 49
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed151c673ffb7bb498ec6cc5baa4de77
+      internalID: 506007667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_112
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 160
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5222a7e0fc12b428aa81f4fff57541
+      internalID: 1114012801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_113
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 142
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a34bcdb55e6e7439a084fcf1bcc6dc
+      internalID: -262223471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_114
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 162
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fe13dc34eab11429ef0058889bc545
+      internalID: 841091191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_115
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 141
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c154cc9d9a3b4048adcc4fe362e6e43
+      internalID: -969561926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_116
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 134
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff737f034fbb6a47b43cdd35a9cb657
+      internalID: -29163009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_117
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 154
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6137ca4b491b484faa8a0ab260d44d5
+      internalID: 608759932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_118
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 42
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80d911d1e48d6d42b4ff115e6a366ad
+      internalID: -622086399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_119
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 36
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555e4b911a9af7c4cb66044429d8b771
+      internalID: 594972430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_120
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 40
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6ab709caa1050048a8f8ce2d9a8c418
+      internalID: -2055732963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_121
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 49
+        width: 55
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102596ea2359f544f9b17a0c72311c0d
+      internalID: 32065691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_122
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 51
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22226581bb0093c4897840c9af3d88f5
+      internalID: 1102816107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_123
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 42
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ea82ff23b50d545988f430be13092a
+      internalID: 1706051621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_124
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 62
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c506e58dad3ab16468dbe71389a539bf
+      internalID: 1185296000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_125
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 44
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d94839836c343a439160ebdd13885a5
+      internalID: -1143859903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_126
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 54
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3906e513b1e3047ac799fafaa9b222
+      internalID: 2048771228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_127
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 32
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769ff3efc7bae654e9cc849873251e8a
+      internalID: 1162163446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_icehornet_128
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 38
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17122d8f5a13e9543bb4501bbcda7bb2
+      internalID: -465802812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      f6_icehornet_0: 728519551
+      f6_icehornet_1: 221363008
+      f6_icehornet_10: -1423882553
+      f6_icehornet_100: 1999157201
+      f6_icehornet_101: -1097264339
+      f6_icehornet_102: 1623899120
+      f6_icehornet_103: 2074107051
+      f6_icehornet_104: 1997438425
+      f6_icehornet_105: 1653502229
+      f6_icehornet_106: -415844898
+      f6_icehornet_107: 1289306277
+      f6_icehornet_108: 29949238
+      f6_icehornet_109: 1514499423
+      f6_icehornet_11: -138073402
+      f6_icehornet_110: -1209034407
+      f6_icehornet_111: 506007667
+      f6_icehornet_112: 1114012801
+      f6_icehornet_113: -262223471
+      f6_icehornet_114: 841091191
+      f6_icehornet_115: -969561926
+      f6_icehornet_116: -29163009
+      f6_icehornet_117: 608759932
+      f6_icehornet_118: -622086399
+      f6_icehornet_119: 594972430
+      f6_icehornet_12: 237431400
+      f6_icehornet_120: -2055732963
+      f6_icehornet_121: 32065691
+      f6_icehornet_122: 1102816107
+      f6_icehornet_123: 1706051621
+      f6_icehornet_124: 1185296000
+      f6_icehornet_125: -1143859903
+      f6_icehornet_126: 2048771228
+      f6_icehornet_127: 1162163446
+      f6_icehornet_128: -465802812
+      f6_icehornet_13: 1809109551
+      f6_icehornet_14: -1081516613
+      f6_icehornet_15: -972446211
+      f6_icehornet_16: -482996108
+      f6_icehornet_17: 1781361561
+      f6_icehornet_18: -1378214864
+      f6_icehornet_19: 1647432101
+      f6_icehornet_2: -118559053
+      f6_icehornet_20: -1362044274
+      f6_icehornet_21: 1192538282
+      f6_icehornet_22: -1532319104
+      f6_icehornet_23: 571982750
+      f6_icehornet_24: -1657106684
+      f6_icehornet_25: -1833616603
+      f6_icehornet_26: -291960676
+      f6_icehornet_27: 7903422
+      f6_icehornet_28: 891917249
+      f6_icehornet_29: -1215825112
+      f6_icehornet_3: 1475329941
+      f6_icehornet_30: -1858633665
+      f6_icehornet_31: 2012088750
+      f6_icehornet_32: -1352326967
+      f6_icehornet_33: 264237314
+      f6_icehornet_34: 1709154839
+      f6_icehornet_35: -887962367
+      f6_icehornet_36: -1808851383
+      f6_icehornet_37: -1438370600
+      f6_icehornet_38: -1641741217
+      f6_icehornet_39: -670584362
+      f6_icehornet_4: 2023041815
+      f6_icehornet_40: -1089433958
+      f6_icehornet_41: 927754161
+      f6_icehornet_42: 140671764
+      f6_icehornet_43: -1811812504
+      f6_icehornet_44: 1646633744
+      f6_icehornet_45: 1445307184
+      f6_icehornet_46: -751805518
+      f6_icehornet_47: 807232125
+      f6_icehornet_48: -1499128051
+      f6_icehornet_49: 1123449591
+      f6_icehornet_5: -1364867466
+      f6_icehornet_50: -2088559707
+      f6_icehornet_51: 836504238
+      f6_icehornet_52: 404824712
+      f6_icehornet_53: 1225495780
+      f6_icehornet_54: 310882234
+      f6_icehornet_55: 670206091
+      f6_icehornet_56: -1396357357
+      f6_icehornet_57: 890712168
+      f6_icehornet_58: -1160240995
+      f6_icehornet_59: -1822617444
+      f6_icehornet_6: 1691313158
+      f6_icehornet_60: 1745994773
+      f6_icehornet_61: -510384138
+      f6_icehornet_62: 1682814446
+      f6_icehornet_63: 32631269
+      f6_icehornet_64: 799370053
+      f6_icehornet_65: -834203250
+      f6_icehornet_66: 2096259709
+      f6_icehornet_67: 333014042
+      f6_icehornet_68: -667109371
+      f6_icehornet_69: -648548168
+      f6_icehornet_7: -1837819328
+      f6_icehornet_70: 2073045150
+      f6_icehornet_71: -544478781
+      f6_icehornet_72: -1065036356
+      f6_icehornet_73: -269388706
+      f6_icehornet_74: 1008638002
+      f6_icehornet_75: 1724561359
+      f6_icehornet_76: 419119259
+      f6_icehornet_77: -151328023
+      f6_icehornet_78: -1972295288
+      f6_icehornet_79: -575733394
+      f6_icehornet_8: 41405042
+      f6_icehornet_80: -1731554491
+      f6_icehornet_81: 47874064
+      f6_icehornet_82: 868818191
+      f6_icehornet_83: 553440380
+      f6_icehornet_84: 706814639
+      f6_icehornet_85: 2102333351
+      f6_icehornet_86: -1044248459
+      f6_icehornet_87: 1315007213
+      f6_icehornet_88: -1634984463
+      f6_icehornet_89: 210055795
+      f6_icehornet_9: -1788178982
+      f6_icehornet_90: -1275073831
+      f6_icehornet_91: -1210759390
+      f6_icehornet_92: -1087989029
+      f6_icehornet_93: 1359162565
+      f6_icehornet_94: 1159026121
+      f6_icehornet_95: -1911689116
+      f6_icehornet_96: 649878662
+      f6_icehornet_97: 1237251694
+      f6_icehornet_98: 1780386806
+      f6_icehornet_99: 1462824090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
