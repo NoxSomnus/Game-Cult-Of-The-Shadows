@@ -69,6 +69,9 @@ TagManager:
   - name: PlayerB
     uniqueID: 3104641185
     locked: 0
+  - name: Suelos
+    uniqueID: 2844305397
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
