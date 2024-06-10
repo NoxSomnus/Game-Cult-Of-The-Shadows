@@ -110,8 +110,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -473}
-  m_SizeDelta: {x: 1875.3, y: 178.5393}
+  m_AnchoredPosition: {x: -40, y: -473}
+  m_SizeDelta: {x: 1854.667, y: 178.5393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &7232854831436735764
 MonoBehaviour:
@@ -462,11 +462,11 @@ MonoBehaviour:
   transitionInformationLabel: {fileID: 2382258009494824464}
   gameInformation:
   - Puedes comprar un SSD o seguir esperando
-  - Sabias que simpson en japones es shimpunson?
+  - Joanne usa magia sagrada
   - Te puedes mover con A y D
   - Saltas con espacio
-  - Los colores si combinan
-  - Daniel es malo en FIFA
+  - Aurora es una maga elemental muy talentosa
+  - Pronto anunciaremos DLC
 --- !u!225 &9200433268006600888
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -513,7 +513,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 788.0128, y: -279.53473}
+  m_AnchoredPosition: {x: 797, y: -348}
   m_SizeDelta: {x: 272.2299, y: 132.9305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3440718729137105763
