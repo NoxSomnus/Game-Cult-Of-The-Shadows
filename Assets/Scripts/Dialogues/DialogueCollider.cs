@@ -9,9 +9,8 @@ public class DialogueCollider : MonoBehaviour
     private bool didDialogueStart;
     private int lineIndex;
     private float typingTime = 0.05f;
-
     [SerializeField] private Movement playerMovement;
-
+    [SerializeField]private CompositeCollider2D floorCollider;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
@@ -59,6 +58,10 @@ public class DialogueCollider : MonoBehaviour
             dialoguePanel.SetActive(false);
             // Volver a habilitar el movimiento del personaje principal
             playerMovement.GetComponent<Movement>().enabled = true;
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
             Destroy(gameObject);
             
         }
@@ -78,6 +81,10 @@ public class DialogueCollider : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 50f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
             isPlayerInrange = true;
             StartDialogue();
 

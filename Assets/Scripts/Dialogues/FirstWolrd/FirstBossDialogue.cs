@@ -15,6 +15,7 @@ public class FirstBossDialogue : MonoBehaviour
     [SerializeField] private Movement playerMovement;
     [SerializeField] private Enemy forestBossStats;
     [SerializeField] private ForestBossMove forestBossBehaviour;
+    [SerializeField] private CompositeCollider2D floorCollider;
     [SerializeField] private SpawnAtks redEye;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
@@ -75,6 +76,11 @@ private void StartDialogue()
             forestBossBehaviour.enabled = true;
             forestBossStats.enabled = true;
             playerMovement.GetComponent<Movement>().enabled = true;
+
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
             Destroy(gameObject);
         }
     }
@@ -94,6 +100,10 @@ private void StartDialogue()
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 50f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
             isPlayerInrange = true;
             StartDialogue();
 

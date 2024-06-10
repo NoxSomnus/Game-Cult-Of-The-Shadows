@@ -13,7 +13,9 @@ public class ForestBossMove : MonoBehaviour
     public Animator animator;
     private bool canAttack;
     public Enemy enemyStats;
+    private BoxCollider2D boxCollider;
     [SerializeField] private bool changeLook;
+    [SerializeField] private GameObject windWall;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class ForestBossMove : MonoBehaviour
         originalRunSpeed = runSpeed;
         animator = GetComponent<Animator>();
         enemyStats = GetComponent<Enemy>();
+        boxCollider = GetComponent<BoxCollider2D>();
         canMove = true;
         changeLook = true;
         canAttack = true;
@@ -38,6 +41,8 @@ public class ForestBossMove : MonoBehaviour
         if (enemyStats.Health <= 0) 
         {
             animator.SetTrigger("Die");
+            Destroy(windWall);
+            //boxCollider.enabled = false;
             this.enabled = false;            
         }
 

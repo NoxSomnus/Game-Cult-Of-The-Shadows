@@ -13,7 +13,7 @@ public class FirstBossDefeated : MonoBehaviour
     private bool didDialogueStart;
     private int lineIndex;
     private float typingTime = 0.05f;
-
+    [SerializeField] private CompositeCollider2D floorCollider;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
@@ -60,6 +60,12 @@ public class FirstBossDefeated : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             // Volver a habilitar el movimiento del personaje principal
+
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
+
             playerMovement.GetComponent<Movement>().enabled = true;
             Destroy(gameObject);
 
@@ -80,10 +86,14 @@ public class FirstBossDefeated : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 50f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
             isPlayerInrange = true;
             StartDialogue();
             GameObject forestBoss = Instantiate(forestBossPrefab,
-                 new Vector2(playerMovement.transform.position.x + 15f, playerMovement.transform.position.y), Quaternion.identity);
+                 new Vector2(playerMovement.transform.position.x + 15f, playerMovement.transform.position.y + 4), Quaternion.identity);
 
         }
     }

@@ -683,6 +683,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   enemyStats: {fileID: 6387146830360727430}
   changeLook: 0
+  windWall: {fileID: 0}
 --- !u!70 &686024027984567644
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -726,7 +727,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6035018695689892416}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
