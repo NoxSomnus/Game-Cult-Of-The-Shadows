@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class IntroductionDialogue : MonoBehaviour
 {
+    public string sceneName;
+    public AudioSource src;
+    public AudioClip TextSound;
     private bool isPlayerInrange = true;
     private bool didDialogueStart;
     private int lineIndex;
@@ -17,8 +20,10 @@ public class IntroductionDialogue : MonoBehaviour
 
     private void Start()
     {
+        src.clip = TextSound;
         isPlayerInrange = true;
         StartDialogue();
+        
     }
 
     void Update()
@@ -28,11 +33,13 @@ public class IntroductionDialogue : MonoBehaviour
             if (dialogueText.text == dialogueLines[lineIndex] && Input.GetKeyDown(KeyCode.E))
             {
                 NextDialogueLine();
+                src.Play();
             }
             else
             {
                 StopAllCoroutines();
                 dialogueText.text = dialogueLines[lineIndex];
+                src.Stop();
             }
         }
     }
@@ -59,7 +66,7 @@ public class IntroductionDialogue : MonoBehaviour
             didDialogueStart = false;
             //dialoguePanel.SetActive(false);
             dialogueText.text = string.Empty;
-            TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_GAME);
+            TransitionManager.Instance.LoadScene(sceneName);
             Destroy(gameObject);
 
         }
