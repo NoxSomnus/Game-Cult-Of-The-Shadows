@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/cocinando.unity
     guid: f795a9faa04caba4e8666de5392ad11a
   - enabled: 1
+    path: Assets/Scenes/Testing/Creditos.unity
+    guid: dbbcd08c07e326242832380895dfa5a4
+  - enabled: 1
     path: Assets/Scenes/Demo.unity
     guid: 1860b8ec09491fe488ecff8a76b0d0d2
   - enabled: 1

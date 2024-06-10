@@ -19,4 +19,13 @@ public class MainMenu : MonoBehaviour
     {
         TransitionManager.Instance.LoadScene("Tutorial");
     }
+    public void LoadCreditsScene()
+    {
+        TransitionManager.Instance.LoadScene("Creditos");
+    }
+
+    public void CloseGame()
+    {
+        Application.Quit();
+    }
 }
