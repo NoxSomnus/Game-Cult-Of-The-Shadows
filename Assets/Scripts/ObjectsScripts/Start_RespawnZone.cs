@@ -5,6 +5,7 @@ using UnityEngine;
 public class Start_RespawnZone : MonoBehaviour
 {
     private GameObject player;
+    
     private Animator animator;
     private bool isPlayerInRespawnZone;
 
@@ -13,6 +14,7 @@ public class Start_RespawnZone : MonoBehaviour
     {
         player = GameObject.Find("Player 1.1");
         animator = GetComponent<Animator>();
+        gameObject.SetActive(true);
     }
 
     // Update is called once per frame
