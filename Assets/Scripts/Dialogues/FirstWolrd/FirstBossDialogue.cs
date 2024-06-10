@@ -15,7 +15,6 @@ public class FirstBossDialogue : MonoBehaviour
 
     [SerializeField] private FirstWorldMusic musicManager;
 
-
     [SerializeField] private Movement playerMovement;
     [SerializeField] private Enemy forestBossStats;
     [SerializeField] private ForestBossMove forestBossBehaviour;
