@@ -1,0 +1,1483 @@
+fileFormatVersion: 2
+guid: a6428f65fc34d614eaecfcee8fa7e207
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 12
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: f5_juggernaut_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 918
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e269cce6238f3e7439a1a360da9b00d8
+      internalID: -1530413322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_1
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 919
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd5548dbc9ef8e846a5d81e962129f7e
+      internalID: 283181757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_2
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 913
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9aa6ddecd705e429f30d5bdd4dc767
+      internalID: -909357659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_3
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 916
+        width: 59
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae74833ed9cdb54c8815f04b6c5627b
+      internalID: -1489985414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_4
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 907
+        width: 50
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a712dc265dc04b744b207f05f6a46cdd
+      internalID: 1931588012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 911
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8058ab1ede936408b63cb90f1ea47d
+      internalID: 1508793379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_6
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 890
+        width: 62
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81d78f16819351409f43e88924f3ae2
+      internalID: 212698612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_7
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 899
+        width: 66
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d716b190fc43b0b4598e67d77f815197
+      internalID: 23649144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 799
+        width: 67
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2758757fbed0204f98faadac6997a68
+      internalID: 1187015547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 797
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9875ed05817825b4e8ff2e52e002dac4
+      internalID: 159455061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_10
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 791
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99123276be3e6fc4d924dba5e96b4f18
+      internalID: -981495087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_11
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 784
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063c2028912af93498e56574128ada55
+      internalID: -1814288483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_12
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 789
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c3ad730f617b4409075046acb36e58
+      internalID: 1926572405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_13
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 791
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea993528a2be6b748a987c87ac683269
+      internalID: 290231262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_14
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 772
+        width: 72
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bd87ac8fa0f0d4b992dbc90213268e
+      internalID: -1239495490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_15
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 775
+        width: 72
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80debf78760e6748baf8b693f401d77
+      internalID: -699631025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_16
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 677
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41075a60de06f9c47adeda17f81a51f2
+      internalID: -1293875771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 671
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ac3f850f900de448efec11d086606b
+      internalID: 606945591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 670
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34769c64407ce54185c504b57118f5e
+      internalID: -1267050889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_19
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 664
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2da9bb64652e647bf999371c7fea9c
+      internalID: 1833877761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_20
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 669
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798f432589ddae74582da3a5ed41245b
+      internalID: 1781242164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_21
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 668
+        width: 94
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f2745a9d217194b97e7e3ff4027b2b
+      internalID: 628157476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_22
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 655
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac0b3c4eb849614cac12efdc705c0ec
+      internalID: 1494446145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_23
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 666
+        width: 50
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51bfc33e628233449ff16f9c1e84097
+      internalID: -1437044624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 556
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4209c07c9724747b3c890fb01c9baf
+      internalID: 1927956785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_25
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 551
+        width: 62
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e683a21c7d1c824c8530bd2291855ac
+      internalID: -431190798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_26
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 548
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddccbc31ef260ad4887f0c77cfd7e28b
+      internalID: -1776638709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_27
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 536
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873f1909435ae3b488207608b8eb3a98
+      internalID: 326977455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_28
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 554
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4460e39eb5b36b84b9bd5240ed655e1f
+      internalID: -1304249402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_29
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 546
+        width: 106
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081c5f9ece837c04aa90114136fecf2f
+      internalID: 16019901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_30
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 530
+        width: 74
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98eee53c7fe89d4c9f90aa65eefdce2
+      internalID: 380230451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_31
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 553
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea448e99fd7ff4c4f9c58721919f093e
+      internalID: 1658812027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_32
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 435
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7676c2fd20a53a94faada65fe2e7dff7
+      internalID: -1765074708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 430
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8535e378c4b23eb4092f2677faf89e38
+      internalID: 257372427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_34
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 427
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699d0f776da8e0347aa559dee900b9d0
+      internalID: -644134947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_36
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 429
+        width: 52
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc94c4f51354124780fd471e437d1ad
+      internalID: -1222197015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_37
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 411
+        width: 66
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341ed377995a6ec4281e9492ef51d232
+      internalID: -403186838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_38
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 430
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5856f8d5f3bce44f8be3e57cdc16dff
+      internalID: -1100476060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_39
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 416
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ca5fb362901bd4c92b9a7687d5c80b
+      internalID: -757697658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_40
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 423
+        width: 104
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233e7bb6930391548821595fefbca0d5
+      internalID: 1324901613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_43
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 292
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4166b169080eab04f818734543e24aaa
+      internalID: -2032340661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_45
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 320
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98153dd3c7410e942ad9fe65f13c280e
+      internalID: 745234164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_46
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 309
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357578d2a14d19949b4ff2d1aca6df2c
+      internalID: -647878150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_47
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 306
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e4609dd8ece69438965586af088259
+      internalID: -31953862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_49
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 309
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c29d05f378f67468cf32db97d88b44
+      internalID: -1699340410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_50
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 297
+        width: 118
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e0d07c66411c4cab3c3ac70177abb
+      internalID: -594513815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_51
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 295
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ea1e7d0d6b36e45a5b678ec5f1dfb8
+      internalID: 487729953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_52
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 294
+        width: 60
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1186356e26868d84797ce0d8c8d47c1f
+      internalID: -1786624424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_53
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 194
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3820aceb7f28b04b8eabe4caf957a53
+      internalID: -1439146551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_54
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 188
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b6763fa1affa24899e611764655d27
+      internalID: -861917480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_55
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 186
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3973c08ac765068479a2c25bb1b23c85
+      internalID: -1118139101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_56
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 193
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af19643bf0e71e14889a8a9dc07e1bbe
+      internalID: -1763303983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_57
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 187
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34522f1b17d9aa040bce4bb8bc3ba2f7
+      internalID: -790123619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_58
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 180
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e1f93d01a4fbe46ac6e8a865e39fa4
+      internalID: -1154093049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_59
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 168
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde27cf46d8986845ab1df19960a2451
+      internalID: -747343747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_60
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 72
+        width: 56
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9317d94bbf7a90b4c99a104cb7e43e4c
+      internalID: -794983767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_61
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 68
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc45da2aa155c8478d3b426f1b9ce42
+      internalID: -1358959081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_62
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 64
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea863d92ed92424429a1053785d3b61f
+      internalID: 184017130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_63
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 55
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8a276614850ce49bac8ddec04099e8
+      internalID: 984422679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_64
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 65
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9740f2ae8a56d924fabdc9001adb6b78
+      internalID: -1885731473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_65
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 51
+        width: 115
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ba751f566008e4ea6b68cc5cdd3525
+      internalID: -50007135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f5_juggernaut_66
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 48
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3567c510793effd40bbeba85fedf9f59
+      internalID: -1968105409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      f5_juggernaut_0: -1530413322
+      f5_juggernaut_1: 283181757
+      f5_juggernaut_10: -981495087
+      f5_juggernaut_11: -1814288483
+      f5_juggernaut_12: 1926572405
+      f5_juggernaut_13: 290231262
+      f5_juggernaut_14: -1239495490
+      f5_juggernaut_15: -699631025
+      f5_juggernaut_16: -1293875771
+      f5_juggernaut_17: 606945591
+      f5_juggernaut_18: -1267050889
+      f5_juggernaut_19: 1833877761
+      f5_juggernaut_2: -909357659
+      f5_juggernaut_20: 1781242164
+      f5_juggernaut_21: 628157476
+      f5_juggernaut_22: 1494446145
+      f5_juggernaut_23: -1437044624
+      f5_juggernaut_24: 1927956785
+      f5_juggernaut_25: -431190798
+      f5_juggernaut_26: -1776638709
+      f5_juggernaut_27: 326977455
+      f5_juggernaut_28: -1304249402
+      f5_juggernaut_29: 16019901
+      f5_juggernaut_3: -1489985414
+      f5_juggernaut_30: 380230451
+      f5_juggernaut_31: 1658812027
+      f5_juggernaut_32: -1765074708
+      f5_juggernaut_33: 257372427
+      f5_juggernaut_34: -644134947
+      f5_juggernaut_35: 1517917791
+      f5_juggernaut_36: -1222197015
+      f5_juggernaut_37: -403186838
+      f5_juggernaut_38: -1100476060
+      f5_juggernaut_39: -757697658
+      f5_juggernaut_4: 1931588012
+      f5_juggernaut_40: 1324901613
+      f5_juggernaut_41: -262715902
+      f5_juggernaut_42: 376270284
+      f5_juggernaut_43: -2032340661
+      f5_juggernaut_44: 1147604958
+      f5_juggernaut_45: 745234164
+      f5_juggernaut_46: -647878150
+      f5_juggernaut_47: -31953862
+      f5_juggernaut_48: -1777913075
+      f5_juggernaut_49: -1699340410
+      f5_juggernaut_5: 1508793379
+      f5_juggernaut_50: -594513815
+      f5_juggernaut_51: 487729953
+      f5_juggernaut_52: -1786624424
+      f5_juggernaut_53: -1439146551
+      f5_juggernaut_54: -861917480
+      f5_juggernaut_55: -1118139101
+      f5_juggernaut_56: -1763303983
+      f5_juggernaut_57: -790123619
+      f5_juggernaut_58: -1154093049
+      f5_juggernaut_59: -747343747
+      f5_juggernaut_6: 212698612
+      f5_juggernaut_60: -794983767
+      f5_juggernaut_61: -1358959081
+      f5_juggernaut_62: 184017130
+      f5_juggernaut_63: 984422679
+      f5_juggernaut_64: -1885731473
+      f5_juggernaut_65: -50007135
+      f5_juggernaut_66: -1968105409
+      f5_juggernaut_7: 23649144
+      f5_juggernaut_8: 1187015547
+      f5_juggernaut_9: 159455061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

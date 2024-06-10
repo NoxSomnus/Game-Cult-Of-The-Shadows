@@ -1,0 +1,1871 @@
+fileFormatVersion: 2
+guid: 80289a1a2ec250344893d4276056906c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: f6_minitreant_0
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 918
+        width: 91
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76dfbdb7d22b7b40ad0080f86d4a90c
+      internalID: -1572096047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 935
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8aef084d18d1a44bd94f430afd6fe6
+      internalID: 1121437338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 939
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ebd4f384fa290d458dfcaf5ceb69d48
+      internalID: 1958496454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_5
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 940
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d50ef158ce48ee408aee3b12b20826b
+      internalID: -734566605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_6
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 939
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d17d91cba99bb47b14b71e9e558249
+      internalID: 413735008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 939
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3e7207b4af3dc4ca72c36d13bff3a6
+      internalID: -920885622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_9
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 939
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452daea096334474d98102103c60f611
+      internalID: -485440377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_10
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 936
+        width: 87
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557d18293c618d9419bd5e74fea9742a
+      internalID: 1548917840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 834
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8090165a2b51e5940b8e34e906b31ad7
+      internalID: 111188570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_15
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 839
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e064776d11f7b4e8ba89767908bd06
+      internalID: 1152689326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_16
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 839
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c59a0ae45eb7c4d86e13db1df5a945
+      internalID: 571060218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 838
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4daee12c9de0646ac7534aba3aa6d9
+      internalID: 1768254378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_18
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 838
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529b0279398453143a3794895d0ff435
+      internalID: 1828726656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_19
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 839
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c435bc5cf6cf94a9875009b8151064
+      internalID: -1835653926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_21
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 815
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574e1e18606f28d479fa4444d0d752db
+      internalID: -467672479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_23
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 838
+        width: 79
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa664297e83dbf48bc6bf3e359508d5
+      internalID: -2121610988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_28
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 735
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5eabc8e39148c343826ed4e2838434a
+      internalID: 2009655794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_29
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 738
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48c0b07cf6311941b63238c355e043d
+      internalID: 406670148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_30
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 737
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfc2e2027e39d04eb30eb5972a87d9d
+      internalID: 1118908930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_31
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 737
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8315ec3e63e52b649a8789ccc71eaaa6
+      internalID: 371385167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_33
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 737
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dada74ef9b53b349ae737ae589cfd99
+      internalID: 677291094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_34
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 738
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0322560f885492b489b2ae94b2879402
+      internalID: -1828956629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_36
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 711
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1651c581c9b9640af3ff03ba9e9dbb
+      internalID: -1518336986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_37
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 737
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7cf85ccda818143858cfba992acd2f
+      internalID: -1443486202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_40
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 634
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b973ed359d3d24c8bd820d25ce940d
+      internalID: 1609374117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_41
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 637
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c319c9f91d6265d488ae6fcca02584c0
+      internalID: -1973485065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_42
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 636
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69819f4d5fce004488281c24493b68dd
+      internalID: -1129155281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_43
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 636
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dff5ade13794a34f9b4f843600e7e81
+      internalID: -1392715510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_44
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 636
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8efca72a5d19c45b52ecb630e69c2f
+      internalID: 1469897547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_45
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 636
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9cc9a1a5350540a201b98f95e8fb3
+      internalID: 417199417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_47
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 609
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2cdacc997cb6d4fa1a52915ecc1c96
+      internalID: 543107135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_48
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 636
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b986758d48de141810ff3495ff1c09
+      internalID: 751790932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_49
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 529
+        width: 53
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26862f881a6e0649acb157d841e0b04
+      internalID: 1852639596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_50
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 536
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d442cc0d12ab63a4687c46ba23112631
+      internalID: -1538087068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_51
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 535
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdd6420c202a2d4f97e490f88b35c55
+      internalID: 939098317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_52
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 535
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f7d96b426c7a84aaf755c365889623
+      internalID: 1653144501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_53
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 535
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047c18cb80360b342941c440ff737ff4
+      internalID: -1750855155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_55
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 536
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9714420eae6f208409bf727c4be12597
+      internalID: 848880323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_56
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 513
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7445c75c8de81342b19384d91c93661
+      internalID: -868021512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_57
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 535
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aee42c2491501429dff9040f4491dd
+      internalID: 572715579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_58
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 431
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c09da6f48c1bc439beeb9dbfaeed7a
+      internalID: 1735534534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_59
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 435
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75cd2396e754b7e468525132f720d421
+      internalID: -250521772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_60
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 434
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668d3e61f16661548b2f6f61483ac3bc
+      internalID: 1813136261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_61
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 434
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5929e01c24db64e8fc878cfd269457
+      internalID: 1369681465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_62
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 434
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07249675cfac7a46bcf14513589e30f
+      internalID: -1537034351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_63
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 435
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a928952687598dc40aea6700901fe141
+      internalID: 1265510419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_64
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 428
+        width: 89
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759d9aedf24876c4ea209973912cddcb
+      internalID: 1818458507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_65
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 434
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b36fecf02bcec34da44c6e12f57df99
+      internalID: -1955846077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_66
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 335
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6788182f33935459a10f793d70f0f1
+      internalID: -979379974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_67
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 334
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c1bf12157b72c449f81e4e4ffb58e5
+      internalID: -862616885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_68
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 333
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87502e57750aa124c913d38f920bc5c6
+      internalID: -1905817542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_69
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 333
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c24ec9e6fd51f445af85c935b6a16f5
+      internalID: 2089250994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_70
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 334
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c2c7d06f11d4b4e82e8e093089b063
+      internalID: 1840635125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_71
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 318
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd224a3917720a940bb05a30165c264f
+      internalID: 916889443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_72
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 333
+        width: 91
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001e52d4c737e31479b82b68f937dfd3
+      internalID: -206319872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_73
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 333
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46ad81a3300e9445b6c10437a9fd42e
+      internalID: 1019407363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_74
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 233
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4d4fd3c812e7e4b883cfb07ed95d9f
+      internalID: 1539918808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_75
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 233
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2197483b5833cc74a917d5761de6e91f
+      internalID: 435095092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_76
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 232
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179b5d38c5dc6bb468a26704fdcd25a3
+      internalID: 1350251952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_77
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 232
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347a4679efeef554c857b27c036089c7
+      internalID: -1938834939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_79
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 232
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f2b9a2dc7545c43a499dd0fc7bd2ae
+      internalID: -698278839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_80
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 215
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e48653854351d340a01171876ff52b9
+      internalID: -1388182423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_81
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 231
+        width: 89
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cc2955bebfe0044825f3dc9c3320e5
+      internalID: 769444881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_82
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 232
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86631d1c3f539d543a7615c4f816a8e1
+      internalID: 472138531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_83
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 132
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ccdb8ab32f81384788ee71c3869fb5a
+      internalID: 820189338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_84
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 132
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7af9b94eac7c947b95b1939a87eae6
+      internalID: -222924757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_85
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 131
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69997946b063b44a9ba2f44aef99bff
+      internalID: -555012052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_86
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 131
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724516cdd052ccb4f9e81cc78cadb7cd
+      internalID: -2087812699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_87
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 132
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c0958fcd71b4d48936f224311ab4cf
+      internalID: 38116207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_88
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 113
+        width: 91
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e3a539535b252418f3510432691a61
+      internalID: 440788466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_89
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 129
+        width: 91
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225a17f048e2dc84f87c2b0a62fbd897
+      internalID: -167345869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_90
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 131
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b93306261ca2b438f2fc101fa53aa0
+      internalID: 360472772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_91
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 31
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180eea184135e5049a79317423eafa79
+      internalID: 552197966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_92
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 30
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f514075621a44446a3653185fc4e749
+      internalID: -2133781034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_93
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 30
+        width: 50
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63575f11686890428268dd6e04eae91
+      internalID: -528015882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_94
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 31
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8305dd1fb8f53c145b8eebb57bb89706
+      internalID: 1378199469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_95
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 31
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7772bfd6d9dcbac48bd7827ffc7809f2
+      internalID: 100660641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_96
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 11
+        width: 91
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b144d75551a7f4b96bbbf06185b889
+      internalID: 1920618041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: f6_minitreant_97
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 27
+        width: 91
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedfb832cc683ae48a905fe885a3b73c
+      internalID: 1153268183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      f6_minitreant_0: -1572096047
+      f6_minitreant_1: 2104689509
+      f6_minitreant_10: 1548917840
+      f6_minitreant_11: -557247490
+      f6_minitreant_12: 438931089
+      f6_minitreant_13: 1507895937
+      f6_minitreant_14: 111188570
+      f6_minitreant_15: 1152689326
+      f6_minitreant_16: 571060218
+      f6_minitreant_17: 1768254378
+      f6_minitreant_18: 1828726656
+      f6_minitreant_19: -1835653926
+      f6_minitreant_2: -418995206
+      f6_minitreant_20: -422441921
+      f6_minitreant_21: -467672479
+      f6_minitreant_22: 1604642870
+      f6_minitreant_23: -2121610988
+      f6_minitreant_24: -111479515
+      f6_minitreant_25: 1698678462
+      f6_minitreant_26: -1289383057
+      f6_minitreant_27: 1619288628
+      f6_minitreant_28: 2009655794
+      f6_minitreant_29: 406670148
+      f6_minitreant_3: 1121437338
+      f6_minitreant_30: 1118908930
+      f6_minitreant_31: 371385167
+      f6_minitreant_32: 633972825
+      f6_minitreant_33: 677291094
+      f6_minitreant_34: -1828956629
+      f6_minitreant_35: -1812215668
+      f6_minitreant_36: -1518336986
+      f6_minitreant_37: -1443486202
+      f6_minitreant_38: -1190728363
+      f6_minitreant_39: 2036607789
+      f6_minitreant_4: 1958496454
+      f6_minitreant_40: 1609374117
+      f6_minitreant_41: -1973485065
+      f6_minitreant_42: -1129155281
+      f6_minitreant_43: -1392715510
+      f6_minitreant_44: 1469897547
+      f6_minitreant_45: 417199417
+      f6_minitreant_46: -1869927302
+      f6_minitreant_47: 543107135
+      f6_minitreant_48: 751790932
+      f6_minitreant_49: 1852639596
+      f6_minitreant_5: -734566605
+      f6_minitreant_50: -1538087068
+      f6_minitreant_51: 939098317
+      f6_minitreant_52: 1653144501
+      f6_minitreant_53: -1750855155
+      f6_minitreant_54: 1516369080
+      f6_minitreant_55: 848880323
+      f6_minitreant_56: -868021512
+      f6_minitreant_57: 572715579
+      f6_minitreant_58: 1735534534
+      f6_minitreant_59: -250521772
+      f6_minitreant_6: 413735008
+      f6_minitreant_60: 1813136261
+      f6_minitreant_61: 1369681465
+      f6_minitreant_62: -1537034351
+      f6_minitreant_63: 1265510419
+      f6_minitreant_64: 1818458507
+      f6_minitreant_65: -1955846077
+      f6_minitreant_66: -979379974
+      f6_minitreant_67: -862616885
+      f6_minitreant_68: -1905817542
+      f6_minitreant_69: 2089250994
+      f6_minitreant_7: -1775019397
+      f6_minitreant_70: 1840635125
+      f6_minitreant_71: 916889443
+      f6_minitreant_72: -206319872
+      f6_minitreant_73: 1019407363
+      f6_minitreant_74: 1539918808
+      f6_minitreant_75: 435095092
+      f6_minitreant_76: 1350251952
+      f6_minitreant_77: -1938834939
+      f6_minitreant_78: 823213484
+      f6_minitreant_79: -698278839
+      f6_minitreant_8: -920885622
+      f6_minitreant_80: -1388182423
+      f6_minitreant_81: 769444881
+      f6_minitreant_82: 472138531
+      f6_minitreant_83: 820189338
+      f6_minitreant_84: -222924757
+      f6_minitreant_85: -555012052
+      f6_minitreant_86: -2087812699
+      f6_minitreant_87: 38116207
+      f6_minitreant_88: 440788466
+      f6_minitreant_89: -167345869
+      f6_minitreant_9: -485440377
+      f6_minitreant_90: 360472772
+      f6_minitreant_91: 552197966
+      f6_minitreant_92: -2133781034
+      f6_minitreant_93: -528015882
+      f6_minitreant_94: 1378199469
+      f6_minitreant_95: 100660641
+      f6_minitreant_96: 1920618041
+      f6_minitreant_97: 1153268183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
