@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor.Rendering;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class FirstBossDialogue : MonoBehaviour
 {
@@ -11,6 +12,8 @@ public class FirstBossDialogue : MonoBehaviour
     private int lineIndex;
     private float typingTime = 0.05f;
     [SerializeField] private float runSpeed;
+
+    [SerializeField] private FirstWorldMusic musicManager;
 
     [SerializeField] private Movement playerMovement;
     [SerializeField] private Enemy forestBossStats;
@@ -75,11 +78,11 @@ private void StartDialogue()
             redEye.animator.Play("Despawn");
             forestBossBehaviour.enabled = true;
             forestBossStats.enabled = true;
+            musicManager.BossMusic();
             playerMovement.GetComponent<Movement>().enabled = true;
 
             PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
-            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
-
+            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades            
             floorCollider.sharedMaterial = physicsMaterial;
             Destroy(gameObject);
         }

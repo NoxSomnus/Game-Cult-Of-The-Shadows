@@ -11,7 +11,7 @@ public class Dialog : MonoBehaviour
     private float typingTime = 0.05f;
 
     [SerializeField] private GameObject playerMovement;
-
+    [SerializeField] private CompositeCollider2D floorCollider;
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private GameObject dialogueMarkOn;
@@ -50,6 +50,10 @@ public class Dialog : MonoBehaviour
         //Time.timeScale = 0f;
         // Deshabilitar el movimiento del personaje principal
         playerMovement.GetComponent<Movement>().enabled = false;
+        PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+        physicsMaterial.friction = 50f; // Ajusta los valores según tus necesidades
+
+        floorCollider.sharedMaterial = physicsMaterial;
         StartCoroutine(ShowLine());
     }
 
@@ -65,6 +69,10 @@ public class Dialog : MonoBehaviour
             didDialogueStart = false;
             dialoguePanel.SetActive(false);
             completed = true;
+            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
+
+            floorCollider.sharedMaterial = physicsMaterial;
             // Time.timeScale = 1f;
             // Volver a habilitar el movimiento del personaje principal
             playerMovement.GetComponent<Movement>().enabled = true;
