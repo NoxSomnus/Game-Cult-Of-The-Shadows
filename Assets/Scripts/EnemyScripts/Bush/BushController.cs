@@ -9,9 +9,9 @@ public class BushController : MonoBehaviour
     private Animator animator;
     private BoxCollider2D attackDetect;
     public Enemy healtController;
+    bool canAttack = true;
 
-
-
+    bool canSwitchScale = true;
     [SerializeField] private float waitTime;
     [SerializeField] private float patrolSpeed;
 
@@ -56,7 +56,9 @@ public class BushController : MonoBehaviour
             if (IsPlayerInAttackRange())
             {
                 ispatrol = false;
-                StartCoroutine(Attack());
+                canSwitchScale = false;
+                if(canAttack)
+                    StartCoroutine(Attack());
             }
         }
         else
@@ -70,7 +72,7 @@ public class BushController : MonoBehaviour
     // Revisa que haya colicion con Ground para seguir, si no , se devuelve
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" && canSwitchScale)
         {
             patrolSpeed *= -1;
             transform.localScale = new Vector2(this.transform.localScale.x * -1, this.transform.localScale.y);
@@ -81,7 +83,6 @@ public class BushController : MonoBehaviour
             StartCoroutine(TakeDamage());
         }
     }
-
     // revisa si el Player esta dentro del collider que funciona como rango de ataque "Attack Detect"
     private bool IsPlayerInAttackRange()
     {
@@ -100,19 +101,22 @@ public class BushController : MonoBehaviour
     //siempre que este el pLayer dentro del rango de ataque
     private IEnumerator Attack()
     {
-        animator.SetBool("Attack", true);
+        animator.SetTrigger("Attack");
         animator.SetBool("Run", false);
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length); // Espera a que termine la animación de ataque
-        
+        canSwitchScale = false;
+        canAttack = false;
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length+2f); // Espera a que termine la animación de ataque
+        canAttack = true;
+        canSwitchScale = true;
         ispatrol = true;
-        animator.SetBool("Attack", false);
+        //animator.SetBool("Attack", false);
 
 
     }
 
     private IEnumerator TakeDamage()
     {
-        Debug.Log("0000");
+        //Debug.Log("0000");
 
        
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);

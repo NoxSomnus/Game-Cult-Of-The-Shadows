@@ -19,6 +19,7 @@ public class FirstBossDialogue : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
+    [SerializeField] public GameObject windWall;
 
 
     private void Start()
@@ -47,6 +48,7 @@ private void StartDialogue()
     {
         didDialogueStart = true;
         dialoguePanel.SetActive(true);
+        windWall.GetComponent<Rigidbody2D>().gravityScale = 1;
         lineIndex = 0;
         //Time.timeScale = 0f;
         // Deshabilitar el movimiento del personaje principal
