@@ -1,4 +1,4 @@
-using Cinemachine;
+/*using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +6,10 @@ using UnityEditor;
 using UnityEditor.Tilemaps;
 using UnityEngine.Rendering.Universal;
 using TMPro;
+
+
+[System.Serializable]
+[CustomEditor(typeof(CameraControlTRIGGER))]
 
 public class CameraControlTRIGGER : MonoBehaviour
 {
@@ -50,7 +54,7 @@ public class CameraControlTRIGGER : MonoBehaviour
     }
 }
 
-[System.Serializable]
+
 
 public class CustomInspectorObjects
 {
@@ -70,7 +74,7 @@ public enum PanDirection
     Up,Down,Left,Right
 }
 
-[CustomEditor(typeof(CameraControlTRIGGER))]
+
 public class MyScriptEditor :Editor
 {
     CameraControlTRIGGER cameraControlTrigger;
@@ -106,4 +110,4 @@ public class MyScriptEditor :Editor
             EditorUtility.SetDirty(cameraControlTrigger);
         }
     }
-}
+}*/

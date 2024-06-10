@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Rendering;
-using UnityEditor.Timeline;
 using UnityEngine;
 
 public class PatrolAi : MonoBehaviour
