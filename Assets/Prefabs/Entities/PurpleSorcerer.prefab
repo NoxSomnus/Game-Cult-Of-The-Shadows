@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491fd1f5c6542344cb18a163673940b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  despawnTimer: 0
+  despawnTimer: 5
   Health: 20
   bossHealthBar: {fileID: 0}
 --- !u!114 &4493091108757033837
@@ -331,8 +331,6 @@ MonoBehaviour:
   target: {fileID: 0}
   HP: {fileID: 8737271618183339419}
   range: 0
-  waypoint: {fileID: 158042072360002342}
-  waypointDistance: {x: 0, y: 0, z: 0}
 --- !u!114 &8799047177134061794
 MonoBehaviour:
   m_ObjectHideFlags: 0

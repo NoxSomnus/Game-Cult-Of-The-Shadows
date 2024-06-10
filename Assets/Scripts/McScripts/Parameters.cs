@@ -12,6 +12,7 @@ public class Parameters : MonoBehaviour
 {
     public HealthBar healthBar;
     public SoulBar soulBar;
+    public StaminaBar StaminaBar;
     public int health = 100;
     public float soul = 0;
     public float Stamina = 30;
@@ -60,6 +61,7 @@ public class Parameters : MonoBehaviour
         else
         {
             playerMovement.animator.SetTrigger("ShieldHit");
+            StaminaBar.SetStamina(Stamina);
         }
 
     }
@@ -101,5 +103,9 @@ public class Parameters : MonoBehaviour
             playerMovement.animator.SetBool("ShieldBroken", false);
         }
         SetLimitsInVariables();
+        healthBar.SetHealth(health);
+        soulBar.SetFury(soul);
+        StaminaBar.SetStamina(Stamina);
+
     }
 }
