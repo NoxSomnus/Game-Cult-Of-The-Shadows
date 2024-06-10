@@ -1,19 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
-
-
 
 public class FireCamp : MonoBehaviour
 {
 
     private bool isPlayerInRange;
-    private bool isResting=false;
+    private bool isResting = false;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject playerMovement;
     [SerializeField] private GameObject pressE;
 
-    
+
 
     void Start()
     {
@@ -23,18 +22,18 @@ public class FireCamp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
 
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !isResting)
         {
             RestAndSave();
         }
-        else if(isPlayerInRange && Input.GetKeyDown(KeyCode.E) && isResting)
+        else if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && isResting)
         {
             StartCoroutine(Wait());
 
         }
-        
+
 
     }
     private void RestAndSave()
@@ -42,8 +41,8 @@ public class FireCamp : MonoBehaviour
         pressE.SetActive(false);
         playerMovement.GetComponent<Animator>().SetBool("Rest", true);
         isResting = true;
-        SaveManager.SavePlayerData(this);
         playerMovement.GetComponent<Movement>().enabled = false;
+        playerMovement.GetComponent<Parameters>().health = 100;
 
     }
 
@@ -66,7 +65,7 @@ public class FireCamp : MonoBehaviour
             isPlayerInRange = true;
 
         }
-        
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -74,8 +73,8 @@ public class FireCamp : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             pressE.SetActive(false);
-            isPlayerInRange=false;
+            isPlayerInRange = false;
         }
-            
+
     }
 }
