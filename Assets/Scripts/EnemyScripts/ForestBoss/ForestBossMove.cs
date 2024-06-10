@@ -12,6 +12,7 @@ public class ForestBossMove : MonoBehaviour
     [SerializeField] private float distance;
     public Animator animator;
     private bool canAttack;
+    [SerializeField] private FirstWorldMusic musicManager;
     public Enemy enemyStats;
     private BoxCollider2D boxCollider;
     [SerializeField] private bool changeLook;
@@ -41,6 +42,7 @@ public class ForestBossMove : MonoBehaviour
         if (enemyStats.Health <= 0) 
         {
             animator.SetTrigger("Die");
+            musicManager.WorldMusic();
             Destroy(windWall);
             //boxCollider.enabled = false;
             this.enabled = false;            
