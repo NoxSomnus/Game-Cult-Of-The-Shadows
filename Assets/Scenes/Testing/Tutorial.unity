@@ -1044,6 +1044,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 2081411542}
+    - target: {fileID: 3033356058597945042, guid: e84a85c750b82284e990464977dc8392, type: 3}
+      propertyPath: StaminaBar
+      value: 
+      objectReference: {fileID: 514282025}
     - target: {fileID: 3360907574140889716, guid: e84a85c750b82284e990464977dc8392, type: 3}
       propertyPath: furyObtained
       value: 0
@@ -1663,6 +1667,7 @@ GameObject:
   - component: {fileID: 275218420}
   - component: {fileID: 275218419}
   - component: {fileID: 275218418}
+  - component: {fileID: 275218422}
   m_Layer: 8
   m_Name: Square (7)
   m_TagString: Ground
@@ -1809,6 +1814,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!66 &275218422
+CompositeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 275218417}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_GeometryType: 0
+  m_GenerationType: 0
+  m_EdgeRadius: 0
+  m_ColliderPaths: []
+  m_CompositePaths:
+    m_Paths: []
+  m_VertexDistance: 0.0005
+  m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 275218417}
 --- !u!1 &348879649
 GameObject:
   m_ObjectHideFlags: 0
@@ -2578,6 +2626,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1828078325}
     - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
+      propertyPath: floorCollider
+      value: 
+      objectReference: {fileID: 275218422}
+    - target: {fileID: 2537317451212719509, guid: 49182d46e1c6bd94eab8f9d5b7e12042, type: 3}
       propertyPath: playerMovement
       value: 
       objectReference: {fileID: 147664682}
@@ -2756,6 +2808,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &514282025 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5073564932584826010, guid: 3cd28dbb9f554244e8ccaeb434be2839, type: 3}
+  m_PrefabInstance: {fileID: 1314470891}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4a8a0240bd5ac243a8c2a4ef706dc9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &530413323
 GameObject:
   m_ObjectHideFlags: 0
