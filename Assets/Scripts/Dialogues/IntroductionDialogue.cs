@@ -58,7 +58,8 @@ public class IntroductionDialogue : MonoBehaviour
         {
             didDialogueStart = false;
             //dialoguePanel.SetActive(false);
-            // Volver a habilitar el movimiento del personaje principal
+            dialogueText.text = string.Empty;
+            TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_GAME);
             Destroy(gameObject);
 
         }
