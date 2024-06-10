@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class TutorialPortal : MonoBehaviour
 {
+
+
     // Start is called before the first frame update
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(0);
+        TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
     }
 }

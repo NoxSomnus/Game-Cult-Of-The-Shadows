@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Testing/MainMenu 1.unity
     guid: cf6d252641ed5454bb3ac0ea4475daea
   - enabled: 1
+    path: Assets/Scenes/Testing/Tutorial.unity
+    guid: 2a571eb598c91ea43868080f328d0677
+  - enabled: 1
     path: Assets/Scenes/cocinando.unity
     guid: f795a9faa04caba4e8666de5392ad11a
   - enabled: 1

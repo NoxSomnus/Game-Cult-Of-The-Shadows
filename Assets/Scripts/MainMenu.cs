@@ -15,4 +15,8 @@ public class MainMenu : MonoBehaviour
     {
         TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
     }
+    public void LoadTutorialScene()
+    {
+        TransitionManager.Instance.LoadScene("Tutorial");
+    }
 }
