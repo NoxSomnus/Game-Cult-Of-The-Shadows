@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/OakWood.unity
     guid: 775ef3d6d5d91904e906a2dd1d947c6a
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
-    guid: da7a1f6f12ffcf747bb40206bd702075
-  - enabled: 1
     path: Assets/Scenes/Testing/MainMenu 1.unity
     guid: cf6d252641ed5454bb3ac0ea4475daea
   - enabled: 1
@@ -30,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Demo.unity
     guid: 1860b8ec09491fe488ecff8a76b0d0d2
   - enabled: 1
+    path: Assets/Scenes/Testing/GameOver.unity
+    guid: 245c8d20da6948b44882070ee2fe5332
+  - enabled: 1
     path: Assets/Scenes/TransitionManager.unity
     guid: 68c41d4573bac3248ac3ba2c611d76d5
   - enabled: 1
@@ -40,10 +40,10 @@ EditorBuildSettings:
     guid: 2833e91127167a7488b976e50d5837ce
   - enabled: 1
     path: Assets/Scenes/Testing/Intro.unity
-    guid: 0d4aece325bf5534e9471d7f0ceb3ae9
+    guid: cd79487625ef1a94a9d8de48c358c246
   - enabled: 1
     path: Assets/Scenes/Testing/FinalTest.unity
-    guid: ff2c3cfe1f1e7814bbdd1508c974af8c
+    guid: ea2e92ce8c3945646bba7c51870a474f
   - enabled: 1
     path: Assets/Scenes/IntroductionScene.unity
     guid: 957752bc7071c994b8613b9d5c0c178f

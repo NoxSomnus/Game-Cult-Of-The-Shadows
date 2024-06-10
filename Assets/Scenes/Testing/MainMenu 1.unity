@@ -867,7 +867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   src: {fileID: 1133422465}
-  StartSound: {fileID: 8300000, guid: c51c487c1d8eac74bbeabaff7e8b8c34, type: 3}
+  StartSound: {fileID: 8300000, guid: eb964fb73b96058488cba98e799c1d7a, type: 3}
   sceneName: LoadTest
 --- !u!4 &1466649430
 Transform:

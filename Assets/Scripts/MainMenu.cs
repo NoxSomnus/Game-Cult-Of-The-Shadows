@@ -4,28 +4,40 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour
 {
+    public AudioSource src;
+    public AudioClip ConfirmSound;
     public string sceneName;
     // Start is called before the first frame update
     public void LoadGameScene()
     {
+        src.clip = ConfirmSound;
+        src.Play();
         TransitionManager.Instance.LoadScene(sceneName);
     }
 
     public void LoadMenuScene()
     {
+        src.clip = ConfirmSound;
+        src.Play();
         TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
     }
     public void LoadTutorialScene()
     {
+         src.clip = ConfirmSound;
+        src.Play();
         TransitionManager.Instance.LoadScene("Tutorial");
     }
     public void LoadCreditsScene()
     {
+        src.clip = ConfirmSound;
+        src.Play();
         TransitionManager.Instance.LoadScene("Creditos");
     }
 
     public void CloseGame()
     {
+        src.clip = ConfirmSound;
+        src.Play();
         Application.Quit();
     }
 }

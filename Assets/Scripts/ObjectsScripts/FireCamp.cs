@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class FireCamp : MonoBehaviour
 {
 
@@ -40,6 +42,7 @@ public class FireCamp : MonoBehaviour
         pressE.SetActive(false);
         playerMovement.GetComponent<Animator>().SetBool("Rest", true);
         isResting = true;
+        SaveManager.SavePlayerData(this);
         playerMovement.GetComponent<Movement>().enabled = false;
 
     }

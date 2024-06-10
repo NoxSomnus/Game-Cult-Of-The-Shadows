@@ -45,7 +45,7 @@ public class Parameters : MonoBehaviour
         //soundEffectsManager.HitClip();
         if (health <= 0)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("GameOver");
         }
     }
 
