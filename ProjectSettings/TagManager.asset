@@ -14,6 +14,7 @@ TagManager:
   - Body
   - EnemyAtk
   - CameraTrigger
+  - Platform
   layers:
   - Default
   - TransparentFX

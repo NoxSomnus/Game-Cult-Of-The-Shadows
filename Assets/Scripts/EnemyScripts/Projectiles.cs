@@ -34,7 +34,7 @@ public class Projectiles : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerMovement player = collision.GetComponent<PlayerMovement>();
+        Movement player = collision.GetComponent<Movement>();
         if (collision.tag == "Player")
         {
             Destroy(gameObject);

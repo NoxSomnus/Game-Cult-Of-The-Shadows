@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 480696c28ab06fc4292c4018f2e845b6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15e71e2add3d7b41a091cd5a37049b5
+      internalID: -1042835799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1113c43861512a0498fc41e309fff3e6
+      internalID: -100860002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0c791abe115e74281b336c07cec4b2
+      internalID: 1966932340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aaa1d46c2a85e04197147e237c4d5a4
+      internalID: 1296938347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 274a28fc07c42d04e96ba22ddadbd20b
+      internalID: 1526230609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e8561d14c5c444a8039d88fc75c75b
+      internalID: 1915753426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc39d2038fbbb141ba29a9233fb44c3
+      internalID: -1497763594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 391b31a56c4d4d448882c18e4aabedd1
+      internalID: -1402639659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa4c11c8df69494bba8e223b914f03b
+      internalID: 614586594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f45a464983d9b242b8668bc6175a473
+      internalID: 762313971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ec0916efc02cd4799d2355bf44afd1
+      internalID: -1704102762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9db91b81eac13cc4da4f0b27dc741721
+      internalID: 1361742807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78688a80ce2b8d48846db9a59aa5862
+      internalID: -1290185466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5c266741d28554f847c2bf84b0db04
+      internalID: 2021111854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d603c707ecae24b81d23b504e0e236
+      internalID: 201779714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b336fe5174f08144885af6eedbf51dda
+      internalID: -1037504083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34139efcdc234b94288c8407de57ad34
+      internalID: -1617455411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76128ca7b76391459207124629bb1ed
+      internalID: -1245841788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ec7a96fe3754941a16301f2cee6f13
+      internalID: -544487504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76809e668a87b994b99e1836bd7b9b7d
+      internalID: 30090535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba84de1f180c24745b12c7822b7c16a1
+      internalID: -1229172939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aurora ice atk1-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3507
+        y: 0
+        width: 167
+        height: 96
+      alignment: 9
+      pivot: {x: 0.25, y: 0.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b370b79a438594b9ad9682b1241780
+      internalID: 1984389771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      aurora ice atk1-Sheet_0: -1042835799
+      aurora ice atk1-Sheet_1: -100860002
+      aurora ice atk1-Sheet_10: -1704102762
+      aurora ice atk1-Sheet_11: 1361742807
+      aurora ice atk1-Sheet_12: -1290185466
+      aurora ice atk1-Sheet_13: 2021111854
+      aurora ice atk1-Sheet_14: 201779714
+      aurora ice atk1-Sheet_15: -1037504083
+      aurora ice atk1-Sheet_16: -1617455411
+      aurora ice atk1-Sheet_17: -1245841788
+      aurora ice atk1-Sheet_18: -544487504
+      aurora ice atk1-Sheet_19: 30090535
+      aurora ice atk1-Sheet_2: 1966932340
+      aurora ice atk1-Sheet_20: -1229172939
+      aurora ice atk1-Sheet_21: 1984389771
+      aurora ice atk1-Sheet_3: 1296938347
+      aurora ice atk1-Sheet_4: 1526230609
+      aurora ice atk1-Sheet_5: 1915753426
+      aurora ice atk1-Sheet_6: -1497763594
+      aurora ice atk1-Sheet_7: -1402639659
+      aurora ice atk1-Sheet_8: 614586594
+      aurora ice atk1-Sheet_9: 762313971
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
