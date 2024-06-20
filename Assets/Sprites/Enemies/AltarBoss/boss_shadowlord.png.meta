@@ -1,0 +1,1786 @@
+fileFormatVersion: 2
+guid: fb3cab43e2c65904fa90f6bd0d6037fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_shadowlord_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438eb8e45c173b64b927805e8631759d
+      internalID: 577523990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162e7096372d086489b1a1d9eb879e99
+      internalID: 1119345976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcc59f9e292ac246ba58e1fc4e0e00a
+      internalID: 211914320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317d43d995211074f9534aa8c95291e5
+      internalID: -128100823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409adf3fdfdc0045972a741a33938f1
+      internalID: -531869114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38391a447f0ff54ab36282f5a977c22
+      internalID: 1300991477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e405117e49514814186b5e2583688693
+      internalID: -347952505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9686838cf40274847bb49526333bec72
+      internalID: -387258222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d034c63b32f474897aecb76181a57d
+      internalID: 972085703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 896
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebda99c0313476408a863ff2b6f399f
+      internalID: -1760574172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e9c964affa8be4497e3d71d1b12c47
+      internalID: -1238812713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_11
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cbf2518b87d63479671841dabb871e
+      internalID: 775974311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e370d926b8db5409953bdb5a1dd37b
+      internalID: -1703645684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_13
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36a785383efc1943a2ea394bbf6fa31
+      internalID: -2059571833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_14
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcd9354cb594e944b856cd14af5fc77
+      internalID: -896218923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2af544b08cc88d4faaf62a2a720f776
+      internalID: 1448243880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_16
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01a8d1ecc330d94db879a276680bae7
+      internalID: 70188965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_17
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67e305e515b08c4da05fd07199fd450
+      internalID: -205022061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_18
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9247a08f1fddaa4da55d9f63044ba10
+      internalID: 193113163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_19
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 768
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4f40ce2db999f40a807b54e1336bba
+      internalID: -345556640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8030228779cd37b47b5371305615e778
+      internalID: -1652498543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_21
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5952f4feb0056824b97d5c259440ee79
+      internalID: -194771204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba6240b0c4975c498ab5b9b710b15f0
+      internalID: -980539419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_23
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4a56137f9dac34b8f8b3538e17c287
+      internalID: -965794059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_24
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373e097ac5acdb84f8cc9ad2dbe6bb4c
+      internalID: 1534227517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c20ece62b3c864685052225395cd87
+      internalID: 969033811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_26
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50650878e52018148b983c980eaecfc6
+      internalID: -813764529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_27
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021ba95e94f2dfe408db2def075a4454
+      internalID: 1135393825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_28
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb1eade30732ec4388fcd80487bb2ac
+      internalID: 1625495238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_29
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 640
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb46c7016770ce479f0625193619b29
+      internalID: 919323333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf9c0308ab5f95489d11e60ac60c03f
+      internalID: 1412537169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_31
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6af945273386e9040be84da8f5f98f76
+      internalID: 590012714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdff42c08f990f46b299b03a1140b23
+      internalID: -1313465443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cffb1e2f582ac24d9b456d212913dec
+      internalID: -259395040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_34
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7093109e426344fa04327078cb78bb
+      internalID: 215974237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af139cc65ca4645a75a747fddff4d2
+      internalID: -1036325946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_36
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c40591ec5fe764bac3fc310c1fc911
+      internalID: -1397710561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_37
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc3e16a154d8948a0176571977c4a3
+      internalID: 226360276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_38
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052a6961d434f464e94260c0604f40ec
+      internalID: 1671960573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_39
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 512
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffc88f3001fda04a8bb91b38dfc0d98
+      internalID: -220355804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48d9a3419b6c364bae5a72f91aa20bd
+      internalID: 1479449358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_41
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e4d5a3f26c450428653f3dec13aa99
+      internalID: 1159838833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7931d710a048e24eac1ed63b491e956
+      internalID: 2046863979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_43
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5306486, y: 0.60931087}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef918df7cef2c734ba7639d787d0bbef
+      internalID: 1341920237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_44
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187d0287f1bf5f749bdc199e7d9e97c9
+      internalID: 2062114656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_45
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb69bf919f2e55949962e71f0b936637
+      internalID: 61225775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04501c2c4e85ba648a1c97853d3ea2a1
+      internalID: -197790177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_47
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8fcb5e9ecad48459c1723e37995dff
+      internalID: -2094202761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_48
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56db88fcd9e8aa043a6da582a7fdcf2a
+      internalID: -1034924519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248083a9d3f6e704b9ab6dcc7058c8b0
+      internalID: 1665346215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_50
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b80938211b2bd499eb6cf141545059
+      internalID: -1455712790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_51
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7342b4bc6365c43b68d27f0d0b66f8
+      internalID: -912192207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_52
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5301255, y: 0.66775656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ee85b6b508f214c8c7fbd6757ddd38
+      internalID: 1982749000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_53
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caad865c46e497459ea562a0d2b4cfe
+      internalID: 2086329632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_54
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567b289256e873408ea42e69d8e3315
+      internalID: 188513274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_55
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff91c69e68232524db75e57c3d692066
+      internalID: 510179599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_56
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888146ad5e867934594233af07894ef6
+      internalID: 1376312828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_57
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03243bbd03d01541b055a1af2eb497e
+      internalID: -122089645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0930b079ca715d340b52cd1026f18e1a
+      internalID: 1588351278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_59
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0896a3873593c834e9c7f95cae678596
+      internalID: -384357889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c3938065e5644496520b9a09824de
+      internalID: 1722423826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_61
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5369079, y: 0.7084197}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017623304e2a7074bb491a0c87157ff3
+      internalID: 1468900459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5149b90457e7efa45a39538da0f743b3
+      internalID: 1992283383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_63
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b0a50761be7174cb25961d55ae3543
+      internalID: 2058267972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_64
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925d8c905d3ed641a93f9ca54c236d9
+      internalID: 1918198156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_65
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e6e5e1b4136d145b6c4d82e8ec6485
+      internalID: -1970124243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6024af1e94fbe844ca91e0567ebcdcc1
+      internalID: 1735348332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b742626083c668842a6809adfcbbe801
+      internalID: 1454490858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_68
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723aa8739d8374e4c992a8d8775d7a0a
+      internalID: -385848039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_69
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f4f2719f892e64e88d18c3b81e51fb
+      internalID: -1988171940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_70
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4320f568c3595d04a8cc118e5b7ce5bc
+      internalID: -1841139649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_71
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58e1149fe12b2641b23659655dfe7c3
+      internalID: 1595155841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_72
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a0c4aee43d61844b02bd3b8c286afe
+      internalID: -1235414687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_73
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ed825876c098b47a08ab079fcf1bae
+      internalID: -2134128973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_74
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a23f0c16e2f5bf44976074031b52609
+      internalID: 1514564236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_shadowlord_75
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 120.47059
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec7f2f3b826e024da7f4a7c245c47b9
+      internalID: -961445754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boss_shadowlord_0: 577523990
+      boss_shadowlord_1: 1119345976
+      boss_shadowlord_10: -1238812713
+      boss_shadowlord_11: 775974311
+      boss_shadowlord_12: -1703645684
+      boss_shadowlord_13: -2059571833
+      boss_shadowlord_14: -896218923
+      boss_shadowlord_15: 1448243880
+      boss_shadowlord_16: 70188965
+      boss_shadowlord_17: -205022061
+      boss_shadowlord_18: 193113163
+      boss_shadowlord_19: -345556640
+      boss_shadowlord_2: 211914320
+      boss_shadowlord_20: -1652498543
+      boss_shadowlord_21: -194771204
+      boss_shadowlord_22: -980539419
+      boss_shadowlord_23: -965794059
+      boss_shadowlord_24: 1534227517
+      boss_shadowlord_25: 969033811
+      boss_shadowlord_26: -813764529
+      boss_shadowlord_27: 1135393825
+      boss_shadowlord_28: 1625495238
+      boss_shadowlord_29: 919323333
+      boss_shadowlord_3: -128100823
+      boss_shadowlord_30: 1412537169
+      boss_shadowlord_31: 590012714
+      boss_shadowlord_32: -1313465443
+      boss_shadowlord_33: -259395040
+      boss_shadowlord_34: 215974237
+      boss_shadowlord_35: -1036325946
+      boss_shadowlord_36: -1397710561
+      boss_shadowlord_37: 226360276
+      boss_shadowlord_38: 1671960573
+      boss_shadowlord_39: -220355804
+      boss_shadowlord_4: -531869114
+      boss_shadowlord_40: 1479449358
+      boss_shadowlord_41: 1159838833
+      boss_shadowlord_42: 2046863979
+      boss_shadowlord_43: 1341920237
+      boss_shadowlord_44: 2062114656
+      boss_shadowlord_45: 61225775
+      boss_shadowlord_46: -197790177
+      boss_shadowlord_47: -2094202761
+      boss_shadowlord_48: -1034924519
+      boss_shadowlord_49: 1665346215
+      boss_shadowlord_5: 1300991477
+      boss_shadowlord_50: -1455712790
+      boss_shadowlord_51: -912192207
+      boss_shadowlord_52: 1982749000
+      boss_shadowlord_53: 2086329632
+      boss_shadowlord_54: 188513274
+      boss_shadowlord_55: 510179599
+      boss_shadowlord_56: 1376312828
+      boss_shadowlord_57: -122089645
+      boss_shadowlord_58: 1588351278
+      boss_shadowlord_59: -384357889
+      boss_shadowlord_6: -347952505
+      boss_shadowlord_60: 1722423826
+      boss_shadowlord_61: 1468900459
+      boss_shadowlord_62: 1992283383
+      boss_shadowlord_63: 2058267972
+      boss_shadowlord_64: 1918198156
+      boss_shadowlord_65: -1970124243
+      boss_shadowlord_66: 1735348332
+      boss_shadowlord_67: 1454490858
+      boss_shadowlord_68: -385848039
+      boss_shadowlord_69: -1988171940
+      boss_shadowlord_7: -387258222
+      boss_shadowlord_70: -1841139649
+      boss_shadowlord_71: 1595155841
+      boss_shadowlord_72: -1235414687
+      boss_shadowlord_73: -2134128973
+      boss_shadowlord_74: 1514564236
+      boss_shadowlord_75: -961445754
+      boss_shadowlord_8: 972085703
+      boss_shadowlord_9: -1760574172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

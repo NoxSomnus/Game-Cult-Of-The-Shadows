@@ -14,6 +14,12 @@ public class PlayerSoundEffects : MonoBehaviour
     public AudioClip lightCutBegin;
     public AudioClip lightCutEnd;
     public AudioClip hit;
+
+    //Aurora Effects
+    public AudioClip firstFireAtk;
+    public AudioClip secondFireAtk;
+    public AudioClip thirdFireAtk;
+    public AudioClip firsticeAtk;
     // Start is called before the first frame update
     public void FirstNormalAtk()
     {
@@ -61,6 +67,30 @@ public class PlayerSoundEffects : MonoBehaviour
     public void LightCutEnd()
     {
         src.clip = lightCutEnd;
+        src.Play();
+    }
+
+    public void FirstFireAtk()
+    {
+        src.clip = firstFireAtk;
+        src.Play();
+    }
+
+    public void SecondFireAtk()
+    {
+        src.clip = secondFireAtk;
+        src.Play();
+    }
+
+    public void ThirdFireAtk()
+    {
+        src.clip = thirdFireAtk;
+        src.Play();
+    }
+
+    public void FirstIceAtk()
+    {
+        src.clip = firsticeAtk;
         src.Play();
     }
 

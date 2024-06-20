@@ -24,6 +24,7 @@ public class AuroraMovement : MonoBehaviour
     //Combat
     public bool attacking;
     public int combo;
+    public int elementalCombo;
     public bool onAir;
 
     public Parameters playerStats;
@@ -78,6 +79,25 @@ public class AuroraMovement : MonoBehaviour
             animator.SetBool("Sprint", false);
             StartCoroutine(JumpLoop());
         }
+    }
+
+    public void Start_ElementalCombo_Event()
+    {
+        attacking = false;
+        characterManager.canSwitch = true;
+        if (elementalCombo < 3)
+        {
+            elementalCombo++;
+        }
+
+    }
+
+    public void Finish_ElementalAtK_Event()
+    {
+
+        attacking = false;
+        characterManager.canSwitch = true;
+        elementalCombo = 0;
     }
 
     public void Start_Combo_Event2()
@@ -150,7 +170,7 @@ public class AuroraMovement : MonoBehaviour
             if (!onAir)
             {
                 attacking = true;
-                animator.SetTrigger("ElementalStorm" + combo);
+                animator.SetTrigger("ElementalStorm" + elementalCombo);
             }
             /*else
             {
