@@ -1528,12 +1528,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e4d7028ca57ec446a52665c1ac24923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneName: GameOver
   healthBar: {fileID: 0}
   soulBar: {fileID: 0}
   StaminaBar: {fileID: 0}
   health: 100
   soul: 0
   Stamina: 30
+  soulFragments: 100
+  lastPlayerData:
+    soul: 0
+    soulFragments: 0
+    position: []
+  fireCamp: {fileID: 0}
 --- !u!114 &6032027234231460167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1601,7 +1608,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 257
+    m_Bits: 1280
   m_GroundCheck: {fileID: 6170418740738318889}
   m_CeilingCheck: {fileID: 5753830295768140371}
   m_CrouchDisableCollider: {fileID: 0}

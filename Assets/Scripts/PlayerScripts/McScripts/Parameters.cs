@@ -10,6 +10,7 @@ using Unity.VisualScripting;
 
 public class Parameters : MonoBehaviour
 {
+    public string sceneName;
     public HealthBar healthBar;
     public SoulBar soulBar;
     public StaminaBar StaminaBar;
@@ -131,18 +132,11 @@ public class Parameters : MonoBehaviour
 
     private void WhenPlayerDie()
     {
-
+        health = 1;
         lastPlayerData = SaveManager.LoadPlayerData();
         lastPlayerData.soulFragments = soulFragments * 0.5;
         SaveManager.OnlySavePlayerData(lastPlayerData);
-        Respawn();
-        
-
+        TransitionManager.Instance.LoadScene(sceneName);
     }
-    private void Respawn()
-    {
-        transform.position = new Vector3(lastPlayerData.position[0], lastPlayerData.position[1], lastPlayerData.position[2]);
-        Debug.Log(" manco");
-
-    }
+    
 }
