@@ -41,4 +41,18 @@ public static class SaveManager
             return null;
         }
     }
+    public static void DeletePlayerData()
+    {
+        string dataPATH = Application.persistentDataPath + "/playerdata.save";
+        if (File.Exists(dataPATH))
+        {
+            File.Delete(dataPATH);
+            Debug.Log("Datos del jugador eliminados");
+        }
+        else
+        {
+            Debug.LogError("No hay datos del jugador guardados para eliminar");
+        }
+    }
+
 }
