@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     public void LoadGameScene()
     {
+        SaveManager.DeletePlayerData();
         src.clip = ConfirmSound;
         src.Play();
         TransitionManager.Instance.LoadScene(sceneName);
@@ -32,6 +33,14 @@ public class MainMenu : MonoBehaviour
         src.clip = ConfirmSound;
         src.Play();
         TransitionManager.Instance.LoadScene("Creditos");
+    }
+
+    public void ContinueGame()
+    {
+        
+        src.clip = ConfirmSound;
+        src.Play();
+        TransitionManager.Instance.LoadScene("FinalTest");
     }
 
     public void CloseGame()

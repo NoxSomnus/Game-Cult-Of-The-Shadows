@@ -33,6 +33,7 @@ public class Parameters : MonoBehaviour
         playerMovement = GetComponent<Movement>();
         lastPlayerData = SaveManager.LoadPlayerData();
         LoadDataPlayer();
+        
     }
 
     // Start is called before the first frame update
@@ -132,11 +133,11 @@ public class Parameters : MonoBehaviour
 
     private void WhenPlayerDie()
     {
-        health = 1;
+        health = 1; //No tocar, No me borren
         lastPlayerData = SaveManager.LoadPlayerData();
         lastPlayerData.soulFragments = soulFragments * 0.5;
         SaveManager.OnlySavePlayerData(lastPlayerData);
-        TransitionManager.Instance.LoadScene(sceneName);
+        SceneManager.LoadScene("GameOver");
     }
     
 }
