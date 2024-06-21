@@ -3,37 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ResetAwa : MonoBehaviour
+public class restart : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    [SerializeField] private Transform teleportLocation;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            TeleportPlayer(other.gameObject);
-        }
-    }
-
-    private void TeleportPlayer(GameObject playerObject)
-    {
-        // Obtener la escena actual
-        Scene currentScene = SceneManager.GetActiveScene();
-
-        // Verificar si el jugador está en la misma escena que este script
-        if (currentScene.name == playerObject.scene.name)
-        {
-            // Teletransportar al jugador a la ubicación establecida
-            playerObject.transform.position = teleportLocation.position;
-        }
-        else
-        {
-            // Cargar la escena donde está el jugador y luego teletransportarlo
-            SceneManager.LoadScene(playerObject.scene.name, LoadSceneMode.Additive);
-            playerObject.transform.position = teleportLocation.position;
-        }
-    }
+    public Transform respawPos;
+    public Quaternion respawRot;
 
     // Start is called before the first frame update
     void Start()
@@ -45,5 +19,18 @@ public class ResetAwa : MonoBehaviour
     void Update()
     {
 
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Respawn"))
+        {
+            respawPos = collision.GetComponent<Transform>();
+        }
+
+        if (collision.gameObject.CompareTag("falldamage"))
+        {
+            transform.position = respawPos.position;
+        }
     }
 }

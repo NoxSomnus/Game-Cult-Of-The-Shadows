@@ -26,6 +26,7 @@ public static class SaveManager
 
     public static PlayerData LoadPlayerData()
     {
+        
         string dataPATH = Application.persistentDataPath + "/playerdata.save";
         if (File.Exists(dataPATH))
         {

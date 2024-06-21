@@ -23,6 +23,7 @@ public class Parameters : MonoBehaviour
     BlinkEffect blink;
     public PlayerData lastPlayerData;
     public FireCamp fireCamp;
+    public bool inicio;
 
     private void Start()
     {
@@ -33,7 +34,8 @@ public class Parameters : MonoBehaviour
         playerMovement = GetComponent<Movement>();
         lastPlayerData = SaveManager.LoadPlayerData();
         LoadDataPlayer();
-        
+        inicio = true;
+
     }
 
     // Start is called before the first frame update
@@ -118,12 +120,17 @@ public class Parameters : MonoBehaviour
         {
             WhenPlayerDie();
         }
-
+        if (inicio)
+        {
+            inicio = false;
+            fireCamp.RestAndSave();
+            
+        }
     }
 
     public void LoadDataPlayer()
     {
-        fireCamp.RestAndSave();
+
         PlayerData playerData = SaveManager.LoadPlayerData();
         soul = playerData.soul;
         soulFragments = playerData.soulFragments;

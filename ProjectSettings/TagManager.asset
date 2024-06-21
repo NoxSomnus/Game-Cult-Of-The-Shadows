@@ -15,6 +15,7 @@ TagManager:
   - EnemyAtk
   - CameraTrigger
   - Platform
+  - falldamage
   layers:
   - Default
   - TransparentFX

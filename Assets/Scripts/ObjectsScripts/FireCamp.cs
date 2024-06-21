@@ -7,7 +7,7 @@ public class FireCamp : MonoBehaviour
 {
 
     private bool isPlayerInRange;
-    private bool isResting = false;
+    public bool isResting = false;
     [SerializeField] private Animator animator;
     [SerializeField] private GameObject playerMovement;
     [SerializeField] private GameObject pressE;
@@ -46,6 +46,7 @@ public class FireCamp : MonoBehaviour
         isResting = true;
         playerMovement.GetComponent<Movement>().enabled = false;
         playerMovement.GetComponent<Parameters>().health = 100;
+        Debug.Log("desconso");
         
     }
 
