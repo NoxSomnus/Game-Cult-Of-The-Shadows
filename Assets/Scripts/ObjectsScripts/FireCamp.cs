@@ -27,6 +27,7 @@ public class FireCamp : MonoBehaviour
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !isResting)
         {
             RestAndSave();
+            SaveisPlayerRest();
         }
         else if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && isResting)
         {
@@ -36,14 +37,16 @@ public class FireCamp : MonoBehaviour
 
 
     }
-    private void RestAndSave()
+   
+    public  void RestAndSave()
     {
+
         pressE.SetActive(false);
         playerMovement.GetComponent<Animator>().SetBool("Rest", true);
         isResting = true;
         playerMovement.GetComponent<Movement>().enabled = false;
         playerMovement.GetComponent<Parameters>().health = 100;
-
+        
     }
 
     private IEnumerator Wait()
@@ -75,6 +78,12 @@ public class FireCamp : MonoBehaviour
             pressE.SetActive(false);
             isPlayerInRange = false;
         }
+
+    }
+    public void SaveisPlayerRest()
+    {
+        SaveManager.SavePlayerData(playerMovement.GetComponent<Parameters>());
+        Debug.Log("Datos Guardados");
 
     }
 }

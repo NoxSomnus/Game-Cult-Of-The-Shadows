@@ -16,9 +16,12 @@ public class Parameters : MonoBehaviour
     public int health = 100;
     public float soul = 0;
     public float Stamina = 30;
+    public Double soulFragments;
     Movement playerMovement;
     SpriteRenderer sprite;
     BlinkEffect blink;
+    public PlayerData lastPlayerData;
+    public FireCamp fireCamp;
 
     private void Start()
     {
@@ -27,6 +30,8 @@ public class Parameters : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
         playerMovement = GetComponent<Movement>();
+        lastPlayerData = SaveManager.LoadPlayerData();
+        LoadDataPlayer();
     }
 
     // Start is called before the first frame update
@@ -43,10 +48,10 @@ public class Parameters : MonoBehaviour
         StartCoroutine(Damager());
         //animator.SetTrigger("Hit");
         //soundEffectsManager.HitClip();
-        if (health <= 0)
+       /* if (health <= 0)
         {
             SceneManager.LoadScene("GameOver");
-        }
+        }*/
     }
 
     public void ShieldHit(int dmg)
@@ -106,6 +111,38 @@ public class Parameters : MonoBehaviour
         healthBar.SetHealth(health);
         soulBar.SetFury(soul);
         StaminaBar.SetStamina(Stamina);
+
+        if (health <= 0)
+        {
+            WhenPlayerDie();
+        }
+
+    }
+
+    public void LoadDataPlayer()
+    {
+        fireCamp.RestAndSave();
+        PlayerData playerData = SaveManager.LoadPlayerData();
+        soul = playerData.soul;
+        soulFragments = playerData.soulFragments;
+        transform.position = new Vector3(playerData.position[0], playerData.position[1], playerData.position[2]);
+
+    }
+
+    private void WhenPlayerDie()
+    {
+
+        lastPlayerData = SaveManager.LoadPlayerData();
+        lastPlayerData.soulFragments = soulFragments * 0.5;
+        SaveManager.OnlySavePlayerData(lastPlayerData);
+        Respawn();
+        
+
+    }
+    private void Respawn()
+    {
+        transform.position = new Vector3(lastPlayerData.position[0], lastPlayerData.position[1], lastPlayerData.position[2]);
+        Debug.Log(" manco");
 
     }
 }
