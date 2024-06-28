@@ -10,13 +10,28 @@ public class Projectiles : MonoBehaviour
     public void SetDirection(Vector2 direction)
     {
         Direction = direction;
-        if (Direction == Vector2.left)
+        if (direction.x >= 0.0f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            transform.localScale = new Vector3(1, 1, 1);
+            Direction = Vector2.right;
         }
         else
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            transform.localScale = new Vector3(-1, 1, 1);
+            Direction = Vector2.left;
+        }
+    }
+
+    public void SetDirectionArrow(Vector2 direction)
+    {
+        Direction = direction;
+        if (direction.x >= 0.0f)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
         }
     }
 

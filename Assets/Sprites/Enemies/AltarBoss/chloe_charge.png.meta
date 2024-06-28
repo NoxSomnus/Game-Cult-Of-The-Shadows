@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: chloe_charge_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19070e910bb5344482ba8aaa3de1480
+      internalID: 1393402259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloe_charge_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcacf5a9c633bf418d40db1eae075e5
+      internalID: -263814435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloe_charge_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 3
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c908e2bf09c9926418ed84ed319ab077
+      internalID: 731693562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloe_charge_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 2
+        width: 49
+        height: 53
+      alignment: 9
+      pivot: {x: 0.6, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e66eca4a6a9f0d4badcc860e7bbb358
+      internalID: 1311131329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloe_charge_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 3
+        width: 54
+        height: 53
+      alignment: 9
+      pivot: {x: 0.53, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13556be2d240a94a918d393cc85f68d
+      internalID: -968983414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloe_charge_5
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 5
+        width: 48
+        height: 52
+      alignment: 9
+      pivot: {x: 0.6, y: 0.52}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd225549d3dcf6c45bb88d40e38de387
+      internalID: -1982622211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +232,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chloe_charge_0: 1393402259
+      chloe_charge_1: -263814435
+      chloe_charge_2: 731693562
+      chloe_charge_3: 1311131329
+      chloe_charge_4: -968983414
+      chloe_charge_5: -1982622211
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

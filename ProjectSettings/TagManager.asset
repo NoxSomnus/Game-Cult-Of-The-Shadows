@@ -16,6 +16,7 @@ TagManager:
   - CameraTrigger
   - Platform
   - falldamage
+  - AtkFinished
   layers:
   - Default
   - TransparentFX
