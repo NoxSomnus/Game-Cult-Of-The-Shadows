@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 6387146830360727430}
   - component: {fileID: 8385274837067265043}
   - component: {fileID: 3061188796515927944}
+  - component: {fileID: -6426360950760136905}
   m_Layer: 6
   m_Name: ForestBoss
   m_TagString: Enemy
@@ -683,8 +684,10 @@ MonoBehaviour:
   lookAt: 0
   distance: 0
   animator: {fileID: 0}
+  musicManager: {fileID: 0}
   enemyStats: {fileID: 6387146830360727430}
   changeLook: 0
+  windWall: {fileID: 0}
 --- !u!70 &686024027984567644
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -762,6 +765,8 @@ MonoBehaviour:
   despawnTimer: 5
   Health: 100
   bossHealthBar: {fileID: 0}
+  dropLoot: {fileID: 0}
+  hasDroppedLoot: 0
 --- !u!114 &8385274837067265043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -790,6 +795,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 1760917601651395806}
   slash: {fileID: 8300000, guid: 09cec6035b252554fa36e6a857c5cb4a, type: 3}
+--- !u!114 &-6426360950760136905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6035018695689892416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c7840f194351340b9b80caebce2d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDropInfo:
+  - item: {fileID: 4928855212387657730, guid: 9b8dc0ba15b3859468607950e3dabe97, type: 3}
+    minDrop: 30
+    maxDrop: 50
+  - item: {fileID: 4928855212387657730, guid: 4f6d7ae81d4de1148a82539d9d9bcd46, type: 3}
+    minDrop: 10
+    maxDrop: 20
+  minTotalDrops: 10
+  maxTotalDrops: 70
 --- !u!1 &6072998893221986611
 GameObject:
   m_ObjectHideFlags: 0

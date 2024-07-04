@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 3efd149d736c292479c43bc353469d12
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: last-hit-to-die_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 255
+        width: 190
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f905999be88e57d4794077cc9352cb3b
+      internalID: 1929387439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_21
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 255
+        width: 188
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c790e2d162a43ed4089757a48587f14e
+      internalID: -2079683550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_22
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 255
+        width: 213
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc431e97b6bbdb43922cd18c2fc0ec2
+      internalID: -57872264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_23
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 255
+        width: 211
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63948cd686886634aaf897ae3e1e7286
+      internalID: -964803065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_24
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 255
+        width: 327
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d042bd1dbd31449895b53500d052ed
+      internalID: 724979623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_25
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 255
+        width: 202
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3852fdcae2217fa4e9efe7707d967e0a
+      internalID: 1398662968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_26
+      rect:
+        serializedVersion: 2
+        x: 3092
+        y: 255
+        width: 188
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872b6684ff52660489fdd24a53d1ea9a
+      internalID: -1992096270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_27
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 255
+        width: 208
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48185cb8d246e0b4ab02990857dd42be
+      internalID: -418339834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_28
+      rect:
+        serializedVersion: 2
+        x: 4058
+        y: 282
+        width: 232
+        height: 316
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5a6898c834ff44b87564012b7d21e8
+      internalID: 1514351283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_29
+      rect:
+        serializedVersion: 2
+        x: 4528
+        y: 255
+        width: 280
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0a33a434c4e794b88afbf7636c0da8
+      internalID: -1223522936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_30
+      rect:
+        serializedVersion: 2
+        x: 5030
+        y: 255
+        width: 288
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68585072f8787c4abf3b58e31ca4ec0
+      internalID: -1594332431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_32
+      rect:
+        serializedVersion: 2
+        x: 5514
+        y: 255
+        width: 296
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebf3c8347b1e94245b3ed65b3c6af0cf
+      internalID: 846750219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_33
+      rect:
+        serializedVersion: 2
+        x: 5991
+        y: 255
+        width: 330
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9da2d5810a2e414fbf8037b158bd52a
+      internalID: -1214943815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_34
+      rect:
+        serializedVersion: 2
+        x: 6454
+        y: 255
+        width: 391
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1260ee6c578b9dd419eb806581f7bf01
+      internalID: 182673229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_35
+      rect:
+        serializedVersion: 2
+        x: 6949
+        y: 255
+        width: 390
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a45cffc50903f48b619ada8bced129
+      internalID: -1540628663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_36
+      rect:
+        serializedVersion: 2
+        x: 7437
+        y: 254
+        width: 401
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f28aaa01a5a1e4c975edd02b4e3c1e
+      internalID: -1808052244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_37
+      rect:
+        serializedVersion: 2
+        x: 7932
+        y: 255
+        width: 400
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896c63b724bf070438532f35701cb453
+      internalID: -1472195846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_38
+      rect:
+        serializedVersion: 2
+        x: 8501
+        y: 255
+        width: 285
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7454c283d977a11489dab10790e0fd60
+      internalID: -2013058729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_39
+      rect:
+        serializedVersion: 2
+        x: 8947
+        y: 255
+        width: 334
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102d09c2fef4d9b4d8a8f03b42ed1213
+      internalID: -1336230993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_40
+      rect:
+        serializedVersion: 2
+        x: 9453
+        y: 255
+        width: 343
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f299add99d4c17b49ae71d53d02c1d79
+      internalID: 446922514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_41
+      rect:
+        serializedVersion: 2
+        x: 9897
+        y: 255
+        width: 399
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aee28f49e1c3614ab4989e4fe2d5498
+      internalID: -1553834855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_42
+      rect:
+        serializedVersion: 2
+        x: 10349
+        y: 255
+        width: 483
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d5458d55017284ba2d4dd837409a05
+      internalID: 609074884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_43
+      rect:
+        serializedVersion: 2
+        x: 10837
+        y: 255
+        width: 494
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ce0a812affcea45a117219d86d79fb
+      internalID: 663444913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_44
+      rect:
+        serializedVersion: 2
+        x: 11333
+        y: 255
+        width: 491
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ffeca5a2e36a74ea8db6f4f0b6e1fd
+      internalID: 91367920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_45
+      rect:
+        serializedVersion: 2
+        x: 11847
+        y: 255
+        width: 449
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b8ac6f30d852746989115e7dceb5ad
+      internalID: -1197864082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_46
+      rect:
+        serializedVersion: 2
+        x: 12339
+        y: 255
+        width: 451
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44bd9a5e2e068ab41a7550dacf1fdc1b
+      internalID: -816845489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_64
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220e550c88a0c024bab1f5fbe7a166b2
+      internalID: 1758970195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: last-hit-to-die_0
+      rect:
+        serializedVersion: 2
+        x: 5870
+        y: 601
+        width: 10
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807bd48c16952eb42b191a424965b4cd
+      internalID: 1588293572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      last-hit-to-die_0: 1588293572
+      last-hit-to-die_1: 1190076042
+      last-hit-to-die_10: 1441497200
+      last-hit-to-die_11: -1056902926
+      last-hit-to-die_12: 1479916175
+      last-hit-to-die_13: 2034919867
+      last-hit-to-die_14: 1793843453
+      last-hit-to-die_15: -2055147725
+      last-hit-to-die_16: -1744530079
+      last-hit-to-die_17: -336908346
+      last-hit-to-die_18: 629285620
+      last-hit-to-die_19: 1424807599
+      last-hit-to-die_2: -478833717
+      last-hit-to-die_20: 1929387439
+      last-hit-to-die_21: -2079683550
+      last-hit-to-die_22: -57872264
+      last-hit-to-die_23: -964803065
+      last-hit-to-die_24: 724979623
+      last-hit-to-die_25: 1398662968
+      last-hit-to-die_26: -1992096270
+      last-hit-to-die_27: -418339834
+      last-hit-to-die_28: 1514351283
+      last-hit-to-die_29: -1223522936
+      last-hit-to-die_3: -1792649800
+      last-hit-to-die_30: -1594332431
+      last-hit-to-die_31: -152100453
+      last-hit-to-die_32: 846750219
+      last-hit-to-die_33: -1214943815
+      last-hit-to-die_34: 182673229
+      last-hit-to-die_35: -1540628663
+      last-hit-to-die_36: -1808052244
+      last-hit-to-die_37: -1472195846
+      last-hit-to-die_38: -2013058729
+      last-hit-to-die_39: -1336230993
+      last-hit-to-die_4: -1022584719
+      last-hit-to-die_40: 446922514
+      last-hit-to-die_41: -1553834855
+      last-hit-to-die_42: 609074884
+      last-hit-to-die_43: 663444913
+      last-hit-to-die_44: 91367920
+      last-hit-to-die_45: -1197864082
+      last-hit-to-die_46: -816845489
+      last-hit-to-die_47: 286215374
+      last-hit-to-die_48: 78073713
+      last-hit-to-die_49: 1094036521
+      last-hit-to-die_5: 1050963945
+      last-hit-to-die_50: -1496887698
+      last-hit-to-die_51: -1487200025
+      last-hit-to-die_52: -955860601
+      last-hit-to-die_53: -692330738
+      last-hit-to-die_54: 1966231654
+      last-hit-to-die_55: 416929150
+      last-hit-to-die_56: 1192785407
+      last-hit-to-die_57: 1940797034
+      last-hit-to-die_58: -1517970174
+      last-hit-to-die_59: 1671070754
+      last-hit-to-die_6: -1417642876
+      last-hit-to-die_60: 829848222
+      last-hit-to-die_61: -154354713
+      last-hit-to-die_62: -984085275
+      last-hit-to-die_63: -1226090002
+      last-hit-to-die_64: 1758970195
+      last-hit-to-die_7: 1788019888
+      last-hit-to-die_8: -1841321647
+      last-hit-to-die_9: -1337963545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

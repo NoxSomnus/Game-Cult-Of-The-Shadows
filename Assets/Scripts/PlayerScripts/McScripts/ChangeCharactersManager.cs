@@ -8,6 +8,10 @@ public class ChangeCharactersManager : MonoBehaviour
     [SerializeField] private AuroraMovement AuroraMovement;
     [SerializeField] private RuntimeAnimatorController JoanneAnimator;
     [SerializeField] private RuntimeAnimatorController AuroraAnimator;
+    [SerializeField] private GameObject joaneeUI;
+    [SerializeField] private GameObject auroraUI;
+    private HealthBar healthPlayer;
+
     Animator animator;
 
 
@@ -33,7 +37,9 @@ public class ChangeCharactersManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha1) && !JoanneMovement.attacking && !AuroraMovement.attacking)
             {
                 JoanneMovement.enabled = true;
-
+                
+                joaneeUI.SetActive(true);
+                auroraUI.SetActive(false);
                 AuroraMovement.enabled = false;
                 JoanneMovement.combo = 0;
                 SetJoanneAnimator();
@@ -42,7 +48,8 @@ public class ChangeCharactersManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha2) && !AuroraMovement.attacking && !JoanneMovement.attacking)
             {
                 JoanneMovement.enabled = false;
-
+                joaneeUI.SetActive(false);
+                auroraUI.SetActive(true);
                 AuroraMovement.enabled = true;
                 AuroraMovement.combo = 0;
                 SetAuroraAnimator();

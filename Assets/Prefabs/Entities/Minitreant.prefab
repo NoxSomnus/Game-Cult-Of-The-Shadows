@@ -183,6 +183,7 @@ GameObject:
   - component: {fileID: 7962512001586849422}
   - component: {fileID: 8373343464458144187}
   - component: {fileID: 4000365510523051348}
+  - component: {fileID: 1957065230571381119}
   m_Layer: 6
   m_Name: Minitreant
   m_TagString: Enemy
@@ -392,6 +393,8 @@ MonoBehaviour:
   despawnTimer: 2
   Health: 20
   bossHealthBar: {fileID: 0}
+  dropLoot: {fileID: 0}
+  hasDroppedLoot: 0
 --- !u!114 &4000365510523051348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,6 +409,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   original: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   blink: {fileID: 2100000, guid: 034f9af968298954a841d0683f8d28e0, type: 2}
+--- !u!114 &1957065230571381119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8171730413742951025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c7840f194351340b9b80caebce2d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDropInfo:
+  - item: {fileID: 4928855212387657730, guid: 9b8dc0ba15b3859468607950e3dabe97, type: 3}
+    minDrop: 3
+    maxDrop: 8
+  - item: {fileID: 4928855212387657730, guid: 4f6d7ae81d4de1148a82539d9d9bcd46, type: 3}
+    minDrop: 0
+    maxDrop: 2
+  minTotalDrops: 3
+  maxTotalDrops: 8
 --- !u!1 &9092758481354422726
 GameObject:
   m_ObjectHideFlags: 0

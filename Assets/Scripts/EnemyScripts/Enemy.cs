@@ -10,10 +10,12 @@ public class Enemy : MonoBehaviour
     private BlinkEffect blink;
     public int Health;
     public BossHealthBar bossHealthBar;
-
+    public DropLoot dropLoot;
+    public bool hasDroppedLoot;
     // Start is called before the first frame update
     void Start()
     {
+        dropLoot = GetComponent<DropLoot>();
         despawnTimer = 5f;
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
@@ -27,8 +29,17 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Health <= 0)
+        if (Health <= 0 )
         {
+            Debug.Log("murido");
+
+            if (!hasDroppedLoot)
+            {
+                dropLoot.ItemDrop();
+                hasDroppedLoot = true;
+
+            }
+            
             despawnTimer -= 1 * Time.deltaTime;
 
             if (despawnTimer <= 0)
@@ -50,6 +61,8 @@ public class Enemy : MonoBehaviour
 
     private IEnumerator Damager()
     {
+        
+
         sprite.material = blink.blink;
         yield return new WaitForSeconds(0.5f);
         sprite.material = blink.original;

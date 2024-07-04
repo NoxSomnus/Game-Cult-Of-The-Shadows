@@ -161,6 +161,8 @@ GameObject:
   - component: {fileID: 4318867524851965693}
   - component: {fileID: 2931399874483135009}
   - component: {fileID: 6017368881716638694}
+  - component: {fileID: 1074860037861072280}
+  - component: {fileID: 346351616770754220}
   m_Layer: 6
   m_Name: EnemyMata
   m_TagString: Enemy
@@ -363,6 +365,8 @@ MonoBehaviour:
   despawnTimer: 3
   Health: 20
   bossHealthBar: {fileID: 0}
+  dropLoot: {fileID: 0}
+  hasDroppedLoot: 0
 --- !u!114 &6017368881716638694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -377,6 +381,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   original: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   blink: {fileID: 2100000, guid: 034f9af968298954a841d0683f8d28e0, type: 2}
+--- !u!114 &1074860037861072280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407877019078989561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71a12b50edbd84468ffea9c88807473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dmg: 5
+--- !u!114 &346351616770754220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407877019078989561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c7840f194351340b9b80caebce2d09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemDropInfo:
+  - item: {fileID: 4928855212387657730, guid: 9b8dc0ba15b3859468607950e3dabe97, type: 3}
+    minDrop: 1
+    maxDrop: 5
+  minTotalDrops: 1
+  maxTotalDrops: 5
 --- !u!1 &1019281033399975292
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +476,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.014532089, y: -0.6612146}
+  m_Offset: {x: -0.014532089, y: -0.29235077}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -452,7 +487,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.41871262, y: 1.770206}
+  m_Size: {x: 0.41871262, y: 1.0324783}
   m_EdgeRadius: 0
 --- !u!1 &2655087738052467404
 GameObject:

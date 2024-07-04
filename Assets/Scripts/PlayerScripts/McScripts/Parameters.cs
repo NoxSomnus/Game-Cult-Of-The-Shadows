@@ -11,11 +11,13 @@ using Unity.VisualScripting;
 public class Parameters : MonoBehaviour
 {
     public string sceneName;
-    public HealthBar healthBar;
+    public HealthBar healthBarJ;
+    public HealthBar healthBarA;
     public SoulBar soulBar;
-    public StaminaBar StaminaBar;
+    //public StaminaBar StaminaBar;
     public int health = 100;
     public float soul = 0;
+    public float maxSoul = 100;
     public float Stamina = 30;
     public Double soulFragments;
     Movement playerMovement;
@@ -25,17 +27,22 @@ public class Parameters : MonoBehaviour
     public FireCamp fireCamp;
     public bool inicio;
 
+   [SerializeField] private Puntaje puntos;
+
+    [SerializeField] private Animator shieldUI;
+
     private void Start()
     {
-        soulBar.SetMaxFury(soul);
-        healthBar.SetMaxHealth(health);
+        soulBar.SetMaxFury(maxSoul);
+        healthBarJ.SetMaxHealth(health);
+        healthBarA.SetMaxHealth(health);
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
         playerMovement = GetComponent<Movement>();
         lastPlayerData = SaveManager.LoadPlayerData();
         LoadDataPlayer();
         inicio = true;
-
+        
     }
 
     // Start is called before the first frame update
@@ -48,7 +55,9 @@ public class Parameters : MonoBehaviour
     public void Hit(int dmg)
     {
         health -= dmg;
-        healthBar.SetHealth(health);
+        healthBarJ.SetHealth(health);
+        healthBarA.SetHealth(health);
+
         StartCoroutine(Damager());
         //animator.SetTrigger("Hit");
         //soundEffectsManager.HitClip();
@@ -65,12 +74,13 @@ public class Parameters : MonoBehaviour
         {
             Stamina = 0;
             playerMovement.animator.SetBool("ShieldBroken", true);
+            shieldUI.SetTrigger("BrokenShield");
+
             StartCoroutine(RestoreShield());
         }
         else
         {
             playerMovement.animator.SetTrigger("ShieldHit");
-            StaminaBar.SetStamina(Stamina);
         }
 
     }
@@ -88,6 +98,7 @@ public class Parameters : MonoBehaviour
         yield return new WaitForSeconds(10f);
         playerMovement.canShield = true;
         if (Stamina > 30f) Stamina = 30;
+        shieldUI.SetTrigger("RestoreShield");
     }
 
     private void SetLimitsInVariables()
@@ -112,9 +123,10 @@ public class Parameters : MonoBehaviour
             playerMovement.animator.SetBool("ShieldBroken", false);
         }
         SetLimitsInVariables();
-        healthBar.SetHealth(health);
+        healthBarJ.SetHealth(health);
+        healthBarA.SetHealth(health);
+
         soulBar.SetFury(soul);
-        StaminaBar.SetStamina(Stamina);
 
         if (health <= 0)
         {
@@ -134,6 +146,7 @@ public class Parameters : MonoBehaviour
         PlayerData playerData = SaveManager.LoadPlayerData();
         soul = playerData.soul;
         soulFragments = playerData.soulFragments;
+        puntos.updateFragmentsUI(soulFragments);
         transform.position = new Vector3(playerData.position[0], playerData.position[1], playerData.position[2]);
 
     }
@@ -141,10 +154,26 @@ public class Parameters : MonoBehaviour
     private void WhenPlayerDie()
     {
         health = 1; //No tocar, No me borren
+        playerMovement.enabled = false;
+        playerMovement.GetComponent<BoxCollider2D>().enabled = false;
         lastPlayerData = SaveManager.LoadPlayerData();
         lastPlayerData.soulFragments = soulFragments * 0.5;
         SaveManager.OnlySavePlayerData(lastPlayerData);
+        StartCoroutine(DieAnimation());
+       // SceneManager.LoadScene("GameOver");
+    }
+
+    private IEnumerator DieAnimation()
+    {
+        playerMovement.animator.SetTrigger("Die");
+        yield return new WaitForSeconds(2.5f);
         SceneManager.LoadScene("GameOver");
+
+    }
+    public void AddFragments(double fragmentsobtained)
+    {
+        soulFragments += fragmentsobtained;
     }
     
+
 }
