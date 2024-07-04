@@ -14,6 +14,8 @@ public class DialogueCollider : MonoBehaviour
     [SerializeField] private GameObject dialoguePanel;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField, TextArea(4, 6)] private string[] dialogueLines;
+    public enabled enabledScript;
+
 
     void Update()
     {
@@ -30,7 +32,16 @@ public class DialogueCollider : MonoBehaviour
             }
         }
     }
+    private void Start()
+    {
+        enabledScript = GetComponent<enabled>();
+        if (enabledScript.activao == true)
+        {
+            gameObject.SetActive(false);
 
+        }
+
+    }
     private void StartDialogue()
     {
         didDialogueStart = true;
@@ -41,30 +52,33 @@ public class DialogueCollider : MonoBehaviour
         playerMovement.animator.SetBool("Running", false);
         playerMovement.animator.SetBool("Sprint", false);
         playerMovement.enabled = false;
-
         StartCoroutine(ShowLine());
     }
 
     private void NextDialogueLine()
     {
-        lineIndex++;
-        if (lineIndex < dialogueLines.Length)
-        {
-            StartCoroutine(ShowLine());
-        }
-        else
-        {
-            didDialogueStart = false;
-            dialoguePanel.SetActive(false);
-            // Volver a habilitar el movimiento del personaje principal
-            playerMovement.GetComponent<Movement>().enabled = true;
-            PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
-            physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
+        
+            lineIndex++;
+            if (lineIndex < dialogueLines.Length)
+            {
+                Debug.Log("descativao");
+                StartCoroutine(ShowLine());
+            }
+            else
+            {
+                didDialogueStart = false;
+                dialoguePanel.SetActive(false);
+                // Volver a habilitar el movimiento del personaje principal
+                playerMovement.GetComponent<Movement>().enabled = true;
+                PhysicsMaterial2D physicsMaterial = new PhysicsMaterial2D();
+                physicsMaterial.friction = 0.0f; // Ajusta los valores según tus necesidades
 
-            floorCollider.sharedMaterial = physicsMaterial;
-            Destroy(gameObject);
-            
-        }
+                floorCollider.sharedMaterial = physicsMaterial;
+                enabledScript.SetActivao();
+                gameObject.SetActive(false);
+
+            }
+        
     }
 
     private IEnumerator ShowLine()

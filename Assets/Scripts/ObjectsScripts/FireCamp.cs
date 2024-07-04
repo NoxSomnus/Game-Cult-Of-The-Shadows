@@ -14,13 +14,16 @@ public class FireCamp : MonoBehaviour
     [SerializeField] private GameObject pressE;
     [SerializeField] public List<GameObject> objectsToSave;
     [SerializeField] public List<SceneObjectData> sceneObjects;
+    [SerializeField] public List<string> objectTagToSave;
 
     public PlayerData playerData;
 
     private void Awake()
     {
         objectsToSave = new List<GameObject>();
-        FindWindDoorObjects();
+        sceneObjects = new List<SceneObjectData>();
+
+        FindObjectstoSave();
     }
 
 
@@ -28,7 +31,7 @@ public class FireCamp : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         string currentSceneId = SceneManager.GetActiveScene().name;
-
+        updateSceneData(SaveManager.LoadSceneObjectData()); 
 
     }
 
@@ -100,7 +103,7 @@ public class FireCamp : MonoBehaviour
         SaveManager.SavePlayerData(playerMovement.GetComponent<Parameters>());
         string sceneId = SceneManager.GetActiveScene().name;
         GetObjectDatatoSave(objectsToSave); // saco los datos que me interezan del objeto, 
-        sceneObjects = SaveManager.updateSceneData(sceneObjects); // actualizo, con respectoa  los datos que estan guardados
+        //sceneObjects = SaveManager.updateSceneData(sceneObjects); // actualizo, con respectoa  los datos que estan guardados
         SaveManager.SaveObjectData(sceneObjects); // guardo los datos 
         Debug.Log("Datos de jugador y ezena guadados");
 
@@ -122,46 +125,68 @@ public class FireCamp : MonoBehaviour
 
     #region SaveObject
 
-    private void FindWindDoorObjects()
+    private void FindObjectstoSave()
     {
-        GameObject[] windDoorObjects = GameObject.FindGameObjectsWithTag("WindDoor");
-        foreach (GameObject obj in windDoorObjects)
+        foreach (string tag in objectTagToSave)
         {
-            objectsToSave.Add(obj);
+            GameObject[] windDoorObjects = GameObject.FindGameObjectsWithTag(tag);
+            foreach (GameObject obj in windDoorObjects)
+            {
+                objectsToSave.Add(obj);
+            }
         }
     }
-    private void  GetObjectDatatoSave(List<GameObject> objects)
+    private void GetObjectDatatoSave(List<GameObject> objects)
     {
+        Debug.Log("GetObjectDatatoSave");
+
         foreach (GameObject obj in objects)
         {
-            // Verificar si el objeto ya existe en la lista
-            if (!sceneObjects.Exists(data => data.name == obj.name && 
-                                             data.sceneId == obj.scene.name && 
-                                             data.objectID == obj.GetInstanceID()))
+            Debug.Log("foreach del get");
+            bool objectExists = false;
+
+            foreach (SceneObjectData data in sceneObjects)
+            {
+                if (obj.name == data.name && obj.scene.name == data.sceneId && obj.GetInstanceID() == data.objectID)
+                {
+                    objectExists = true;
+                    data.enable = obj.GetComponent<enabled>().activao;
+                    break;
+                }
+            }
+
+            if (!objectExists)
             {
                 SceneObjectData sceneObjectData = new SceneObjectData(obj);
                 sceneObjects.Add(sceneObjectData);
-                Debug.Log("Obtuve datos");
+                Debug.Log("Obtuve datos por primera vez");
             }
             else
             {
                 Debug.Log($"El objeto {obj.name} ya existe en la lista.");
+                
             }
         }
+        
     }
-    private void loadObjectData()
-    {
-        List<SceneObjectData> savedObject = SaveManager.LoadSceneObjectData();
-        foreach (GameObject sceneObject in objectsToSave)
+    public void updateSceneData(List<SceneObjectData> objectData)
         {
-            foreach (SceneObjectData data in savedObject)
+            // Cargar los datos existentes del archivo
+
+            foreach (SceneObjectData savedSceneObject in objectData)
             {
-                if (sceneObject.scene.name == data.sceneId && sceneObject.name == data.name)
+                foreach (GameObject currentSceneObject in objectsToSave)
                 {
-                    sceneObject.GetComponent<enabled>().activao = data.enable;
+                    if (savedSceneObject.sceneId == currentSceneObject.scene.name &&
+                        savedSceneObject.name == currentSceneObject.name &&
+                        savedSceneObject.objectID == currentSceneObject.GetInstanceID() && savedSceneObject != null)
+                    {
+                        currentSceneObject.GetComponent<enabled>().activao = savedSceneObject.enable;
+                    }
                 }
             }
+
+
         }
-    }
     #endregion
 }

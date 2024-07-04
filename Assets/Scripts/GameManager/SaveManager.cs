@@ -91,26 +91,7 @@ public static class SaveManager
         }
     }
 
-    public static List<SceneObjectData> updateSceneData(List<SceneObjectData> objectData)
-    {
-        // Cargar los datos existentes del archivo
-        List<SceneObjectData> sceneObjectDataList = LoadSceneObjectData();
-
-        foreach (SceneObjectData savedSceneObject in sceneObjectDataList)
-        {
-            foreach (SceneObjectData newSceneObjectData in objectData)
-            {
-                if (savedSceneObject.sceneId  == newSceneObjectData.sceneId && 
-                    savedSceneObject.name     == newSceneObjectData.name && 
-                    savedSceneObject.objectID == newSceneObjectData.objectID)
-                {
-                    savedSceneObject.enable = newSceneObjectData.enable;
-                }
-            }
-        }
-        return sceneObjectDataList;
-
-    }
+    
 
     #endregion
 }
