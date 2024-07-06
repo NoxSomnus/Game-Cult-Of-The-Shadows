@@ -14,11 +14,13 @@ public class Parameters : MonoBehaviour
     public HealthBar healthBarJ;
     public HealthBar healthBarA;
     public SoulBar soulBar;
+    public ManaBar manaBar;
     //public StaminaBar StaminaBar;
     public int health = 100;
     public float soul = 0;
     public float maxSoul = 100;
     public float Stamina = 30;
+    public float mana = 100;
     public Double soulFragments;
     Movement playerMovement;
     SpriteRenderer sprite;
@@ -36,6 +38,7 @@ public class Parameters : MonoBehaviour
         soulBar.SetMaxFury(maxSoul);
         healthBarJ.SetMaxHealth(health);
         healthBarA.SetMaxHealth(health);
+        manaBar.SetMaxMana(mana);
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
         playerMovement = GetComponent<Movement>();
@@ -113,6 +116,10 @@ public class Parameters : MonoBehaviour
 
         if (health > 100)
             health = 100;
+
+        if(mana > 100) mana = 100;
+
+        if (mana < 0) mana = 0;
     }
 
     private void FixedUpdate()
@@ -125,7 +132,7 @@ public class Parameters : MonoBehaviour
         SetLimitsInVariables();
         healthBarJ.SetHealth(health);
         healthBarA.SetHealth(health);
-
+        manaBar.SetMana(mana);
         soulBar.SetFury(soul);
 
         if (health <= 0)
@@ -138,6 +145,8 @@ public class Parameters : MonoBehaviour
             fireCamp.RestAndSave();
             
         }
+
+        mana += 1f * Time.fixedDeltaTime;
     }
 
     public void LoadDataPlayer()

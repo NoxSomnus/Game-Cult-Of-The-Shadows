@@ -35,6 +35,11 @@ public class Projectiles : MonoBehaviour
         }
     }
 
+    public void SetDirectionShockwave() 
+    {
+        Direction = Vector2.down;
+    }
+
 
     private void Start()
     {

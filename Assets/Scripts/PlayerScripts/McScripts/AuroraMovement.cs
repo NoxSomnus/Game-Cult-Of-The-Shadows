@@ -169,8 +169,12 @@ public class AuroraMovement : MonoBehaviour
         {
             if (!onAir)
             {
-                attacking = true;
-                animator.SetTrigger("ElementalStorm" + elementalCombo);
+                if (playerStats.mana >= 20) 
+                {
+                    attacking = true;
+                    animator.SetTrigger("ElementalStorm" + elementalCombo);
+                    playerStats.mana -= 20;
+                }
             }
             /*else
             {

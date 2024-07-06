@@ -1,0 +1,445 @@
+fileFormatVersion: 2
+guid: 2ab623bdff8ea8846ad08617f0180826
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 13
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: finalbossGroundAtk_4
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 7
+        width: 36
+        height: 60
+      alignment: 9
+      pivot: {x: 0.6, y: 0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa88e78bca86be4f9affdc185a1c6e6
+      internalID: 2065355638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 7
+        width: 36
+        height: 52
+      alignment: 9
+      pivot: {x: 0.65, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01fb086a961e104b936243f90cc09fe
+      internalID: 257879538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_6
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 7
+        width: 87
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ede0ddf74ba2404b9b567364fd3a8e0
+      internalID: 1083067886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 7
+        width: 89
+        height: 53
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157dd7aed843623488a998d108b4d479
+      internalID: -137787912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 7
+        width: 89
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b10941c244248a40a708b0cf626ea77
+      internalID: -1234423580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 7
+        width: 88
+        height: 53
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81248b649a958e24f9058f1d87a16d02
+      internalID: -2034993630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_25
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 7
+        width: 87
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58443bcf01728d043b879ebd82b2f715
+      internalID: 437411454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_31
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 7
+        width: 87
+        height: 53
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203668ad92af6c34c9d92ecb51363f0e
+      internalID: 470004378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_32
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 7
+        width: 87
+        height: 52
+      alignment: 9
+      pivot: {x: 0.55, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d65a54145f1bd945822d7c153ff7d4d
+      internalID: 1089211789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_33
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 7
+        width: 40
+        height: 52
+      alignment: 9
+      pivot: {x: 0.65, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432f161df4344ff4ea4a7894a7800e61
+      internalID: -955059145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_34
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 7
+        width: 36
+        height: 52
+      alignment: 9
+      pivot: {x: 0.65, y: 0.55}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910da2d6e79b5ca46b15a3e3cf0863e2
+      internalID: -839703863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_35
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 7
+        width: 33
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d76151bb3564a045863f75c23a942b1
+      internalID: 1737297373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_36
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 7
+        width: 40
+        height: 48
+      alignment: 9
+      pivot: {x: 0.6, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173345dde09c83243a551442903de2dd
+      internalID: -750886611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: finalbossGroundAtk_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 7
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad6956106b49db47924d6e4a2a503ce
+      internalID: -333710124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      finalbossGroundAtk_0: -333710124
+      finalbossGroundAtk_1: 1512660338
+      finalbossGroundAtk_10: -597691373
+      finalbossGroundAtk_11: -1986473239
+      finalbossGroundAtk_12: 1101935986
+      finalbossGroundAtk_13: 1749740947
+      finalbossGroundAtk_14: -2034993630
+      finalbossGroundAtk_15: 1558370894
+      finalbossGroundAtk_16: 1495401326
+      finalbossGroundAtk_17: -392956390
+      finalbossGroundAtk_18: 349814746
+      finalbossGroundAtk_19: -1517965726
+      finalbossGroundAtk_2: 1535556404
+      finalbossGroundAtk_20: 78643572
+      finalbossGroundAtk_21: -149963971
+      finalbossGroundAtk_22: 294209285
+      finalbossGroundAtk_23: 1942172464
+      finalbossGroundAtk_24: -606780076
+      finalbossGroundAtk_25: 437411454
+      finalbossGroundAtk_26: 572435825
+      finalbossGroundAtk_27: -201819635
+      finalbossGroundAtk_28: 1308232002
+      finalbossGroundAtk_29: -1305793146
+      finalbossGroundAtk_3: 1623180770
+      finalbossGroundAtk_30: -788170751
+      finalbossGroundAtk_31: 470004378
+      finalbossGroundAtk_32: 1089211789
+      finalbossGroundAtk_33: -955059145
+      finalbossGroundAtk_34: -839703863
+      finalbossGroundAtk_35: 1737297373
+      finalbossGroundAtk_36: -750886611
+      finalbossGroundAtk_4: 2065355638
+      finalbossGroundAtk_5: 257879538
+      finalbossGroundAtk_6: 1083067886
+      finalbossGroundAtk_7: -137787912
+      finalbossGroundAtk_8: -1234423580
+      finalbossGroundAtk_9: 384716785
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
