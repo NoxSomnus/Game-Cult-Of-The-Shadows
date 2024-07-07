@@ -233,8 +233,9 @@ public class AuroraMovement : MonoBehaviour
         {
             rb2d.gravityScale = 5f;
             animator.SetBool("Jumping", false);
+            animator.SetBool("Air", false);
             //animator.SetBool("HeavyAirAtk", false);
-            //animator.SetBool("TouchGround", true);
+            animator.SetBool("TouchGround", true);
             onAir = false;
         }
 
@@ -252,6 +253,15 @@ public class AuroraMovement : MonoBehaviour
                 rb2d.AddForce(new Vector2(knockbackForceX, 0), ForceMode2D.Force);
             else
                 rb2d.AddForce(new Vector2(-knockbackForceX, 0), ForceMode2D.Force);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Ground" || collision.collider.tag == "Platform")
+        {
+            animator.SetBool("Air", true);
+            animator.SetBool("TouchGround", false);
         }
     }
 }

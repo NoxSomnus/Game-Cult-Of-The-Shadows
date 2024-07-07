@@ -31,7 +31,19 @@ public class BrutalCombo : MonoBehaviour
         ichigoIA = GetComponent<IchigoAI>();
         rigidbody2d = GetComponent<Rigidbody2D>();
         canLook = false;
+        animator.SetTrigger("BrutalCombo");
+        StartCoroutine(BrutalComboTimer());
 
+    }
+
+    private IEnumerator BrutalComboTimer() 
+    {
+
+        yield return new WaitForSeconds(15f);
+        animator.SetTrigger("AtkEnded");
+        ichigoIA.enabled = true;
+        ichigoIA.isAttacking = false;
+        enabled = false;
     }
 
     public void GoToCenter() 
@@ -101,14 +113,7 @@ public class BrutalCombo : MonoBehaviour
         canLook = true;
     }
 
-    
-
-    public void AtkEnded0()
-    {
-        ichigoIA.isAttacking = false;
-        this.enabled = false;
-    }
-
+   
     public void ShootDownShockwave0()
     {
         GameObject shockwave = Instantiate(ProjectilePrefab, projectileDirection, Quaternion.identity);

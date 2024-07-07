@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491fd1f5c6542344cb18a163673940b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  despawnTimer: 100000
+  despawnTimer: 3
   Health: 20
   bossHealthBar: {fileID: 0}
   dropLoot: {fileID: 4583132068471888954}

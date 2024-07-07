@@ -83,7 +83,7 @@ public class Movement : MonoBehaviour
         else
             animator.SetBool("Running", false);
 
-        if (Input.GetButtonDown("Jump") && !shieldUp && !attacking)
+        if (Input.GetButtonDown("Jump") && !shieldUp && !attacking && canMove)
         {
             onAir = true;
             jump = true;
@@ -131,6 +131,12 @@ public class Movement : MonoBehaviour
 
         }
 
+        if (Input.GetKeyDown(KeyCode.H) && !attacking && (playerStats.soul > 20)) 
+        {
+            animator.Play("SwordBuff");
+            canMove = false;
+        }
+
         /*// camara
         //if we are falling past a certain speed threshold
         if (rb2d.velocity.y < _fallSpeedYDampingChangeThreshold && !CameraManager.instance.IsLerpingYDamping && !CameraManager.instance.LerpedFromPlayerfalling)
@@ -147,6 +153,11 @@ public class Movement : MonoBehaviour
 
         }*/
 
+    }
+
+    public void SetCanMoveTrue() 
+    {
+        canMove = true;
     }
 
     private void Start_Combo_Event()
@@ -170,6 +181,13 @@ public class Movement : MonoBehaviour
     private void Finish_Air_Atk()
     {
         attacking = false;
+    }
+
+    public void Heal() 
+    {
+        playerStats.health = playerStats.health + 20;
+        playerStats.soul = playerStats.soul - 20;
+        canMove = true;
     }
 
     private void Combos()
@@ -295,6 +313,7 @@ public class Movement : MonoBehaviour
             animator.SetBool("HeavyAirAtk", false);
             animator.SetBool("TouchGround", true);
             onAir = false;
+            animator.SetBool("Air", false);
         }
 
         /*if (collision.collider.CompareTag("Enemy"))
@@ -311,6 +330,15 @@ public class Movement : MonoBehaviour
                 rb2d.AddForce(new Vector2(knockbackForceX, 0), ForceMode2D.Force);
             else
                 rb2d.AddForce(new Vector2(-knockbackForceX, 0), ForceMode2D.Force);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.tag == "Ground" || collision.collider.CompareTag("Platform")) 
+        {
+            animator.SetBool("Air", true);
+            animator.SetBool("TouchGround", false);
         }
     }
 }

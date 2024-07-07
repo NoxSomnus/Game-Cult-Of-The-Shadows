@@ -146,7 +146,7 @@ public class Parameters : MonoBehaviour
             
         }
 
-        mana += 1f * Time.fixedDeltaTime;
+        mana += 3f * Time.fixedDeltaTime;
     }
 
     public void LoadDataPlayer()

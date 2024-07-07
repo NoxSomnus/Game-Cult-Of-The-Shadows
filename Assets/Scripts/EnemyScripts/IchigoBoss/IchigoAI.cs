@@ -28,6 +28,18 @@ public class IchigoAI : MonoBehaviour
         attacks[4] = GetComponent<BrutalCombo>();
     }
 
+    private void OnEnable()
+    {
+        StartCoroutine(WaitCooldown());
+    }
+
+    private IEnumerator WaitCooldown() 
+    {
+        isAttacking = true;
+        yield return new WaitForSeconds(1f);
+        isAttacking = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -45,13 +57,6 @@ public class IchigoAI : MonoBehaviour
 
         }
 
-        if(enemyStats.Health <= 50 && !triggeredBrutalCombo) 
-        {
-
-            attacks[4].enabled = true;
-            triggeredBrutalCombo = true;
-            isAttacking = true;
-        }
 
 
         if (!isAttacking)
