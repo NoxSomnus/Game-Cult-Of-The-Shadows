@@ -40,9 +40,7 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb2d;
 
     ChangeCharactersManager characterManager;
-    bool canWallJump = true;
-    private bool wallJump = false;
-    public float  wallJumpCooldown;
+
 
     // Start is called before the first frame update
 
@@ -70,9 +68,8 @@ public class Movement : MonoBehaviour
     {
         if (canMove)
         {
-            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, wallJump);
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
             jump = false;
-            wallJump = false;
         }
 
     }
@@ -88,13 +85,6 @@ public class Movement : MonoBehaviour
         else
             animator.SetBool("Running", false);
 
-        if (Input.GetButtonDown("Jump") && !shieldUp && !attacking && canMove && controller.m_IsTouchingWall && canWallJump)
-        {
-            wallJump = true;
-            animator.SetTrigger("WallJump");
-            StartCoroutine(WallJumpCooldown());
-            
-        }
 
         if (Input.GetButtonDown("Jump") && !shieldUp && !attacking && canMove)
         {
@@ -168,13 +158,6 @@ public class Movement : MonoBehaviour
 
         }*/
 
-    }
-
-    private IEnumerator WallJumpCooldown() 
-    {
-        canWallJump = false;
-        yield return new WaitForSeconds(wallJumpCooldown);
-        canWallJump = true;
     }
 
     public void SetCanMoveTrue() 

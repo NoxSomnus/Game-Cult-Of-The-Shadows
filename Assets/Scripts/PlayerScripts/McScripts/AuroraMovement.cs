@@ -53,7 +53,7 @@ public class AuroraMovement : MonoBehaviour
     {
         if (canMove)
         {
-            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, false);
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
             jump = false;
         }
 

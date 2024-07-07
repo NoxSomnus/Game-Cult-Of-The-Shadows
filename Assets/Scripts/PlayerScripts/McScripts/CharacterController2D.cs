@@ -22,10 +22,7 @@ public class CharacterController2D : MonoBehaviour
     //wall jump
     [SerializeField] private Transform m_WallCheck;
     [SerializeField] private LayerMask m_WhatIsWall;
-    public bool m_IsTouchingWall;
-    const float k_WallCheckRadius = 0.2f;
-    public float wallJumpHorizontalForce = 1f;
-    public float walljumpForceUp;
+
 
     [SerializeField] private float m_CoyoteTime = 0.2f; // Coyote time in seconds
     private float m_CoyoteTimeCounter; // Counter for coyote time
@@ -64,11 +61,10 @@ public class CharacterController2D : MonoBehaviour
             m_CoyoteTimeCounter -= Time.fixedDeltaTime;
         }
 
-        m_IsTouchingWall = Physics2D.OverlapCircle(m_WallCheck.position, k_WallCheckRadius, m_WhatIsWall);
     }
 
 
-    public void Move(float move, bool crouch, bool jump, bool wallJump)
+    public void Move(float move, bool crouch, bool jump)
     {
         // If crouching, check to see if the character can stand up
         if (!crouch)
@@ -120,12 +116,7 @@ public class CharacterController2D : MonoBehaviour
             }
         }
 
-        if (m_IsTouchingWall && !m_Grounded && wallJump)
-        {
-            m_Rigidbody2D.velocity= new Vector2(-gameObject.transform.localScale.x * wallJumpHorizontalForce, walljumpForceUp);
-            Flip();
-        }
-        else if ((m_Grounded || m_CoyoteTimeCounter > 0f) && jump)
+        if ((m_Grounded || m_CoyoteTimeCounter > 0f) && jump)
         {
             // Add a vertical force to the player.
             m_Grounded = false;
