@@ -40,6 +40,10 @@ public class Movement : MonoBehaviour
     Rigidbody2D rb2d;
 
     ChangeCharactersManager characterManager;
+    bool canWallJump = true;
+    private bool wallJump = false;
+    public float  wallJumpCooldown;
+
     // Start is called before the first frame update
 
     //cosas de la camar
@@ -66,8 +70,9 @@ public class Movement : MonoBehaviour
     {
         if (canMove)
         {
-            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, wallJump);
             jump = false;
+            wallJump = false;
         }
 
     }
@@ -83,6 +88,14 @@ public class Movement : MonoBehaviour
         else
             animator.SetBool("Running", false);
 
+        if (Input.GetButtonDown("Jump") && !shieldUp && !attacking && canMove && controller.m_IsTouchingWall && canWallJump)
+        {
+            wallJump = true;
+            animator.SetTrigger("WallJump");
+            StartCoroutine(WallJumpCooldown());
+            
+        }
+
         if (Input.GetButtonDown("Jump") && !shieldUp && !attacking && canMove)
         {
             onAir = true;
@@ -90,6 +103,8 @@ public class Movement : MonoBehaviour
             animator.SetBool("Sprint", false);
             StartCoroutine(JumpLoop());
         }
+
+
 
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -153,6 +168,13 @@ public class Movement : MonoBehaviour
 
         }*/
 
+    }
+
+    private IEnumerator WallJumpCooldown() 
+    {
+        canWallJump = false;
+        yield return new WaitForSeconds(wallJumpCooldown);
+        canWallJump = true;
     }
 
     public void SetCanMoveTrue() 
@@ -270,18 +292,17 @@ public class Movement : MonoBehaviour
     private IEnumerator HolySlash()
     {
         attacking = true;
-        animator.SetBool("HolySlash", true);
+        animator.SetTrigger("HolySlash");
         yield return new WaitForSeconds(2f);
         attacking = false;
-        animator.SetBool("HolySlash", false);
     }
 
     private IEnumerator LightCut()
     {
         attacking = true;
-        animator.SetBool("LightCut", true);
-        yield return new WaitForSeconds(2f);
-        animator.SetBool("LightCut", false);
+        animator.SetTrigger("LightCut");
+        yield return new WaitForSeconds(1f);
+        attacking = false;
     }
 
     public void LightCutMove()

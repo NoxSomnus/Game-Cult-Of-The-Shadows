@@ -916,7 +916,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 3.0971737, y: 0.03437555}
@@ -1410,6 +1410,7 @@ GameObject:
   - component: {fileID: 8084217592711715990}
   - component: {fileID: 6292208344708331584}
   - component: {fileID: 1039860601948267360}
+  - component: {fileID: 3126338397894337850}
   m_Layer: 7
   m_Name: Player 1.1
   m_TagString: Player
@@ -1432,6 +1433,7 @@ Transform:
   m_Children:
   - {fileID: 6170418740738318889}
   - {fileID: 5753830295768140371}
+  - {fileID: 6811200534884720147}
   - {fileID: 2384911756124424313}
   - {fileID: 2230458180188485480}
   - {fileID: 4834375441025764386}
@@ -1515,7 +1517,9 @@ MonoBehaviour:
   AuroraMovement: {fileID: 1271064585511987997}
   JoanneAnimator: {fileID: 9100000, guid: f2ff3abed329ad749850ab6ae2ace380, type: 2}
   AuroraAnimator: {fileID: 9100000, guid: 514767c39dcedcd478b128b6ae2f7498, type: 2}
-  canSwitch: 0
+  joaneeUI: {fileID: 0}
+  auroraUI: {fileID: 0}
+  canSwitch: 1
 --- !u!114 &3033356058597945042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1529,18 +1533,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: GameOver
-  healthBar: {fileID: 0}
+  healthBarJ: {fileID: 0}
+  healthBarA: {fileID: 0}
   soulBar: {fileID: 0}
-  StaminaBar: {fileID: 0}
+  manaBar: {fileID: 0}
   health: 100
   soul: 0
+  maxSoul: 100
   Stamina: 30
+  mana: 100
   soulFragments: 100
   lastPlayerData:
     soul: 0
     soulFragments: 0
     position: []
   fireCamp: {fileID: 0}
+  inicio: 0
+  puntos: {fileID: 0}
+  shieldUI: {fileID: 0}
 --- !u!114 &6032027234231460167
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1562,10 +1572,11 @@ MonoBehaviour:
   onAir: 0
   canShield: 0
   lightCutDash: 500
-  dashSpeed: 25
+  dashSpeed: 20
   dashTime: 0.8
   playerStats: {fileID: 3033356058597945042}
   animator: {fileID: 0}
+  wallJumpCooldown: 0.5
 --- !u!114 &1271064585511987997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1612,6 +1623,15 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 6170418740738318889}
   m_CeilingCheck: {fileID: 5753830295768140371}
   m_CrouchDisableCollider: {fileID: 0}
+  m_Grounded: 0
+  m_WallCheck: {fileID: 6811200534884720147}
+  m_WhatIsWall:
+    serializedVersion: 2
+    m_Bits: 1024
+  m_IsTouchingWall: 0
+  wallJumpHorizontalForce: 50
+  walljumpForceUp: 25
+  m_CoyoteTime: 0.2
 --- !u!114 &7655663019147376621
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1636,7 +1656,7 @@ Animator:
   m_GameObject: {fileID: 5472701788689635888}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 514767c39dcedcd478b128b6ae2f7498, type: 2}
+  m_Controller: {fileID: 9100000, guid: f2ff3abed329ad749850ab6ae2ace380, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1662,7 +1682,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 5
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1786,7 +1806,7 @@ MonoBehaviour:
   firstFireAtk: {fileID: 8300000, guid: 5623761f99c27014fb9a6e979c0c1ada, type: 3}
   secondFireAtk: {fileID: 8300000, guid: 20ac00e650fe9b44f8256a50d4fed029, type: 3}
   thirdFireAtk: {fileID: 8300000, guid: 8b8fc7d5b0c907c40a7e687c91771779, type: 3}
-  firsticeAtk: {fileID: 8300000, guid: b126271ea81a4114b8dfb7ae48d82d13, type: 3}
+  firsticeAtk: {fileID: 8300000, guid: bcd411b0569e4b44e943f65d0e607a35, type: 3}
 --- !u!114 &1039860601948267360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1804,6 +1824,21 @@ MonoBehaviour:
   lightCutVoice: {fileID: 8300000, guid: 58f2ea3837b3dea4bafc9792b7bdad68, type: 3}
   lightCutVoiceEnd: {fileID: 8300000, guid: cf9de429b3d6f8d4889652df03118102, type: 3}
   holySlashVoice: {fileID: 8300000, guid: 929eb8559aaf5a54598140fcdc2702ff, type: 3}
+--- !u!114 &3126338397894337850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5472701788689635888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0940171319a05aa4bbb2e7dc154e7e0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5472701788689635888}
+  respawPos: {fileID: 0}
+  respawRot: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5483847947578054985
 GameObject:
   m_ObjectHideFlags: 0
@@ -1947,7 +1982,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.4995494, y: -0.36198032}
+  m_Offset: {x: -0.45801544, y: -0.394189}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1958,7 +1993,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9062281, y: 2.3254445}
+  m_Size: {x: 1.9818954, y: 2.5348814}
   m_EdgeRadius: 0
 --- !u!114 &85366129713913703
 MonoBehaviour:
@@ -2357,6 +2392,37 @@ MonoBehaviour:
   Player: {fileID: 3033356058597945042}
   dmg: 10
   furyObtained: 0
+--- !u!1 &7271879127735072234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6811200534884720147}
+  m_Layer: 7
+  m_Name: WallChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6811200534884720147
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7271879127735072234}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.81, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6649755376704774306}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7501008871899096484
 GameObject:
   m_ObjectHideFlags: 0
@@ -2690,7 +2756,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 2.295391, y: 0.08501434}
