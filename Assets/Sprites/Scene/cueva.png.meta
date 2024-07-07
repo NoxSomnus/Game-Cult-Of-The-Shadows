@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 34
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,7 +95,1582 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cueva_0
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 469
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d394db6aee12cf4ab97d74cea543142
+      internalID: 1259461190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_1
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 469
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63eb618f9d5d6f1429ecd983203f66f0
+      internalID: 573645719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_2
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 469
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24e8adf747decc4ead3f2ee4e5f8a5e
+      internalID: 1305126602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_3
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 469
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec57a95c3914940b5841c6edbe4685
+      internalID: 983116890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_4
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 469
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2199d2c701e301d4a957c17dbad82aa9
+      internalID: -571160669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 435
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459c36aba9ef5f9499c31221f866ff08
+      internalID: 10498140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 435
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f28a504dbb9cb046a4b1f52264d9b6e
+      internalID: 55426593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_7
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 435
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddfa67aa63d90de428a8168a3e422a3c
+      internalID: 1473038126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_8
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067217b58f87a224c82d75b2c9d32723
+      internalID: -1134678856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44040fe4b7a80b04c877c981cdb717d1
+      internalID: -2141409825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382782c389ce3384f860e88bbea781cb
+      internalID: 1337165927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8846f33f12c874b8c8bc03e3864439
+      internalID: 210081845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c8611f1bcffbc46bf244e533c46b94
+      internalID: 571136227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_13
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598130bd49d5fe74689bf5e57726ea98
+      internalID: 1726378988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0633198ed16c9f4c807d2b2e0b17a3b
+      internalID: 1051845717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_15
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142b9a8228bf7bb4bb189bd4effaa5af
+      internalID: -1408665818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0494ec4e64642b4898878c6b32f309d
+      internalID: 781793583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 435
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0256ad7d39a2e45a31bc809055b79b
+      internalID: 414963391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21523768a6e3bca4b924fd2d35192ed4
+      internalID: -830492020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad15ca94466593f4097dc527e8cbe2db
+      internalID: 1550203416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_20
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035e1f7aa43db5b4eb7579ee8364b083
+      internalID: -1883281948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f63b3d23372942a52f08b250bd060
+      internalID: -25150261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_22
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80daddc4b515dd45b9e7c3d66df1a20
+      internalID: 884346554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c2bcdd25ce25744a63255788024b83
+      internalID: -984884902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_24
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec77765b373669a4dbc8f445888e32d6
+      internalID: -826214204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_25
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b29d5fddccecd46804bb92f2bcb1f0
+      internalID: -1304101449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 403
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089634ad501d93f45bd9d0d9dbccba9f
+      internalID: -446992423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c039ac2b2d4465b4987763ecaa4483ab
+      internalID: 1954424409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_29
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddaa2862ab362e5429ff3b48cdbe2c8b
+      internalID: -1982081555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_30
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 401
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558823a33e8a7ab47bdc888b008d2608
+      internalID: -781788263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a24f8217e201647b65ce8616867473
+      internalID: -454745182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_32
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2427ed7c50d400249985e129433b0292
+      internalID: -190288266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_33
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbdab39ba05599047a2452a0acc56ea2
+      internalID: 518575194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_34
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5a4996e5ca0414693d772db5e3f2b8
+      internalID: 1319971508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_35
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94160fe785bf32a4ab31dd376f08b210
+      internalID: -1898030495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_36
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d8051a501c23146a19fb69b43255f8
+      internalID: -1005481559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_37
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acec0ca2115fcdf4bbb5113e07aa2853
+      internalID: 386199020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_38
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b7625ea741bf04cb007698d8f8a40d
+      internalID: 1495679295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_39
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7a3bb8259c338439a73493e3b1134b
+      internalID: -862632720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_40
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98232b731933de4a9ddec22a3392592
+      internalID: 1982158133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb3caf29f16ab440a77951316da35af
+      internalID: -411116379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_42
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 367
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca22256ff46901b42b839355bca5311c
+      internalID: -1745734550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcade8eb454bee8459399dcc61c8240c
+      internalID: -850042512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_44
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f48bc8c1ef697148977aaaa0f5eb6c3
+      internalID: 837400408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_45
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9616ab549ebcc0f4380f408a6397b69d
+      internalID: -1199508491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1bd255621d2474083be450361dfa07
+      internalID: 1169832454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_47
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78f27884723029459c4ac7f7e08a2e7
+      internalID: -528912751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_48
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a207fcfecf6b49b4e9520fa89f9938a8
+      internalID: -107072255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_49
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbb6e535f206bf4db70b4c893283d34
+      internalID: 1773653390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_50
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed20e2deaffa604c951f34a2cece6ae
+      internalID: 1890776189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_51
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6c53435194bf546a0f9c06157aae1b
+      internalID: 73736711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32850fb5fde207b41b7449a880c99a3d
+      internalID: -1062545923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_53
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772a3f851e571a248851ec99079eb965
+      internalID: -880695918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_54
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35b70c575bb87e4ab7b8bfff611a4c4
+      internalID: -1111456455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_55
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 333
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca614d23846a4447b6e92fbcb839d66
+      internalID: -1850309070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_56
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 299
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55093507a6de364984355482076d9cb
+      internalID: -394485610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_57
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 299
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28256e2d4a93fa4f89465f2ffdaf309
+      internalID: -808424320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 265
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74a8b7e3f68eee4f9979e0434108216
+      internalID: 1478878884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_59
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 265
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff9768db19be3b41992cb69a807c51a
+      internalID: 366216953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_60
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 231
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ca3d2c3858e8c4b88b46f9ac753658
+      internalID: 2001921415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_61
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 231
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c7e4610b0e9b746ac0386180df8653
+      internalID: -1829142684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_62
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 231
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e6aa48b9e913468b2f05ef70a6c55
+      internalID: 1341084082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 231
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d51fe4e6c924dc42819f5b01a74b495
+      internalID: 701194055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 197
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bba4b80d4f6db4b4ab75cced38bff475
+      internalID: -180399566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_65
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 197
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa83d719aa11bc4eaa6114b71a4ce5f
+      internalID: 1729745103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_66
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 197
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635ec570a71219f47bdae15f5caf0bda
+      internalID: 1504528930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_67
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 197
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3435c94a5406161438468b94d61ebd81
+      internalID: 1390100104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_69
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 163
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adce83a48f7cfb342a3af3b925565e27
+      internalID: 168806930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_70
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 163
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87917371c9cd27340b9960af6f13dd8c
+      internalID: -1231832638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_71
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 163
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce173db55102d944988727b7b16e5f9
+      internalID: -1167458867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_72
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 163
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c63eeb08453b44393256291aa5de1a
+      internalID: 381631397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_73
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 129
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37d3530a7ab1434aa87733294abbaac
+      internalID: 939926362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 129
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8dca43942cebb4b85207f954248cae
+      internalID: 2020758967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_75
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 129
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c022f27d77174e42b1e648ba8188ada
+      internalID: -498813206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cueva_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 129
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14e4d450f492b043b9e528f46f73e75
+      internalID: -605635606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +1681,84 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      cueva_0: 1259461190
+      cueva_1: 573645719
+      cueva_10: 1337165927
+      cueva_11: 210081845
+      cueva_12: 571136227
+      cueva_13: 1726378988
+      cueva_14: 1051845717
+      cueva_15: -1408665818
+      cueva_16: 781793583
+      cueva_17: 414963391
+      cueva_18: -830492020
+      cueva_19: 1550203416
+      cueva_2: 1305126602
+      cueva_20: -1883281948
+      cueva_21: -25150261
+      cueva_22: 884346554
+      cueva_23: -984884902
+      cueva_24: -826214204
+      cueva_25: -1304101449
+      cueva_26: -446992423
+      cueva_27: 1820960813
+      cueva_28: 1954424409
+      cueva_29: -1982081555
+      cueva_3: 983116890
+      cueva_30: -781788263
+      cueva_31: -454745182
+      cueva_32: -190288266
+      cueva_33: 518575194
+      cueva_34: 1319971508
+      cueva_35: -1898030495
+      cueva_36: -1005481559
+      cueva_37: 386199020
+      cueva_38: 1495679295
+      cueva_39: -862632720
+      cueva_4: -571160669
+      cueva_40: 1982158133
+      cueva_41: -411116379
+      cueva_42: -1745734550
+      cueva_43: -850042512
+      cueva_44: 837400408
+      cueva_45: -1199508491
+      cueva_46: 1169832454
+      cueva_47: -528912751
+      cueva_48: -107072255
+      cueva_49: 1773653390
+      cueva_5: 10498140
+      cueva_50: 1890776189
+      cueva_51: 73736711
+      cueva_52: -1062545923
+      cueva_53: -880695918
+      cueva_54: -1111456455
+      cueva_55: -1850309070
+      cueva_56: -394485610
+      cueva_57: -808424320
+      cueva_58: 1478878884
+      cueva_59: 366216953
+      cueva_6: 55426593
+      cueva_60: 2001921415
+      cueva_61: -1829142684
+      cueva_62: 1341084082
+      cueva_63: 701194055
+      cueva_64: -180399566
+      cueva_65: 1729745103
+      cueva_66: 1504528930
+      cueva_67: 1390100104
+      cueva_68: 501735832
+      cueva_69: 168806930
+      cueva_7: 1473038126
+      cueva_70: -1231832638
+      cueva_71: -1167458867
+      cueva_72: 381631397
+      cueva_73: 939926362
+      cueva_74: 2020758967
+      cueva_75: -498813206
+      cueva_76: -605635606
+      cueva_8: -1134678856
+      cueva_9: -2141409825
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
