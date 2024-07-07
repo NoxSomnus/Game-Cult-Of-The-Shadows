@@ -31,7 +31,8 @@ public class FireCamp : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         string currentSceneId = SceneManager.GetActiveScene().name;
-        updateSceneData(SaveManager.LoadSceneObjectData()); 
+        updateSceneData(SaveManager.LoadSceneObjectData());
+        playerMovement = GameObject.Find("Player 1.1");
 
     }
 
