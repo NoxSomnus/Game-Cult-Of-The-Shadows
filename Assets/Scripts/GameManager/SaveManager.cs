@@ -6,47 +6,49 @@ using System.Collections.Generic;
 public static class SaveManager 
 {
     #region DataPlayer
-    public static void SavePlayerData(Parameters pPlayer)
+    public static void SavePlayerData(GameSaveData data)
     {
-        PlayerData playerData = new PlayerData(pPlayer);
-        string dataPATH = Application.persistentDataPath + "/playerdata.save";
+        //PlayerData playerData = new PlayerData(pPlayer, sceneId);
+        string dataPATH = Application.persistentDataPath + "/GameData.save";
         FileStream fileStream = new FileStream(dataPATH, FileMode.Create);
+
         BinaryFormatter binaryFormatter = new BinaryFormatter();
-        binaryFormatter.Serialize(fileStream, playerData);
+        binaryFormatter.Serialize(fileStream, data);
         fileStream.Close();
         Debug.Log("guadao");
     }
-    public static void OnlySavePlayerData(PlayerData pd)
+    public static void OnlySavePlayerData(GameSaveData gsd)
     {
-        PlayerData playerData = pd;
-        string dataPATH = Application.persistentDataPath + "/playerdata.save";
+        GameSaveData gameData = gsd;
+        string dataPATH = Application.persistentDataPath + "/GameDaata.save";
         FileStream fileStream = new FileStream(dataPATH, FileMode.Create);
         BinaryFormatter binaryFormatter = new BinaryFormatter();
-        binaryFormatter.Serialize(fileStream, playerData);
+        binaryFormatter.Serialize(fileStream, gameData);
         fileStream.Close();
     }
 
-    public static PlayerData LoadPlayerData()
+    public static GameSaveData LoadPlayerData(Parameters parameters)
     {
         
-        string dataPATH = Application.persistentDataPath + "/playerdata.save";
+        string dataPATH = Application.persistentDataPath + "/GameData.save";
         if (File.Exists(dataPATH))
         {
             FileStream fileStream = new FileStream(dataPATH, FileMode.Open);
             BinaryFormatter binaryFormatter = new BinaryFormatter();    
-            PlayerData playerData = (PlayerData) binaryFormatter.Deserialize(fileStream);
+            GameSaveData data = (GameSaveData) binaryFormatter.Deserialize(fileStream);
             fileStream.Close();
-            return playerData;
+            return data;
         }
         else
         {
+            GameSaveData data = new GameSaveData(parameters);
             Debug.LogError("no hay nada guardado papu");
-            return null;
+            return data;
         }
     }
     public static void DeletePlayerData()
     {
-        string dataPATH = Application.persistentDataPath + "/playerdata.save";
+        string dataPATH = Application.persistentDataPath + "/GameData.save";
         if (File.Exists(dataPATH))
         {
             File.Delete(dataPATH);

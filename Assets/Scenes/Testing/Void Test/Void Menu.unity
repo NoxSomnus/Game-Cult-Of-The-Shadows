@@ -1099,6 +1099,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: spr_FirePlace2_strip_0
       objectReference: {fileID: 0}
+    - target: {fileID: 1148275500569632366, guid: d67c76aa39d60dd41bf8f3b43838f81d, type: 3}
+      propertyPath: parameters
+      value: 
+      objectReference: {fileID: 1888679085}
     - target: {fileID: 3762019838619151379, guid: d67c76aa39d60dd41bf8f3b43838f81d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.03
@@ -1915,6 +1919,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d22568eed319ffb408d472baf5fb062a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1888679085 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3033356058597945042, guid: e84a85c750b82284e990464977dc8392, type: 3}
+  m_PrefabInstance: {fileID: 147664681}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147664682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4d7028ca57ec446a52665c1ac24923, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1893794559

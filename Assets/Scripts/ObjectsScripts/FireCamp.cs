@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class FireCamp : MonoBehaviour
 {
-
+    [SerializeField] private Parameters parameters;
     private bool isPlayerInRange;
     public bool isResting = false;
     [SerializeField] private Animator animator;
@@ -14,7 +14,8 @@ public class FireCamp : MonoBehaviour
     [SerializeField] private GameObject pressE;
     [SerializeField] public List<GameObject> objectsToSave;
     [SerializeField] public List<SceneObjectData> sceneObjects;
-    [SerializeField] public List<string> objectTagToSave;
+    [SerializeField] public List<string> StingobjectTagToSave;
+    [SerializeField] public GameSaveData gameSaveData;
 
     public PlayerData playerData;
 
@@ -55,7 +56,7 @@ public class FireCamp : MonoBehaviour
 
     }
 
-    public void RestAndSave()
+    public void RestAndSave() // animacioines
     {
 
         pressE.SetActive(false);
@@ -67,7 +68,7 @@ public class FireCamp : MonoBehaviour
 
     }
 
-    private IEnumerator Wait()
+    public IEnumerator Wait()
     {
         playerMovement.GetComponent<Animator>().SetBool("Rest", false);
         yield return new WaitForSeconds(1.7f); // Espera a que termine la animación de ataque
@@ -100,8 +101,7 @@ public class FireCamp : MonoBehaviour
     }
     public void SaveisPlayerRest()
     {
-        playerData = new PlayerData(playerMovement.GetComponent<Parameters>());
-        SaveManager.SavePlayerData(playerMovement.GetComponent<Parameters>());
+        SaveManager.SavePlayerData(SavePlayerData());
         string sceneId = SceneManager.GetActiveScene().name;
         GetObjectDatatoSave(objectsToSave); // saco los datos que me interezan del objeto, 
         //sceneObjects = SaveManager.updateSceneData(sceneObjects); // actualizo, con respectoa  los datos que estan guardados
@@ -124,11 +124,71 @@ public class FireCamp : MonoBehaviour
         // Actualiza más propiedades según sea necesario
     }
 
+    #region SavePlayer
+    public GameSaveData SavePlayerData()
+    {
+        // Datos en el archivo
+        GameSaveData data = SaveManager.LoadPlayerData(parameters); 
+
+        //datos actuales del juego
+        playerData = new PlayerData(parameters, SceneManager.GetActiveScene().name);
+            
+        if (data.playerDataList.Count == 0) // agrega los datos atuales si no hay y  guarda
+        {
+            Debug.Log(" no hay nada pa guardado");
+            data.playerDataList.Add(playerData);
+            //GameSaveData = data;
+           // return GameSaveData;
+        }
+        else // si hay, actualiza los datos
+        {
+            Debug.Log("hay cositas");
+
+            data = UpdateDataPlayer(playerData, data);
+
+            //return GameSaveData;
+        }
+        gameSaveData = data;
+        return data;
+
+    }
+
+    public GameSaveData UpdateDataPlayer( PlayerData pd, GameSaveData data)
+    {
+        bool find = false;
+        GameSaveData updateData = data; //datos guardados del archivo
+        foreach ( PlayerData pdata in  updateData.playerDataList ) // itera
+        {
+            Debug.Log("veamos que hay");
+            if (pdata.sceneId == SceneManager.GetActiveScene().name)// si consigue la scena en el archivo
+            {
+                pdata.position = pd.position;
+                pdata.soul = pd.soul;
+                updateData.soulFragments = parameters.soulFragments;
+                find = true;
+                Debug.Log("eureca");
+
+                break;
+               
+            }
+            
+        }
+        if (!find)
+        {
+            Debug.Log("no habia, uno nuevo");
+
+            updateData.playerDataList.Add(pd);
+            updateData.soulFragments = parameters.soulFragments;
+        }
+        gameSaveData = updateData;
+        return updateData;
+    }
+    #endregion
     #region SaveObject
 
     private void FindObjectstoSave()
     {
-        foreach (string tag in objectTagToSave)
+        foreach (string tag in StingobjectTagToSave)
         {
             GameObject[] windDoorObjects = GameObject.FindGameObjectsWithTag(tag);
             foreach (GameObject obj in windDoorObjects)

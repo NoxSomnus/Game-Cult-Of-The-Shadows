@@ -25,7 +25,7 @@ public class Parameters : MonoBehaviour
     Movement playerMovement;
     SpriteRenderer sprite;
     BlinkEffect blink;
-    public PlayerData lastPlayerData;
+    public GameSaveData gameSaveData;
     public FireCamp fireCamp;
     public bool inicio;
 
@@ -42,9 +42,12 @@ public class Parameters : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
         playerMovement = GetComponent<Movement>();
-        lastPlayerData = SaveManager.LoadPlayerData();
+        //GameSaveData = fireCamp.SavePlayerData();
+        gameSaveData = SaveManager.LoadPlayerData(this);
+
         LoadDataPlayer();
         inicio = true;
+        puntos.updateFragmentsUI(soulFragments);
         
     }
 
@@ -139,11 +142,14 @@ public class Parameters : MonoBehaviour
         {
             WhenPlayerDie();
         }
-        if (inicio)
+        if (inicio )
         {
             inicio = false;
             fireCamp.RestAndSave();
             
+        }else if (!inicio && fireCamp.isResting && Input.GetKeyDown(KeyCode.E))
+        {
+            StartCoroutine(fireCamp.Wait());
         }
 
         mana += 3f * Time.fixedDeltaTime;
@@ -152,11 +158,20 @@ public class Parameters : MonoBehaviour
     public void LoadDataPlayer()
     {
 
-        PlayerData playerData = SaveManager.LoadPlayerData();
-        soul = playerData.soul;
-        soulFragments = playerData.soulFragments;
-        puntos.updateFragmentsUI(soulFragments);
-        transform.position = new Vector3(playerData.position[0], playerData.position[1], playerData.position[2]);
+       // GameSaveData playerData = GameSaveData;
+        foreach (PlayerData pd in gameSaveData.playerDataList) // itera
+        {
+            if (pd.sceneId == SceneManager.GetActiveScene().name)// si consigue la scena en el archivo
+            {
+                Debug.Log("vamo a cargar AAAAAAAAAAAAAAAAA");
+                transform.position = new Vector3(pd.position[0], pd.position[1], pd.position[2]);
+                soul = pd.soul;
+                
+
+                break;
+            }
+        }
+        soulFragments = gameSaveData.soulFragments;
 
     }
 
@@ -165,9 +180,9 @@ public class Parameters : MonoBehaviour
         health = 1; //No tocar, No me borren
         playerMovement.enabled = false;
         playerMovement.GetComponent<BoxCollider2D>().enabled = false;
-        lastPlayerData = SaveManager.LoadPlayerData();
-        lastPlayerData.soulFragments = soulFragments * 0.5;
-        SaveManager.OnlySavePlayerData(lastPlayerData);
+        gameSaveData = SaveManager.LoadPlayerData(this);
+        gameSaveData.soulFragments = soulFragments * 0.5;
+        SaveManager.OnlySavePlayerData(gameSaveData);
         StartCoroutine(DieAnimation());
        // SceneManager.LoadScene("GameOver");
     }

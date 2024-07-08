@@ -2,25 +2,21 @@ using Unity.VisualScripting;
 using UnityEngine;
 
 [System.Serializable]
-
-public class PlayerData 
+public class PlayerData
 {
-   // public float health;
+    public string sceneId;
     public float soul;
-  //  public float stamina;
-    public double soulFragments;
+    //public double soulFragments;
     public float[] position = new float[3];
-    
 
-    public PlayerData(Parameters pPlayer)
+
+    public PlayerData(Parameters pPlayer, string sceneID)
     {
-      //  health = pPlayer.health;
+        sceneId = sceneID;
         soul = pPlayer.soul;
-      //  stamina = pPlayer.Stamina;
-        soulFragments = pPlayer.soulFragments;
+        //soulFragments = pPlayer.soulFragments;
         position[0] = pPlayer.transform.position.x;
         position[1] = pPlayer.transform.position.y;
         position[2] = pPlayer.transform.position.z;
-
     }
 }
