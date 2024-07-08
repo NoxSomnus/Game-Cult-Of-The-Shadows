@@ -7,6 +7,12 @@ public class ManaBar : MonoBehaviour
 {
 
     public Slider slider;
+    public Parameters parameters;
+
+    public void Update()
+    {
+        slider.maxValue = parameters.MaximumMana;
+    }
 
     public void SetMaxMana(float health)
     {

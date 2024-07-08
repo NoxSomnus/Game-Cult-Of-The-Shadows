@@ -31,7 +31,7 @@ public class Parameters : MonoBehaviour
 
     public int MaximumHealth = 100;
     public float MaximumMana = 100;
-    public float MaximumSoul= 100;
+    public float MaximumSoul = 100;
 
     [SerializeField] private Puntaje puntos;
 

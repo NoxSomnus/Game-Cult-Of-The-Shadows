@@ -6,7 +6,12 @@ using UnityEngine.UI;
 public class SoulBar : MonoBehaviour
 {
     public Slider slider;
+    public Parameters parameters;
 
+    public void Update()
+    {
+        slider.maxValue = parameters.MaximumSoul;
+    }
     public void SetMaxFury(float fury)
     {
         slider.maxValue = 100;
