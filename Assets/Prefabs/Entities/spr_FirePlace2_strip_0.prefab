@@ -168,18 +168,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 540e4e941b6bcf545a7ee08d5599f3ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  parameters: {fileID: 0}
   isResting: 0
   animator: {fileID: 0}
   playerMovement: {fileID: 0}
   pressE: {fileID: 5955716326812198951}
   objectsToSave: []
   sceneObjects: []
-  objectTagToSave:
-  - Dialog
-  - WindDoor
-  playerData:
-    soul: 0
+  StingobjectTagToSave: []
+  gameSaveData:
+    MaximumHealth: 0
+    MaximumMana: 0
+    MaximumSoul: 0
+    playerDataList: []
     soulFragments: 0
+  simpleButtonHandler: {fileID: 0}
+  playerData:
+    sceneId: 
+    soul: 0
     position: []
 --- !u!61 &64253157747347060
 BoxCollider2D:
