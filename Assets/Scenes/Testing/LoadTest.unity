@@ -8417,7 +8417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   src: {fileID: 825860575}
   ConfirmSound: {fileID: 8300000, guid: 5bb1ee4d04d1b97418030acc47fa3406, type: 3}
-  sceneName: Intro
+  sceneName: Void Menu
 --- !u!1 &1858278977
 GameObject:
   m_ObjectHideFlags: 0

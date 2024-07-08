@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
     {
         src.clip = ConfirmSound;
         src.Play();
-        TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
+        TransitionManager.Instance.LoadScene("Void Menu");
     }
     public void LoadTutorialScene()
     {
