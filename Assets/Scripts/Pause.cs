@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Pause 
+public class Pause : MonoBehaviour
 {
 
     public GameObject pauseMenu;
@@ -25,8 +25,8 @@ public class Pause
         TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
         Time.timeScale = 1;
     }
-  
-    private void Update ()
+
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
