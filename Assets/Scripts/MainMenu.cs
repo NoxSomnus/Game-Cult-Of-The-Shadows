@@ -20,7 +20,7 @@ public class MainMenu : MonoBehaviour
     {
         src.clip = ConfirmSound;
         src.Play();
-        TransitionManager.Instance.LoadScene("Void Menu");
+        TransitionManager.Instance.LoadScene("LoadTest");
     }
     public void LoadTutorialScene()
     {
@@ -40,7 +40,7 @@ public class MainMenu : MonoBehaviour
         
         src.clip = ConfirmSound;
         src.Play();
-        TransitionManager.Instance.LoadScene("FinalTest");
+        TransitionManager.Instance.LoadScene("Void Menu");
     }
 
     public void CloseGame()
