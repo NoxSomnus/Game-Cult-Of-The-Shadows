@@ -25,7 +25,7 @@ public class IchigoAI : MonoBehaviour
         attacks[1] = GetComponent<IchigoAirShockwave>();
         attacks[2] = GetComponent<IchigoCuts>();
         attacks[3] = GetComponent<IchigoDarkCut>();
-        attacks[4] = GetComponent<BrutalCombo>();
+        attacks[4] = GetComponent<IchigoGetsuga>();
     }
 
     private void OnEnable()
@@ -53,7 +53,7 @@ public class IchigoAI : MonoBehaviour
                 attacks[i].enabled = false; 
             }
 
-            animator.SetTrigger("Die");
+            animator.SetBool("Die", true);
 
         }
 
@@ -74,9 +74,9 @@ public class IchigoAI : MonoBehaviour
             //decidir ataque
             if (distance > 20)
             {
-                atkDecision = Random.Range(2, 4);
+                atkDecision = Random.Range(3, 5);
                 isAttacking = true;
-                attacks[3].enabled = true;
+                attacks[atkDecision].enabled = true;
 
             }
             else 

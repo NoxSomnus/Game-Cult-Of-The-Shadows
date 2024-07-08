@@ -25,8 +25,8 @@ public class Pause : MonoBehaviour
         TransitionManager.Instance.LoadScene(TransitionManager.SCENE_NAME_MAIN_MENU);
         Time.timeScale = 1;
     }
-  
-    private void Update ()
+
+    private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {

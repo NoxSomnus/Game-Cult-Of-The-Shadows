@@ -20,7 +20,7 @@ public static class SaveManager
     public static void OnlySavePlayerData(GameSaveData gsd)
     {
         GameSaveData gameData = gsd;
-        string dataPATH = Application.persistentDataPath + "/GameDaata.save";
+        string dataPATH = Application.persistentDataPath + "/GameData.save";
         FileStream fileStream = new FileStream(dataPATH, FileMode.Create);
         BinaryFormatter binaryFormatter = new BinaryFormatter();
         binaryFormatter.Serialize(fileStream, gameData);

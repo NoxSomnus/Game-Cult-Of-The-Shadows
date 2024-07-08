@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 7313478320040808578}
   - component: {fileID: 999451534056376198}
   - component: {fileID: 7621877875577839025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: shockwaveDown_0
-  m_TagString: Untagged
+  m_TagString: EnemyAtk
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71a12b50edbd84468ffea9c88807473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dmg: 5
+  dmg: 10
 --- !u!114 &7621877875577839025
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,4 +197,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca23cb2f831b32b4b9ed78c84c3a1710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 25
+  Speed: 28

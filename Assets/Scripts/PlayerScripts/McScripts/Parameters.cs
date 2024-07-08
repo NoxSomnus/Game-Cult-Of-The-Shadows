@@ -29,7 +29,11 @@ public class Parameters : MonoBehaviour
     public FireCamp fireCamp;
     public bool inicio;
 
-   [SerializeField] private Puntaje puntos;
+    public int MaximumHealth = 100;
+    public float MaximumMana = 100;
+    public float MaximumSoul= 100;
+
+    [SerializeField] private Puntaje puntos;
 
     [SerializeField] private Animator shieldUI;
 
@@ -114,13 +118,13 @@ public class Parameters : MonoBehaviour
             soul = 0;
         }
 
-        if (soul >= 100)
-            soul = 100;
+        if (soul >= MaximumSoul)
+            soul = MaximumSoul;
 
-        if (health > 100)
-            health = 100;
+        if (health > MaximumHealth)
+            health = MaximumHealth;
 
-        if(mana > 100) mana = 100;
+        if(mana > MaximumMana) mana = MaximumMana;
 
         if (mana < 0) mana = 0;
     }
@@ -163,7 +167,7 @@ public class Parameters : MonoBehaviour
         {
             if (pd.sceneId == SceneManager.GetActiveScene().name)// si consigue la scena en el archivo
             {
-                Debug.Log("vamo a cargar AAAAAAAAAAAAAAAAA");
+                Debug.Log("vamo a cargar AAAAAAAAAAAAAAAAAAS");
                 transform.position = new Vector3(pd.position[0], pd.position[1], pd.position[2]);
                 soul = pd.soul;
                 
@@ -173,6 +177,9 @@ public class Parameters : MonoBehaviour
         }
         soulFragments = gameSaveData.soulFragments;
 
+        MaximumHealth = gameSaveData.MaximumHealth;
+        MaximumMana = gameSaveData.MaximumMana;
+        MaximumSoul = gameSaveData.MaximumSoul;
     }
 
     private void WhenPlayerDie()

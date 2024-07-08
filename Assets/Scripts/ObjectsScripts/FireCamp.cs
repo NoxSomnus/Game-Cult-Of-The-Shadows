@@ -17,6 +17,8 @@ public class FireCamp : MonoBehaviour
     [SerializeField] public List<string> StingobjectTagToSave;
     [SerializeField] public GameSaveData gameSaveData;
 
+    public SimpleButtonHandler simpleButtonHandler;
+
     public PlayerData playerData;
 
     private void Awake()
@@ -45,11 +47,14 @@ public class FireCamp : MonoBehaviour
         if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && !isResting)
         {
             RestAndSave();
+            simpleButtonHandler.ActivateLevelUpButton();
             SaveisPlayerRest();
         }
         else if (isPlayerInRange && Input.GetKeyDown(KeyCode.E) && isResting)
         {
+            simpleButtonHandler.DeactivasteLevelUpButton();
             StartCoroutine(Wait());
+            SaveisPlayerRest();
 
         }
 
@@ -165,6 +170,11 @@ public class FireCamp : MonoBehaviour
                 pdata.position = pd.position;
                 pdata.soul = pd.soul;
                 updateData.soulFragments = parameters.soulFragments;
+
+                updateData.MaximumHealth = parameters.MaximumHealth;
+                updateData.MaximumMana = parameters.MaximumMana;
+                updateData.MaximumSoul = parameters.MaximumSoul;
+
                 find = true;
                 Debug.Log("eureca");
 
@@ -179,6 +189,11 @@ public class FireCamp : MonoBehaviour
 
             updateData.playerDataList.Add(pd);
             updateData.soulFragments = parameters.soulFragments;
+
+            updateData.MaximumHealth = parameters.MaximumHealth;
+            updateData.MaximumMana = parameters.MaximumMana;
+            updateData.MaximumSoul = parameters.MaximumSoul;
+
         }
         gameSaveData = updateData;
         return updateData;

@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: f13a3d6f028b19645b8f945d85b961dd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 722
+        width: 240
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4141efceda4418b4492d4c979b2e4e7f
+      internalID: 361422260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 710
+        width: 236
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1318e2b5694de442be3a3d9fb9909a5
+      internalID: 1974329727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 722
+        width: 192
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e6715bf69c60d478492bebc1c9ae4b
+      internalID: -1120259007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 546
+        width: 242
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d8f4e88fed0284fbde30152474d1c5
+      internalID: 380044686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 550
+        width: 240
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d49f5666665bb549899194d48051f1b
+      internalID: -205445468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 546
+        width: 220
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a47d628062f794cb52953282e9ae72
+      internalID: 1132835143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 378
+        width: 192
+        height: 100
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c201d9424df4d38489298dda4271b8bd
+      internalID: -381708492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 374
+        width: 243
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a7f1c8568463d40b11eedfcf5c2b7b
+      internalID: 493883603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 378
+        width: 240
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c8ff70acee043745abacf5c76806b28
+      internalID: 800193018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 202
+        width: 220
+        height: 101
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7179b2207357a1c44a1f4c8dae64db84
+      internalID: -698467774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 194
+        width: 236
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca928c81c5705f40be81fb31ba27ea7
+      internalID: -1824311398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 202
+        width: 241
+        height: 102
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6334185c32b171c48a6277269bf43bb3
+      internalID: 851238308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 22
+        width: 208
+        height: 105
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fd0364d0b7ccd4fa0f16f205543aba
+      internalID: 892424925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ataque_esqueleto-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 404
+        width: 10
+        height: 8
+      alignment: 9
+      pivot: {x: 0.5, y: 0.95}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c5a9f040b6ffaf48857d8bed07decc2
+      internalID: -843231337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ataque_esqueleto-Sheet_0: 361422260
+      ataque_esqueleto-Sheet_1: -429821511
+      ataque_esqueleto-Sheet_10: -381708492
+      ataque_esqueleto-Sheet_11: 493883603
+      ataque_esqueleto-Sheet_12: 800193018
+      ataque_esqueleto-Sheet_13: 1247845748
+      ataque_esqueleto-Sheet_14: -990690519
+      ataque_esqueleto-Sheet_15: -843231337
+      ataque_esqueleto-Sheet_16: -698467774
+      ataque_esqueleto-Sheet_17: -1824311398
+      ataque_esqueleto-Sheet_18: 851238308
+      ataque_esqueleto-Sheet_19: 145435220
+      ataque_esqueleto-Sheet_2: 1974329727
+      ataque_esqueleto-Sheet_20: 892424925
+      ataque_esqueleto-Sheet_3: -1120259007
+      ataque_esqueleto-Sheet_4: 411438065
+      ataque_esqueleto-Sheet_5: 380044686
+      ataque_esqueleto-Sheet_6: -205445468
+      ataque_esqueleto-Sheet_7: 224588045
+      ataque_esqueleto-Sheet_8: 1132835143
+      ataque_esqueleto-Sheet_9: 443960541
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

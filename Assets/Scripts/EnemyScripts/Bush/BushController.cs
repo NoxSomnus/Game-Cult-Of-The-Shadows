@@ -105,7 +105,7 @@ public class BushController : MonoBehaviour
         animator.SetBool("Run", false);
         canSwitchScale = false;
         canAttack = false;
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length+2f); // Espera a que termine la animación de ataque
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length); // Espera a que termine la animación de ataque
         canAttack = true;
         canSwitchScale = true;
         ispatrol = true;

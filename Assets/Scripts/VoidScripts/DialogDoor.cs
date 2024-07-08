@@ -27,7 +27,7 @@ public class DialogDoor : MonoBehaviour
     
     private void StartDialogue()
     {
-        TransitionManager.Instance.LoadScene("Creditos");
+        TransitionManager.Instance.LoadScene("Intro");
     }
 
 
