@@ -585,9 +585,9 @@ GameObject:
   - component: {fileID: 8468010188131704392}
   - component: {fileID: 2623666374340302380}
   - component: {fileID: 9057106526568486726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Esqueletico
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -719,8 +719,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1092453, y: -0.1342094}
-  m_Size: {x: 3.033844, y: 3.520731}
+  m_Offset: {x: 0.6462059, y: -0.1342094}
+  m_Size: {x: 4.107765, y: 4.107765}
   m_Direction: 0
 --- !u!114 &1868894454045835374
 MonoBehaviour:
@@ -734,8 +734,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 491fd1f5c6542344cb18a163673940b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  despawnTimer: 1
-  Health: 30
+  despawnTimer: 0.1
+  Health: 25
   bossHealthBar: {fileID: 0}
   dropLoot: {fileID: 8468010188131704392}
   hasDroppedLoot: 0

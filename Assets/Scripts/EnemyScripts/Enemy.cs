@@ -16,7 +16,6 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         dropLoot = GetComponent<DropLoot>();
-        despawnTimer = 5f;
         sprite = GetComponent<SpriteRenderer>();
         blink = GetComponent<BlinkEffect>();
         if (bossHealthBar != null)
